@@ -7,8 +7,7 @@ gates — and one fast search over all of it.
 Hit `⌘K` / `Ctrl+K` (or `/`) and type `sjt`, `mess dinner`, `mh k`, `gate 3`,
 a professor's surname.
 
-This is a VIT Vellore data-and-branding port, not a pixel-for-pixel fork of the extras
-(the IITK pixel canvas is deliberately out of scope).
+This is a VIT Vellore data-and-branding port, not a pixel-for-pixel fork of the extras.
 
 ## The one rule
 
@@ -30,8 +29,7 @@ scan. See [TODO.md](TODO.md) for what is missing and what each gap needs.
 | Hostel-path overlays ("way toward girls'/boys' hostel") | Surveyed GeoJSON in `data/curated/overlays.json` | Empty until someone surveys the paths (or OSM gains them) |
 | Opening hours | OSM `opening_hours`, parsed by a deliberately partial reader that returns `null` rather than guess | Only where OSM has a parseable tag |
 
-VIT's campus is much less mapped than IIT Kanpur's. The honest move is to
-**contribute missing buildings to OpenStreetMap** rather than invent them here.
+ The honest move is to **contribute missing buildings to OpenStreetMap** rather than invent them here.
 Naming conventions (SJT, TT, MH K, Gate 11A) follow student usage and the
 Office of Students' Welfare campus map; coordinates do not.
 
@@ -120,5 +118,3 @@ Code [MIT](LICENSE). Map data © OpenStreetMap contributors,
 [ODbL](https://www.openstreetmap.org/copyright). Faculty and mess snapshots
 belong to their publishers (VIT / VinnovateIT MessIT) and are mirrored here for
 a student tool, not relicensed. Label glyphs derive from Noto Sans (OFL 1.1).
-
-Modeled on [iitk.nis.pet](https://github.com/ni5arga/iitk) (MIT).
