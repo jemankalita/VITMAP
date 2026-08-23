@@ -7,10 +7,7 @@ gates — and one fast search over all of it.
 Hit `⌘K` / `Ctrl+K` (or `/`) and type `sjt`, `mess dinner`, `mh k`, `gate 3`,
 a professor's surname.
 
-Architecture, search ranking, routing, and the "real data or no data" rule are
-modeled directly on **[iitk.nis.pet](https://iitk.nis.pet)**
-([github.com/ni5arga/iitk](https://github.com/ni5arga/iitk)). This is a VIT
-Vellore data-and-branding port, not a pixel-for-pixel fork of the extras
+This is a VIT Vellore data-and-branding port, not a pixel-for-pixel fork of the extras
 (the IITK pixel canvas is deliberately out of scope).
 
 ## The one rule
