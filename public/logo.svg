@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="VIT Map">
+  <rect width="32" height="32" rx="8" fill="#0b5cab"/>
+  <path d="M8.5 11.5h15M8.5 16h15M8.5 20.5h15M12 8.5v15M16 8.5v15M20 8.5v15" stroke="#1a73c7" stroke-width="1.15" stroke-linecap="round"/>
+  <path d="M16 6.2c-3.55 0-6.4 2.78-6.4 6.2 0 4.72 6.4 12.4 6.4 12.4s6.4-7.68 6.4-12.4c0-3.42-2.85-6.2-6.4-6.2z" fill="#f0c14b"/>
+  <circle cx="16" cy="12.15" r="2.35" fill="#0b5cab"/>
+</svg>

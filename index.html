@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#071428">
+<title>VIT Map — Vellore campus</title>
+<meta name="description" content="VIT Vellore campus map: SJT, PRP classrooms, hostels, gates, mess menus, and one fast search.">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="apple-touch-icon" href="./logo.svg">
+<script>
+  try {
+    var t = localStorage.getItem('campusmap.theme')
+    var dark = t ? t !== 'light' : !window.matchMedia('(prefers-color-scheme: light)').matches
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light')
+    if (!dark) {
+      document.querySelector('meta[name="theme-color"]').content = '#e7eef6'
+    }
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'dark')
+  }
+</script>
+</head>
+<body>
+  <div id="map" aria-label="Campus map"></div>
+
+  <header id="bar">
+    <button id="brand-btn" type="button" title="About &amp; data sources">
+      <img class="mark" src="./logo.svg" width="28" height="28" alt="">
+      <span class="word">VIT Map</span>
+    </button>
+    <button id="open-search" type="button" aria-label="Search campus">
+      <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">
+        <circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.7"/>
+        <path d="M10.5 10.5 L14.2 14.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+      </svg>
+      <span class="ph">Search SJT, PRP 327, Gate 11, mess…</span>
+      <kbd>⌘K</kbd>
+    </button>
+    <div id="jump" role="group" aria-label="Jump to">
+      <button id="go-mess" type="button" title="Jump to campus messes">Mess</button>
+      <button id="go-prp" type="button" title="Jump to PRP classrooms">PRP</button>
+    </div>
+    <button id="layers-btn" type="button" aria-expanded="false" aria-controls="layers">
+      <span class="dots" aria-hidden="true"></span>
+      <span class="n"></span>
+    </button>
+    <div id="basemap" role="group" aria-label="Basemap">
+      <button id="map-btn" type="button" aria-pressed="false">Map</button>
+      <button id="sat-btn" type="button" aria-pressed="true">Satellite</button>
+    </div>
+    <button id="theme-btn" type="button" aria-label="Change theme" title="Theme"></button>
+  </header>
+
+  <div id="dock">
+    <nav id="layers" aria-label="Map layers">
+      <div class="layers-head">
+        <span class="t">Layers</span>
+        <button type="button" data-all>All</button>
+        <button type="button" data-none>None</button>
+        <button type="button" class="layers-close" aria-label="Close layers">&times;</button>
+      </div>
+      <div id="layer-chips"></div>
+    </nav>
+    <footer id="foot">
+      <a href="https://www.openstreetmap.org/relation/15931944" target="_blank" rel="noopener">
+        <span>VIT Vellore</span>
+      </a>
+      <span class="by">made by <a href="https://www.linkedin.com/in/jemankalita/" target="_blank" rel="noopener">jeman</a></span>
+    </footer>
+  </div>
+
+  <div id="attrib">
+    <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>
+    <span> · </span>
+    <a href="https://www.esri.com" target="_blank" rel="noopener">Tiles © Esri</a>
+  </div>
+
+  <section id="panel" hidden aria-live="polite"></section>
+
+  <div id="palette" hidden role="dialog" aria-modal="true" aria-label="Search campus">
+    <div id="palette-box">
+      <div id="palette-input-row">
+        <span id="palette-glyph" aria-hidden="true">›</span>
+        <input id="palette-input" type="text" autocomplete="off" autocorrect="off"
+               autocapitalize="off" spellcheck="false" enterkeyhint="go"
+               placeholder="prp 327 · gate 11 · sjt · mess dinner · mh k"
+               aria-label="Search campus" aria-controls="palette-results" aria-expanded="true">
+        <span id="palette-timing" aria-hidden="true"></span>
+        <button id="palette-close" type="button" aria-label="Close search">&times;</button>
+      </div>
+      <div id="palette-results" role="listbox"></div>
+      <footer id="palette-foot">
+        <span class="hint"><kbd>↑↓</kbd> move</span>
+        <span class="hint"><kbd>↵</kbd> open</span>
+        <span class="hint"><kbd>tab</kbd> route</span>
+        <a id="palette-repo" href="https://www.openstreetmap.org/relation/15931944" target="_blank" rel="noopener">edit OSM</a>
+        <span id="palette-count"></span>
+      </footer>
+    </div>
+  </div>
+
+  <div id="boot">finding your way around VIT…</div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

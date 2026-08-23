@@ -1,0 +1,124 @@
+export interface Poi {
+  id: string
+  name: string
+  cat: string
+  lat: number
+  lon: number
+  src: 'osm' | 'seed'
+  osm?: string
+  kind?: string
+  unnamed?: true
+  alt?: string
+  /** Extra names people actually use, e.g. "Hall 6" for Girls Hostel 6. */
+  aliases?: string[]
+  hours?: string
+  wheelchair?: string
+  phone?: string
+  url?: string
+  cuisine?: string
+  capacity?: string
+  covered?: string
+  operator?: string
+  desc?: string
+  level?: string
+  potable?: string
+  lampType?: string
+  support?: string
+  near?: string
+  price?: string
+  floors?: { level: string; label: string; rooms: string | null }[]
+  letter?: string
+  color?: string
+}
+
+export interface Category {
+  label: string
+  color: string
+  pin: boolean
+}
+
+export interface Faculty {
+  name: string
+  title: string
+  /** Primary department — the first listing this person appeared under. */
+  dept: string
+  /** Every department they are listed under; 59 hold joint appointments. */
+  depts: string[]
+  url: string
+  email?: string
+  phone?: string
+  web?: string
+  office?: string
+  research?: string
+  qualification?: string
+  /** Name of the OSM feature this person was placed at, if resolved. */
+  at?: string
+  atVia?: 'office' | 'dept'
+}
+
+export interface MessMenu {
+  hall: string
+  day: string
+  /** ISO date from MessIT, when the source is date-keyed rather than weekday-keyed. */
+  date?: string
+  meal: string
+  menu: string
+  extras?: string
+  updated?: string
+}
+
+export interface MessHall {
+  name: string
+  type: string
+  tags: string[]
+  at?: string
+}
+
+export interface Campus {
+  meta: {
+    name: string
+    built: string
+    center: [number, number]
+    /** [[west, south], [east, north]] — pan/zoom is clamped to this. */
+    bounds?: [[number, number], [number, number]]
+    attribution: string
+    counts: Record<string, number>
+  }
+  categories: Record<string, Category>
+  pois: Poi[]
+  places?: { items: Poi[] }
+  faculty?: {
+    _source: string
+    _fetched: string
+    _note: string
+    /** Departments whose listing count did not match after paging. Empty is good. */
+    _incomplete_departments: { dept: string; got: number; expected: number }[]
+    _located?: number
+    items: Faculty[]
+  }
+  mess?: {
+    _source: string
+    _fetched: string
+    _note: string
+    halls: MessHall[]
+    items: MessMenu[]
+  }
+}
+
+export interface Graph {
+  lat: number[]
+  lon: number[]
+  /** [a, b, metres, footSeconds, bikeSeconds, flags] */
+  edges: [number, number, number, number, number, number][]
+}
+
+export type Profile = 'foot' | 'bike'
+
+export interface Route {
+  coords: [number, number][]
+  seconds: number
+  metres: number
+  steps: boolean
+  indoor: boolean
+  unpaved: boolean
+}

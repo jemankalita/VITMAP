@@ -1,0 +1,5259 @@
+{
+ "_source": "https://messit.vinnovateit.com/menu-data",
+ "_fetched": "2026-08-22T20:07:42.946Z",
+ "_note": "Public static snapshots published by MessIT (VinnovateIT). Halls are mess-type buckets (MH/LH × Special/Veg/Non-Veg), not individual hostel blocks. Community-maintained; treat as a strong hint.",
+ "halls": [
+  {
+   "name": "MH Special Mess",
+   "type": "special",
+   "tags": [
+    "mens"
+   ]
+  },
+  {
+   "name": "MH Veg Mess",
+   "type": "veg",
+   "tags": [
+    "mens"
+   ]
+  },
+  {
+   "name": "MH Non-Veg Mess",
+   "type": "non-veg",
+   "tags": [
+    "mens"
+   ]
+  },
+  {
+   "name": "LH Special Mess",
+   "type": "special",
+   "tags": [
+    "ladies"
+   ]
+  },
+  {
+   "name": "LH Veg Mess",
+   "type": "veg",
+   "tags": [
+    "ladies"
+   ]
+  },
+  {
+   "name": "LH Non-Veg Mess",
+   "type": "non-veg",
+   "tags": [
+    "ladies"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Sambar, Mint Chutney, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Fresh Juice, Sprouted Channa Black, Masala Omelette"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken Hyderabadi Biryani, Veg Hyderabadi Biryani, Banaras Baigan, Paneer 65, Onion Raitha, White Rice, Tomato Rasam, Papad, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Masala, Methi Mutter Malai Masala, White Rice, Sambar, Rasam, Aloo Jeera, Kashmir Pulav, Minestrone Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Veg Kootu, Sweet: Rasamalai"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "French Fries, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Mushroom Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Paneer Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Drumstick Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Thai Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Spring Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Podi Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Sambar, Veg Kitchadi, Tomato Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Salad, Fried Eggs"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, Bhindi Do Pyaza, White Rice, Pineapple Rasam, Curd, Kadhi Pakoda, Bisi Bele Huliyana, Potato Chips, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Banaras Baigan, Veg Jalfrezi, Veg & Egg Fried Rice, Garlic Sauce, Sweet Corn Hot and Sour Soup, Fruits: Fruit Custard"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Masala Dosa, Sambar, Kara Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Lachha Parota, Dal Lasoni, Chicken Tikka Lababdar, Shahi Paneer, Aloo Jeera, White Rice, Kadambam Sambar, Tomato Rasam, Curd, Fryums, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Veg Pizza Slice, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, Bhindi Jaipuri, Veg Kolhapuri, White Rice, Sambar, Rasam, Peas Pulav, Butter Milk, Coriander Soup, Fruits: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Semiya Upma, Coconut Chutney, Dates Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Sweet Corn Salad, Fried Egg Masala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Chapathi, Fish Fry, Paneer Tikka, White Rice, Sambar, Rasam, Aloo Baigan, Fryums, Dal Panchamela, Loose Curd, Sweet: Bread Halwa / Shahi Tukra"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Tea, Coffee, Milk, Tea"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Curd Rice, Beetroot Poriyal, Lentil Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Masala Ghee Roast Dosa, Onion Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Boiled Fried Eggs (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Tandoori Chicken, Paneer Amritsari, White Rice, Sambar, Poondu Rasam, Veg Kootu, Loose Curd, Fryums, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Rajma Masala, White Rice, Rasam, Sambar, Dum Aloo, Peanut Chutney, Butter Milk, Cream of Tomato Soup Soup, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Kitchadi, Coconut Chutney, Fresh Juice, Cold Milk, Chocos, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Dingri Muttar, Rasam, Dahi Vada, Kara Kozhambu, Keerai Kootu, Papad, Sweet: Suryakala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, Meal Maker Pulav, Egg Fried Rice, Gobi Capsicum Peas Masala, Veg Soya Garlic Sauce, White Rice, Sambar, Rasam, Loose Curd, Veg Clear Soup, Fresh Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Sambar, Mint Chutney, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Fresh Juice, Sprouted Channa Black, Masala Omelette"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken Hyderabadi Biryani, Veg Hyderabadi Biryani, Banaras Baigan, Paneer 65, Onion Raitha, White Rice, Tomato Rasam, Papad, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Masala, Methi Mutter Malai Masala, White Rice, Sambar, Rasam, Aloo Jeera, Kashmir Pulav, Minestrone Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Mint Chutney, Cow Peas Salad, Cheese Omelette"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Diamond Chapathi, Chicken Rogan Josh, Dal Fry, Paneer Butter Masala, Carrot Beans Poriyal, White Rice, Sambar, Pepper Rasam, Loose Curd, Wheel Chips, Sweet: Motichoor Laddu"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Donut, Chocolate Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Coconut Rice / Tamarind Rice, Aloo Podimas, Rasam, Mulligatawny Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Kitchadi, Chutney, Sambar, Date Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Eye Peas Salad, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, Veg Jalfrezi, White Rice, Pineapple Rasam, Curd, Bisi Bele Bath, Potato Chips, Sweet: Dry Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Aloo Samosa, Cold Rose Milk, Imli Chutney, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Fry, Veg & Egg Fried Rice, Gobi Manchurian, Tendli Channa, White Rice, Veg Sambar, Garlic Rasam, Sweet Lassi, Veg Manchow Soup, Fruit Salad"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Andhra Masala Dosa, Sambar, Coriander Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Masala Egg Burji"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Chicken Hariyali, Hariyali Paneer, Curd, Aloo Saagwala, White Rice, Sambar, Rasam, Fryums, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Mexican Pizza, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Sambar, Butter Milk, Cube Fry Potatoes, Ghee Rice, Veg Shahi Korma, Coriander Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Sambar, Pongal, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Sprout, Boiled Eggs (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Masala Fried Fish, Nargisi Kofta Curry, White Rice, Sambar, Rasam, Wheel Chips, Raw Banana Poriyal, Butter Milk, Sweet: Rasgulla"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Sambar, Rasam, Vangi Bath, Cabbage Poriyal, Curd, Cream of Broccoli Soup, Fruit: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Semiya Kitchadi, Sambar, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Tandoori Chicken, Dragon Paneer, White Rice, Sambar, Curd, Fryums, Green Veg Sabzi (Without Potato), Pineapple Rasam, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, Idly, Peanut Chutney, White Rice, Sambar, Rasam, Jeera Rice, Dum Aloo / Banaras Aloo, Loose Curd, Cream of Tomato Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Veg Kootu, Sweet: Rasamalai"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "French Fries, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Mushroom Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Paneer Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Drumstick Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Thai Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Spring Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Podi Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Sambar, Veg Kitchadi, Tomato Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Salad, Fried Eggs"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, Bhindi Do Pyaza, White Rice, Pineapple Rasam, Curd, Kadhi Pakoda, Bisi Bele Huliyana, Potato Chips, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Banaras Baigan, Veg Jalfrezi, Veg & Egg Fried Rice, Garlic Sauce, Sweet Corn Hot and Sour Soup, Fruits: Fruit Custard"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Masala Dosa, Sambar, Kara Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Lachha Parota, Dal Lasoni, Chicken Tikka Lababdar, Shahi Paneer, Aloo Jeera, White Rice, Kadambam Sambar, Tomato Rasam, Curd, Fryums, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Veg Pizza Slice, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, Bhindi Jaipuri, Veg Kolhapuri, White Rice, Sambar, Rasam, Peas Pulav, Butter Milk, Coriander Soup, Fruits: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Semiya Upma, Coconut Chutney, Dates Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Sweet Corn Salad, Fried Egg Masala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Chapathi, Fish Fry, Paneer Tikka, White Rice, Sambar, Rasam, Aloo Baigan, Fryums, Dal Panchamela, Loose Curd, Sweet: Bread Halwa / Shahi Tukra"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Tea, Coffee, Milk, Tea"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Curd Rice, Beetroot Poriyal, Lentil Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Masala Ghee Roast Dosa, Onion Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Boiled Fried Eggs (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Tandoori Chicken, Paneer Amritsari, White Rice, Sambar, Poondu Rasam, Veg Kootu, Loose Curd, Fryums, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Rajma Masala, White Rice, Rasam, Sambar, Dum Aloo, Peanut Chutney, Butter Milk, Cream of Tomato Soup Soup, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Kitchadi, Coconut Chutney, Fresh Juice, Cold Milk, Chocos, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Dingri Muttar, Rasam, Dahi Vada, Kara Kozhambu, Keerai Kootu, Papad, Sweet: Suryakala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, Meal Maker Pulav, Egg Fried Rice, Gobi Capsicum Peas Masala, Veg Soya Garlic Sauce, White Rice, Sambar, Rasam, Loose Curd, Veg Clear Soup, Fresh Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Mint Chutney, Cow Peas Salad, Cheese Omelette"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Diamond Chapathi, Chicken Rogan Josh, Dal Fry, Paneer Butter Masala, Carrot Beans Poriyal, White Rice, Sambar, Pepper Rasam, Loose Curd, Wheel Chips, Sweet: Motichoor Laddu"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Donut, Chocolate Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Coconut Rice / Tamarind Rice, Aloo Podimas, Rasam, Mulligatawny Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Kitchadi, Chutney, Sambar, Date Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Eye Peas Salad, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, Veg Jalfrezi, White Rice, Pineapple Rasam, Curd, Bisi Bele Bath, Potato Chips, Sweet: Dry Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Aloo Samosa, Cold Rose Milk, Imli Chutney, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Fry, Veg & Egg Fried Rice, Gobi Manchurian, Tendli Channa, White Rice, Veg Sambar, Garlic Rasam, Sweet Lassi, Veg Manchow Soup, Fruit Salad"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Andhra Masala Dosa, Sambar, Coriander Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Masala Egg Burji"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Chicken Hariyali, Hariyali Paneer, Curd, Aloo Saagwala, White Rice, Sambar, Rasam, Fryums, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Mexican Pizza, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Sambar, Butter Milk, Cube Fry Potatoes, Ghee Rice, Veg Shahi Korma, Coriander Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Sambar, Pongal, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Sprout, Boiled Eggs (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Masala Fried Fish, Nargisi Kofta Curry, White Rice, Sambar, Rasam, Wheel Chips, Raw Banana Poriyal, Butter Milk, Sweet: Rasgulla"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Sambar, Rasam, Vangi Bath, Cabbage Poriyal, Curd, Cream of Broccoli Soup, Fruit: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Semiya Kitchadi, Sambar, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Tandoori Chicken, Dragon Paneer, White Rice, Sambar, Curd, Fryums, Green Veg Sabzi (Without Potato), Pineapple Rasam, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, Idly, Peanut Chutney, White Rice, Sambar, Rasam, Jeera Rice, Dum Aloo / Banaras Aloo, Loose Curd, Cream of Tomato Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Veg Kootu, Sweet: Rasamalai"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "French Fries, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Mushroom Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Paneer Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Drumstick Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Thai Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Spring Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Podi Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Poha Namkeen, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Curd, Masala Papad, Veg Biryani, Oil Brinjal, Onion Raitha, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Veg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Soya Capsicum Muttar Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Balls Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Kitchadi, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Kadhi Pakoda, Potato Chips, Peas Masala"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Garlic Sauce, Veg Jalfrezi, Veg Fried Rice, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Punjabi, White Rice, Veg Sambar, Rasam, Curd, Fryums, Paneer Hariyali, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Ice Lemon Tea, Coffee / Rose Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Phulka, Green Gram Dal, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Coconut Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Beetroot Poriyal, Curd, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam, Sambar, Rasam, Curd, Papad, Paneer Tikka Masala, Urulai Varuval, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Phulka, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, White Rice, Rasam, Sambar, Papdi Bhaji, Butter Milk, Veg Fried Rice, Soya Chunk Manchurian, Fruits: Fresh Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Poha Namkeen, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Curd, Masala Papad, Veg Biryani, Oil Brinjal, Onion Raitha, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Veg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Soya Capsicum Muttar Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Aloo Drumstick, Loose Curd, Kadai Paneer, Sweet: Rava Laddu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Sabzi, Fruit: Grapes"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Aloo Baigan, Curd, Veg Manchurian, Veg Fried Rice, Fruit: Fruit Salad"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Ghee Phulka, Dal Fry, White Rice, Sambar, Rasam, Cabbage Muttar, Curd, Fryums, Paneer Butter Masala, Sweet: Badusha"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Chapathi, White Rice, Rasam, Sambar, Butter Milk, Ghee Rice, Banaras Baigan, Cube Fry Potatoes, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Aloo Jeera, Mutter Masala"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Onion Pakoda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Poha Namkeen, Mint Chutney, Vada Curry, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Banaras Baigan, Dragon Paneer, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Balls Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Kitchadi, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Kadhi Pakoda, Potato Chips, Peas Masala"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Garlic Sauce, Veg Jalfrezi, Veg Fried Rice, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Punjabi, White Rice, Veg Sambar, Rasam, Curd, Fryums, Paneer Hariyali, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Ice Lemon Tea, Coffee / Rose Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Phulka, Green Gram Dal, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Coconut Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Beetroot Poriyal, Curd, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam, Sambar, Rasam, Curd, Papad, Paneer Tikka Masala, Urulai Varuval, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Phulka, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, White Rice, Rasam, Sambar, Papdi Bhaji, Butter Milk, Veg Fried Rice, Soya Chunk Manchurian, Fruits: Fresh Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Aloo Drumstick, Loose Curd, Kadai Paneer, Sweet: Rava Laddu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Sabzi, Fruit: Grapes"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Aloo Baigan, Curd, Veg Manchurian, Veg Fried Rice, Fruit: Fruit Salad"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Ghee Phulka, Dal Fry, White Rice, Sambar, Rasam, Cabbage Muttar, Curd, Fryums, Paneer Butter Masala, Sweet: Badusha"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Chapathi, White Rice, Rasam, Sambar, Butter Milk, Ghee Rice, Banaras Baigan, Cube Fry Potatoes, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Aloo Jeera, Mutter Masala"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Onion Pakoda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Poha Namkeen, Mint Chutney, Vada Curry, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Banaras Baigan, Dragon Paneer, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Balls Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Poha Namkeen, Sambar, Chutney, Omelette (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Masala Papad, Onion Raitha, Chicken Biryani, Oil Brinjal, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Egg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Drumstick Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Kara Chutney, Kitchadi, Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Potato Chips, Kadhi Pakoda, Peas Masala"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Veg Jalfrezi, Egg Fried Rice, Garlic Sauce, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Chicken Tikka Masala, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Scrambled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajma, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Coconut Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Curd, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Boiled Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam Sambar, Rasam, Curd, Papad, Chicken 65, Aloo Capsicum Masala, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Cream Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, Egg Fried Rice, White Rice, Sambar, Rasam, Papdi Bhaji, Butter Milk, Gobi Peas Capsicum Masala, Garlic Sauce, Fresh Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Poha Namkeen, Sambar, Chutney, Omelette (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Masala Papad, Onion Raitha, Chicken Biryani, Oil Brinjal, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Egg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Fried Egg Masala, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Loose Curd, Onion Rings, Kadai Chicken, Bottle Gourd Kootu, Sweet: Coconut Laddu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Veg Manchurian, Curd, Egg Fried Rice, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Masala Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Butter Chicken Masala, Curd, Fryums, Aloo Jeera, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Cube Fry Potatoes, Butter Milk, Ghee Rice, Banaras Baigan, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Boiled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Aloo Jeera, Mutter Masala"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Onion Pakoda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Chicken 65, Banaras Aloo Baigan, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Cream Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Veg Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Drumstick Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Kara Chutney, Kitchadi, Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Potato Chips, Kadhi Pakoda, Peas Masala"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Nimbu Sarbat, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Veg Jalfrezi, Egg Fried Rice, Garlic Sauce, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Chicken Tikka Masala, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Scrambled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajma, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Coconut Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Curd, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Boiled Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam Sambar, Rasam, Curd, Papad, Chicken 65, Aloo Capsicum Masala, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Cream Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "Masala Vada, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, Egg Fried Rice, White Rice, Sambar, Rasam, Papdi Bhaji, Butter Milk, Gobi Peas Capsicum Masala, Garlic Sauce, Fresh Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Fried Egg Masala, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Loose Curd, Onion Rings, Kadai Chicken, Bottle Gourd Kootu, Sweet: Coconut Laddu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruits: Grapes"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Veg Manchurian, Curd, Egg Fried Rice, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Masala Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Butter Chicken Masala, Curd, Fryums, Aloo Jeera, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Channa Chat, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Cube Fry Potatoes, Butter Milk, Ghee Rice, Banaras Baigan, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Boiled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Aloo Jeera, Mutter Masala"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Onion Pakoda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Chicken 65, Banaras Aloo Baigan, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Cream Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Veg Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Veg Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Veg Roll, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "MH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Drumstick Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Sambar, Mint Chutney, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Fresh Juice, Sprouted Channa Black, Masala Omelette"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken Hyderabadi Biryani, Veg Hyderabadi Biryani, Banaras Baigan, Paneer 65, Onion Raitha, White Rice, Tomato Rasam, Papad, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Masala, Methi Mutter Malai Masala, White Rice, Sambar, Rasam, Kashmir Pulav, Minestrone Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Aloo Capsicum, Sweet: Rasamalai"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Fried Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Egg / Veg Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Veg Kitchadi, Tomato Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Salad, Fried Eggs"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, Bhindi Do Pyaza, White Rice, Pineapple Rasam, Curd, Kadhi Pakoda, Bisi Bele Huliyana, Potato Chips, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Banaras Baigan, Veg Jalfrezi, Veg & Egg Fried Rice, Garlic Sauce, Sweet Corn Hot and Sour Soup, Fruits: Fruit Custard"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Kara Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, Chicken Tikka Lababdar, Shahi Paneer, Aloo Jeera, White Rice, Kadambam Sambar, Tomato Rasam, Curd, Fryums, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, Bhindi Jaipuri, Veg Kolhapuri, White Rice, Sambar, Rasam, Peas Pulav, Butter Milk, Coriander Soup, Fruits: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Coconut Chutney, Dates Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Sweet Corn Salad, Fried Egg Masala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Phulka, Fish Fry / Fish Curry, Paneer Tikka, White Rice, Sambar, Rasam, Aloo Baigan, Fryums, Dal Panchamela, Loose Curd, Sweet: Bread Halwa / Shahi Tukra"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk, Tea"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Curd Rice, Beetroot Poriyal, Lentil Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Ghee Roast Dosa, Onion Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Boiled Fried Eggs (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Tandoori Chicken, Paneer Tikka, White Rice, Sambar, Poondu Rasam, Veg Kootu, Loose Curd, Fryums, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Rajma Masala, White Rice, Rasam, Sambar, Dum Aloo, Peanut Chutney, Butter Milk, Cream of Tomato Soup Soup, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Kitchadi, Coconut Chutney, Fresh Juice, Cold Milk, Chocos, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Dingri Muttar, Rasam, Dahi Vada, Kara Kozhambu, Keerai Kootu, Papad, Sweet: Suryakala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, Meal Maker Pulav, Egg Fried Rice, Gobi Peas Capsicum Masala, Veg Soya Garlic Sauce, White Rice, Sambar, Rasam, Loose Curd, Veg Clear Soup, Fresh Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Sambar, Mint Chutney, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Fresh Juice, Sprouted Channa Black, Masala Omelette"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken Hyderabadi Biryani, Veg Hyderabadi Biryani, Banaras Baigan, Paneer 65, Onion Raitha, White Rice, Tomato Rasam, Papad, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Masala, Methi Mutter Malai Masala, White Rice, Sambar, Rasam, Kashmir Pulav, Minestrone Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Mint Chutney, Cow Peas Salad, Cheese Omelette"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Phulka, Chicken Kadai, Dal Fry, Paneer Butter Masala, Carrot Beans Poriyal, White Rice, Sambar, Pepper Rasam, Loose Curd, Wheel Chips, Sweet: Motichoor Laddu"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Coconut Rice / Tamarind Rice, Bhindi Do Pyaza, Rasam, Mulligatawny Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Kitchadi, Chutney, Sambar, Date Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Cow Peas Salad, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, Veg Jalfrezi, White Rice, Pineapple Rasam, Curd, Bisi Bele Bath, Potato Chips, Sweet: Dry Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Cold Rose Milk, Imli Chutney, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Fry, Veg & Egg Fried Rice, Gobi Manchurian, Cabbage Foogath, White Rice, Veg Sambar, Garlic Rasam, Sweet Lassi, Veg Manchow Soup, Fruit Salad"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Andhra Masala Dosa, Sambar, Coriander Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Masala Egg Burji"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Chicken Hariyali, Hariyali Paneer, Curd, Aloo Saagwala, White Rice, Sambar, Rasam, Fryums, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Mexican Pizza, Sauce, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Sambar, Butter Milk, Cube Fry Potatoes, Ghee Rice, Veg Shahi Korma, Coriander Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Sambar, Semiya, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Sprout, Boiled Eggs (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Nargisi Kofta Curry, White Rice, Sambar, Rasam, Wheel Chips, Raw Banana Poriyal, Butter Milk, Sweet: Rasgulla"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Sambar, Rasam, Vangi Bath, Cabbage Poriyal, Curd, Cream of Broccoli Soup, Fruit: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Sambar, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken 65, Dragon Paneer, White Rice, Sambar, Curd, Fryums, Green Veg Sabzi (Without Potato), Pineapple Rasam, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Cake, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, Idly, Peanut Chutney, White Rice, Sambar, Rasam, Dum Aloo / Banaras Aloo, Loose Curd, Cream of Tomato Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Aloo Capsicum, Sweet: Rasamalai"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Fried Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Egg / Veg Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Veg Kitchadi, Tomato Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Salad, Fried Eggs"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, Bhindi Do Pyaza, White Rice, Pineapple Rasam, Curd, Kadhi Pakoda, Bisi Bele Huliyana, Potato Chips, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Banaras Baigan, Veg Jalfrezi, Veg & Egg Fried Rice, Garlic Sauce, Sweet Corn Hot and Sour Soup, Fruits: Fruit Custard"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Kara Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, Chicken Tikka Lababdar, Shahi Paneer, Aloo Jeera, White Rice, Kadambam Sambar, Tomato Rasam, Curd, Fryums, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Cold Rose Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, Bhindi Jaipuri, Veg Kolhapuri, White Rice, Sambar, Rasam, Peas Pulav, Butter Milk, Coriander Soup, Fruits: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Coconut Chutney, Dates Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Sweet Corn Salad, Fried Egg Masala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Phulka, Fish Fry / Fish Curry, Paneer Tikka, White Rice, Sambar, Rasam, Aloo Baigan, Fryums, Dal Panchamela, Loose Curd, Sweet: Bread Halwa / Shahi Tukra"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk, Tea"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Curd Rice, Beetroot Poriyal, Lentil Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Ghee Roast Dosa, Onion Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Boiled Fried Eggs (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Tandoori Chicken, Paneer Tikka, White Rice, Sambar, Poondu Rasam, Veg Kootu, Loose Curd, Fryums, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Rajma Masala, White Rice, Rasam, Sambar, Dum Aloo, Peanut Chutney, Butter Milk, Cream of Tomato Soup Soup, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Kitchadi, Coconut Chutney, Fresh Juice, Cold Milk, Chocos, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Dingri Muttar, Rasam, Dahi Vada, Kara Kozhambu, Keerai Kootu, Papad, Sweet: Suryakala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, Meal Maker Pulav, Egg Fried Rice, Gobi Peas Capsicum Masala, Veg Soya Garlic Sauce, White Rice, Sambar, Rasam, Loose Curd, Veg Clear Soup, Fresh Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Mint Chutney, Cow Peas Salad, Cheese Omelette"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Phulka, Chicken Kadai, Dal Fry, Paneer Butter Masala, Carrot Beans Poriyal, White Rice, Sambar, Pepper Rasam, Loose Curd, Wheel Chips, Sweet: Motichoor Laddu"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Coconut Rice / Tamarind Rice, Bhindi Do Pyaza, Rasam, Mulligatawny Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Mysore Bonda, Kitchadi, Chutney, Sambar, Date Milk Shake, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Cow Peas Salad, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, Veg Jalfrezi, White Rice, Pineapple Rasam, Curd, Bisi Bele Bath, Potato Chips, Sweet: Dry Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Cold Rose Milk, Imli Chutney, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Fry, Veg & Egg Fried Rice, Gobi Manchurian, Cabbage Foogath, White Rice, Veg Sambar, Garlic Rasam, Sweet Lassi, Veg Manchow Soup, Fruit Salad"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Andhra Masala Dosa, Sambar, Coriander Chutney, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Masala Egg Burji"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Chicken Hariyali, Hariyali Paneer, Curd, Aloo Saagwala, White Rice, Sambar, Rasam, Fryums, Sweet: Carrot Halwa"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Mexican Pizza, Sauce, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Sambar, Butter Milk, Cube Fry Potatoes, Ghee Rice, Veg Shahi Korma, Coriander Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Sambar, Semiya, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Black Channa Sprout, Boiled Eggs (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Nargisi Kofta Curry, White Rice, Sambar, Rasam, Wheel Chips, Raw Banana Poriyal, Butter Milk, Sweet: Rasgulla"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Sambar, Rasam, Vangi Bath, Cabbage Poriyal, Curd, Cream of Broccoli Soup, Fruit: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Sambar, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Moong Dal Sprout, Scrambled Egg (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal, Chicken 65, Dragon Paneer, White Rice, Sambar, Curd, Fryums, Green Veg Sabzi (Without Potato), Pineapple Rasam, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Cake, Cold Badam Milk, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, Idly, Peanut Chutney, White Rice, Sambar, Rasam, Dum Aloo / Banaras Aloo, Loose Curd, Cream of Tomato Soup, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fresh Juice, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Salad, Boiled Egg Masala"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, Green Peas Masala, Dahi Vada, Dal Rasam, Fryums, White Rice, Kara Kozhambu, Aloo Capsicum, Sweet: Rasamalai"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Ice Lemon Tea, Coffee"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal Rajma, Fried Rice, Egg Rice, Gobi Manchurian, White Rice, Aloo Podimas, Sambar, Rasam, Butter Milk, Veg Manchow Soup, Fruits: Banana"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Vada, Sambar, Coconut Chutney, Fresh Juice, Cold Milk, Corn Flakes, Bread, Butter, Jam, Tea, Coffee, Milk, Green Salad, Egg Burji (2 Nos)"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, Chicken Malliga Biryani, Malliga Veg Biryani, Banaras Baigan, Onion Raitha, Paneer Amritsari (Dry), White Rice, Tomato Rasam, Papad, Sweet: Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Egg / Veg Puff, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Banjara, Mixed Veg Gravy, White Rice, Sambar, Rasam, Mint Pulav, Aloo Capsicum Dry, Butter Milk, Sweet Corn Soup, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Chutney, Banana Milk Shake, Cold Milk, Chocos, Bread, Butter, Jam, Tea, Coffee, Milk, Cow Peas Salad, Boiled Egg"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, Dragon Chicken, Dragon Paneer, Fried Rice, Rasam, Bottle Gourd Poriyal, White Rice, Sambar, Wheel Chips, Curd, Sweet: Kova Mysore Pak"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Special Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Dosa, Dal, White Rice, Rasam, Sambar, Coconut Chutney, Jeera Pulav, Cabbage Foogath, Dum Aloo, Cream of Mushroom Soup, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Paav Bhaji, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Curd, Masala Papad, Veg Biryani, Oil Brinjal, Onion Raitha, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Chapathi, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Kitchadi, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Kadhi Pakoda, Potato Chips, Peas Masala"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Garlic Sauce, Veg Jalfrezi, Veg Fried Rice, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Paneer Hariyali, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Coffee"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Phulka, Green Gram Dal, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Beetroot Poriyal, Curd, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam, Sambar, Rasam, Curd, Papad, Paneer Tikka Masala, Urulai Varuval, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, White Rice, Rasam, Sambar, Papdi Bhaji, Butter Milk, Veg Fried Rice, Gobi Peas Capsicum Masala, Fruits: Fresh Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Paav Bhaji, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Curd, Masala Papad, Veg Biryani, Oil Brinjal, Onion Raitha, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Chapathi, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruit: Cut Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Carrot Beans Poriyal, Loose Curd, Kadai Paneer, Sweet: Rava Laddu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruit: Grapes"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Curd, Veg Manchurian, Veg Fried Rice, Fruit: Fruit Salad"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Cabbage Muttar, Curd, Fryums, Paneer Hariyali, Sweet: Badusha"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Pizza, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Chapathi, White Rice, Rasam, Sambar, Butter Milk, Ghee Rice, Banaras Baigan, Cube Fry Potatoes, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Raw Banana Poriyal, Mutter Masala"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Poha Namkeen, Onion Chutney, Vada Curry, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Banaras Baigan, Dragon Paneer, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Kitchadi, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Kadhi Pakoda, Potato Chips, Peas Masala"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Garlic Sauce, Veg Jalfrezi, Veg Fried Rice, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Paneer Hariyali, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Coffee"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Phulka, Green Gram Dal, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Beetroot Poriyal, Curd, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam, Sambar, Rasam, Curd, Papad, Paneer Tikka Masala, Urulai Varuval, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, White Rice, Rasam, Sambar, Papdi Bhaji, Butter Milk, Veg Fried Rice, Gobi Peas Capsicum Masala, Fruits: Fresh Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Carrot Beans Poriyal, Loose Curd, Kadai Paneer, Sweet: Rava Laddu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruit: Grapes"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Curd, Veg Manchurian, Veg Fried Rice, Fruit: Fruit Salad"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Cabbage Muttar, Curd, Fryums, Paneer Hariyali, Sweet: Badusha"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Pizza, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Chapathi, White Rice, Rasam, Sambar, Butter Milk, Ghee Rice, Banaras Baigan, Cube Fry Potatoes, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Raw Banana Poriyal, Mutter Masala"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Poha Namkeen, Onion Chutney, Vada Curry, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Banaras Baigan, Dragon Paneer, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Eggless Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Kara Kozhambu, Rasam, Aloo Capsicum Masala, Dahi Vada, Fryums"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Veg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Coconut Chutney, Sambar, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Veg Biryani, Banaras Baigan, Onion Raitha, Assorted Ice Cream"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Veg Puffs, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Fried Rice, Sambar, Rasam, Bottle Gourd Kootu, Butter Milk, Onion Rings, Dragon Paneer, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Plain Dosa, Sambar, Coriander Chutney, Rasam, Loose Curd, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Paav Bhaji, Sambar, Chutney, Omelette (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Masala Papad, Onion Raitha, Chicken Biryani, Oil Brinjal, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-23",
+   "meal": "Dinner",
+   "menu": "Chapathi, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-01",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-02",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-03",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Kara Chutney, Kitchadi, Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Potato Chips, Kadhi Pakoda, Peas Masala"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-04",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Veg Jalfrezi, Egg Fried Rice, Garlic Sauce, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Chicken Tikka Masala, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Coffee"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-05",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Scrambled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajma, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Fish Fry, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-06",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Curd, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Boiled Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam Sambar, Rasam, Curd, Papad, Tandoori Chicken, Aloo Capsicum Masala, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-07",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-08",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, Egg Fried Rice, White Rice, Sambar, Rasam, Papdi Bhaji, Butter Milk, Gobi Peas Capsicum Masala, Garlic Sauce, Fresh Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Breakfast",
+   "menu": "Podi Idly, Vada, Paav Bhaji, Sambar, Chutney, Omelette (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Lunch",
+   "menu": "Phulka, Toor Dal, White Rice, Rasam, Masala Papad, Onion Raitha, Chicken Biryani, Oil Brinjal, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Snacks",
+   "menu": "Pani Poori, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-09",
+   "meal": "Dinner",
+   "menu": "Chapathi, Toor Dal, White Rice, Rasam, Sambar, Butter Milk, Aloo Capsicum Muttar Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Fried Egg Masala, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Loose Curd, Onion Rings, Kadai Chicken, Carrot Beans Poriyal, Sweet: Coconut Laddu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-10",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-11",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Veg Manchurian, Curd, Egg Fried Rice, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Masala Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Chicken Hariyali, Curd, Fryums, Aloo Jeera, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Snacks",
+   "menu": "Pizza, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-12",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Cube Fry Potatoes, Butter Milk, Ghee Rice, Banaras Baigan, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Boiled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Raw Banana Poriyal, Mutter Masala"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-13",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Chicken 65, Banaras Aloo Baigan, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Snacks",
+   "menu": "Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-14",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-15",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-16",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-17",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Breakfast",
+   "menu": "Idly, Vada, Sambar, Kara Chutney, Kitchadi, Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Loose Curd, Bisi Bele Huliyana, Potato Chips, Kadhi Pakoda, Peas Masala"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Snacks",
+   "menu": "Veg Samosa, Imli Sauce, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-18",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Butter Milk, Veg Jalfrezi, Egg Fried Rice, Garlic Sauce, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Breakfast",
+   "menu": "Thin Masala Dosa, Sambar, Tomato Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Lunch",
+   "menu": "Triangle Chapathi, Dal Lasoni, White Rice, Veg Sambar, Rasam, Curd, Fryums, Chicken Tikka Masala, Aloo Jeera, Sweet: Dal Payasam"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Snacks",
+   "menu": "Dahi Papdi Chat, Tea, Coffee"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-19",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, White Rice, Rasam, Sambar, Loose Curd, Aloo & Capsicum Masala, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Breakfast",
+   "menu": "Gobi Paratha, Curd, Pickle, Semiya Upma, Sambar, Chutney, Scrambled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajma, White Rice, Drumstick Sambar, Rasam, Curd, Papad, Peas Pulav, Veg Shahi Masala, Fish Fry, Sweet: Bread Halwa"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Snacks",
+   "menu": "Black Channa, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-20",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Jeera Rice, Curd, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Breakfast",
+   "menu": "Podi Dosa, Sambar, Chutney, Boiled Fried Eggs (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Rajasthani, White Rice, Kadambam Sambar, Rasam, Curd, Papad, Tandoori Chicken, Aloo Capsicum Masala, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Snacks",
+   "menu": "Brownie Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-21",
+   "meal": "Dinner",
+   "menu": "Chapathi, Idly, Dal Maharani, White Rice, Rasam, Sambar, Peanut Chutney, Aloo Drumstick Masala, Butter Milk, Fruits: Musk Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Breakfast",
+   "menu": "Mixed Veg Paratha, Curd, Kitchadi, Coconut Chutney, Sambar, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Dahi Vada, Papad, Kara Kozhambu, Keerai Kootu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Snacks",
+   "menu": "French Fries, Sauce, Chutney, Ice Lemon Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-22",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Masala, Egg Fried Rice, White Rice, Sambar, Rasam, Papdi Bhaji, Butter Milk, Gobi Peas Capsicum Masala, Garlic Sauce, Fresh Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Poha Namkeen, Mint Chutney, Fried Egg Masala, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Loose Curd, Onion Rings, Kadai Chicken, Carrot Beans Poriyal, Sweet: Coconut Laddu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Snacks",
+   "menu": "Masala Peanuts, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-24",
+   "meal": "Dinner",
+   "menu": "Methi Roti, Dal, Plain Dosa, Sambar, Tomato Chutney, White Rice, Rasam, Curd Rice, Bhindi Do Pyaza, Fruits: Grapes"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Breakfast",
+   "menu": "Idly, Kitchadi, Sambar, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Tadka, White Rice, Rasam, Butter Milk, Potato Chips, Bisi Bele Bath, Veg Jalfrezi"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Snacks",
+   "menu": "Onion Samosa, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Tuesday",
+   "date": "2026-08-25",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Fry, White Rice, Rasam, Sambar, Cabbage Foogath, Veg Manchurian, Curd, Egg Fried Rice, Fruits: Fruit Salad"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Breakfast",
+   "menu": "Thin Dosa, Sambar, Coriander Chutney, Masala Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Fry, White Rice, Sambar, Rasam, Chicken Hariyali, Curd, Fryums, Aloo Jeera, Sweet: Makkan Peda"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Snacks",
+   "menu": "Pizza, Tea, Cold Badam Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Wednesday",
+   "date": "2026-08-26",
+   "meal": "Dinner",
+   "menu": "Chapathi, Dal, White Rice, Rasam, Sambar, Cube Fry Potatoes, Butter Milk, Ghee Rice, Banaras Baigan, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Breakfast",
+   "menu": "Paneer Paratha, Curd, Pickle, Semiya, Coconut Chutney, Sambar, Boiled Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Masala, White Rice, Sambar, Rasam, Curd, Onion Rings, Raw Banana Poriyal, Mutter Masala"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Snacks",
+   "menu": "Mysore Bonda, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Thursday",
+   "date": "2026-08-27",
+   "meal": "Dinner",
+   "menu": "Poori, Channa Masala, White Rice, Rasam, Sambar, Loose Curd, Jeera Rice, Cabbage Poriyal, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Breakfast",
+   "menu": "Kal Dosa, Vada Curry, Onion Chutney, Poha Namkeen, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Lasoni, White Rice, Sambar, Rasam, Loose Curd, Wheel Chips, Chicken 65, Banaras Aloo Baigan, Sweet: Gulab Jamun"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Snacks",
+   "menu": "Cake, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Friday",
+   "date": "2026-08-28",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal Makhani, White Rice, Rasam, Sambar, Butter Milk, Peanut Chutney, Idly, Beetroot Poriyal, Fruits: Water Melon"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Breakfast",
+   "menu": "Aloo Paratha, Curd, Pickle, Kitchadi, Mint Chutney, Sambar, Fried Egg (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Maharani, White Rice, Rasam, Kara Kozhambu, Dahi Vada, Aloo Capsicum Masala, Fryums"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Snacks",
+   "menu": "Samosa Chat, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Saturday",
+   "date": "2026-08-29",
+   "meal": "Dinner",
+   "menu": "Phulka, Rajma Masala, Egg Fried Rice, White Rice, Rasam, Sambar, Curd, Gobi Manchurian, Fruits: Banana"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Breakfast",
+   "menu": "Paav Bhaji, Pongal, Sambar, Coconut Chutney, Egg Burji (2 Nos), Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Lunch",
+   "menu": "Chapathi, Dal Tadka, White Rice, Rasam, Papad, Onion Raitha, Chicken Biryani, Banaras Baigan, Sweet: Ice Cream"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Snacks",
+   "menu": "Egg Puff, Sauce, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Sunday",
+   "date": "2026-08-30",
+   "meal": "Dinner",
+   "menu": "Phulka, Dal, White Rice, Rasam, Veg Sambar, Loose Curd, Aloo Gobi Peas Masala, Fruits: Cut Fruits"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Breakfast",
+   "menu": "Poori, Aloo Masala, Semiya, Coconut Chutney, French Toast, Bread, Butter, Jam, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Lunch",
+   "menu": "Phulka, Dal Ajwain, White Rice, Sambar, Rasam, Fried Rice, Egg Manchurian (Dry), Butter Milk, Bottle Gourd Poriyal, Sweet: Boondhi Laddu"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Snacks",
+   "menu": "Raw Banana Bajji, Chutney, Tea, Coffee, Milk"
+  },
+  {
+   "hall": "LH Non-Veg Mess",
+   "day": "Monday",
+   "date": "2026-08-31",
+   "meal": "Dinner",
+   "menu": "Roti, Dal, White Rice, Dum Aloo, Rasam, Sambar, Loose Curd, Plain Dosa, Coriander Chutney, Fruits: Grapes"
+  }
+ ]
+}

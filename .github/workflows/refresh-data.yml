@@ -1,0 +1,103 @@
+name: refresh data
+
+# Re-pulls OpenStreetMap, the VIT faculty directory and MessIT menus, then
+# opens a PR if anything changed. A PR rather than a silent push, so a source
+# going weird never lands on the live site unreviewed.
+
+on:
+  schedule:
+    - cron: '17 20 * * 0' # Sundays 20:17 UTC — 01:47 IST Monday
+  workflow_dispatch:
+    inputs:
+      osm:
+        description: 'Also refetch OpenStreetMap (slow, hits a free API)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refetch OpenStreetMap
+        if: github.event_name != 'workflow_dispatch' || inputs.osm
+        run: npm run fetch -- --force
+
+      - name: Refetch faculty + mess
+        run: node scripts/fetch-web.mjs
+
+      - name: Rebuild derived data
+        run: npm run build:data
+
+      - name: Sanity-check the result
+        run: |
+          node -e '
+            const c = require("./public/data/campus.json");
+            const fail = (m) => { console.error("FAIL: " + m); process.exit(1) };
+            if (c.pois.length < 15) fail(`only ${c.pois.length} POIs`);
+            if ((c.mess?.items.length ?? 0) < 20) fail(`only ${c.mess?.items.length ?? 0} mess menus`);
+            console.log(`ok: ${c.pois.length} pois, ${c.faculty?.items.length ?? 0} faculty, ${c.mess?.items.length ?? 0} menus`);
+          '
+
+      - name: Guard against a source shrinking
+        run: |
+          node -e '
+            const { execSync } = require("node:child_process")
+            const { readFileSync } = require("node:fs")
+            const files = [
+              ["data/live/faculty.json", (d) => d.items?.length ?? 0],
+              ["data/live/mess.json",    (d) => d.items?.length ?? 0],
+              ["data/raw/pois.json",     (d) => d.elements.length],
+              ["data/raw/buildings.json",(d) => d.elements.length],
+              ["data/raw/highways.json", (d) => d.elements.length],
+              ["data/raw/land.json",     (d) => d.elements.length],
+              ["data/raw/boundary.json", (d) => d.elements.length],
+            ]
+            let bad = false
+            for (const [path, count] of files) {
+              let before
+              try {
+                before = count(JSON.parse(execSync(`git show HEAD:${path}`,
+                  { encoding: "utf8", maxBuffer: 128 * 1024 * 1024 })))
+              } catch { console.log(`${path}: new file, nothing to compare`); continue }
+              const after = count(JSON.parse(readFileSync(path, "utf8")))
+              const lost = before ? (before - after) / before : 0
+              console.log(`${path}: ${before} -> ${after}`)
+              if (lost > 0.1) {
+                console.error(`FAIL: ${path} lost ${(lost * 100).toFixed(1)}% of its rows`)
+                bad = true
+              }
+            }
+            if (bad) process.exit(1)
+          '
+
+      - name: Smoke test the refreshed data
+        run: npm run smoke
+
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/refresh-data
+          title: 'chore: refresh campus data'
+          commit-message: 'chore: refresh campus data'
+          body: |
+            Automated weekly pull of the upstream sources.
+
+            - OpenStreetMap (`data/raw/`)
+            - VIT faculty listings (`data/live/faculty.json`)
+            - MessIT (`data/live/mess.json`)
+
+            Counts passed the sanity floor. Skim the diff for anything odd.
+          add-paths: data/
+          delete-branch: true

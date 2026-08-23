@@ -1,0 +1,33 @@
+# Cloudflare Pages headers.
+
+# Hashed asset filenames — safe to cache forever.
+#
+# Deliberately no Content-Type override here. A `_headers` rule applies to
+# whatever is served at the path, including an error or SPA-fallback body, so
+# forcing `text/javascript` made a fallback page of HTML *claim* to be a script.
+# The browser then parsed markup as code and died on "Unexpected token '<'"
+# instead of refusing it cleanly under nosniff. Cloudflare types real files
+# correctly on its own; the override only ever mislabelled the failures.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Data is regenerated on every build but keeps a stable name, so revalidate.
+/data/*
+  Cache-Control: public, max-age=600, must-revalidate
+
+# HTML must never be cached. Asset filenames are content-hashed, so a stale
+# index.html points at hashes that no longer exist — and Cloudflare answers a
+# missing asset with the SPA fallback, so the browser gets HTML where it wanted
+# JavaScript and dies on "Unexpected token '<'". Revalidating the entry points
+# keeps markup and assets from ever drifting apart.
+/
+  Cache-Control: no-cache, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, must-revalidate
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=()

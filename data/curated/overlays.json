@@ -1,0 +1,5 @@
+{
+  "_readme": "Named path overlays from a real survey (for example the official 'way toward girls hostel' / 'way toward boys hostel' colour-coded routes). Coordinates must come from OSM or a survey — never traced off the campus-map scan. kind is `lh` or `mh`.",
+  "_source": "survey",
+  "items": []
+}

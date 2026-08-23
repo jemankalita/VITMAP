@@ -1,0 +1,184 @@
+{
+  "_source": "https://www.google.com/maps/d/viewer?mid=1MqfJ8nGclE3KUacxTGu7yDAiTsGWP98",
+  "_title": "PRP Map - VIT Vellore",
+  "_note": "Block outlines and per-floor classroom ranges from the public student-made PRP annotated map. Stored as curated overlay — not OSM, not to be pushed upstream. Google tiles are not used; only the author's placemarks.",
+  "blocks": [
+    {
+      "id": "prp-e",
+      "name": "PRP Block E",
+      "letter": "E",
+      "color": "#E65100",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G29–41" },
+        { "level": "1", "label": "1st floor", "rooms": "132–145" },
+        { "level": "2", "label": "2nd floor", "rooms": "230–240" },
+        { "level": "3", "label": "3rd floor", "rooms": "327–341" },
+        { "level": "4", "label": "4th floor", "rooms": "422–436" },
+        { "level": "5", "label": "5th floor", "rooms": "527–541" },
+        { "level": "6", "label": "6th floor", "rooms": "627–641" },
+        { "level": "7", "label": "7th floor", "rooms": "729–740" }
+      ],
+      "ring": [[79.165605,12.972140],[79.165684,12.971528],[79.165760,12.971488],[79.165951,12.971601],[79.165928,12.971772],[79.166039,12.971851],[79.166017,12.971997],[79.165886,12.972047],[79.165866,12.972181],[79.165744,12.972227],[79.165605,12.972140]]
+    },
+    {
+      "id": "prp-c-w",
+      "name": "PRP Block C (west)",
+      "letter": "C",
+      "color": "#F9A825",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G22–28" },
+        { "level": "1", "label": "1st floor", "rooms": "125–131" },
+        { "level": "2", "label": "2nd floor", "rooms": "222–229" },
+        { "level": "3", "label": "3rd floor", "rooms": "321–326" },
+        { "level": "4", "label": "4th floor", "rooms": "417–421" },
+        { "level": "5", "label": "5th floor", "rooms": "522–526" },
+        { "level": "6", "label": "6th floor", "rooms": "621–626" },
+        { "level": "7", "label": "7th floor", "rooms": "722–728" }
+      ],
+      "ring": [[79.165798,12.971492],[79.165815,12.971356],[79.165952,12.971304],[79.166117,12.971412],[79.166090,12.971559],[79.165968,12.971599],[79.165798,12.971492]]
+    },
+    {
+      "id": "prp-c-sw",
+      "name": "PRP Block C (south-west)",
+      "letter": "C",
+      "color": "#FFD600",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G17–21" },
+        { "level": "1", "label": "1st floor", "rooms": "119–124" },
+        { "level": "2", "label": "2nd floor", "rooms": "219–222" },
+        { "level": "3", "label": "3rd floor", "rooms": "317–321" },
+        { "level": "4", "label": "4th floor", "rooms": "413–416" },
+        { "level": "5", "label": "5th floor", "rooms": "518–521" },
+        { "level": "6", "label": "6th floor", "rooms": "615–620" },
+        { "level": "7", "label": "7th floor", "rooms": "716–721" }
+      ],
+      "ring": [[79.165964,12.971289],[79.165982,12.971135],[79.166105,12.971079],[79.166253,12.971204],[79.166242,12.971353],[79.166128,12.971404],[79.165964,12.971289]]
+    },
+    {
+      "id": "prp-a",
+      "name": "PRP Block A",
+      "letter": "A",
+      "color": "#E65100",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G43–54" },
+        { "level": "1", "label": "1st floor", "rooms": "146–159" },
+        { "level": "2", "label": "2nd floor", "rooms": "241–253" },
+        { "level": "3", "label": "3rd floor", "rooms": "342–357" },
+        { "level": "4", "label": "4th floor", "rooms": "437–453" },
+        { "level": "5", "label": "5th floor", "rooms": "542–556" },
+        { "level": "6", "label": "6th floor", "rooms": "642–657" },
+        { "level": "7", "label": "7th floor", "rooms": "742–754" }
+      ],
+      "ring": [[79.166614,12.972394],[79.166620,12.972376],[79.166625,12.972277],[79.166531,12.972204],[79.166534,12.972049],[79.166676,12.971997],[79.166698,12.971762],[79.166888,12.971670],[79.166998,12.971736],[79.166923,12.972457],[79.166765,12.972528],[79.166614,12.972394]]
+    },
+    {
+      "id": "prp-c-n",
+      "name": "PRP Block C (north)",
+      "letter": "C",
+      "color": "#F9A825",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G01–07" },
+        { "level": "1", "label": "1st floor", "rooms": "101–108" },
+        { "level": "2", "label": "2nd floor", "rooms": "201–207" },
+        { "level": "3", "label": "3rd floor", "rooms": "301–307" },
+        { "level": "4", "label": "4th floor", "rooms": "401–406" },
+        { "level": "5", "label": "5th floor", "rooms": "501–506" },
+        { "level": "6", "label": "6th floor", "rooms": "601–604" },
+        { "level": "7", "label": "7th floor", "rooms": "701–705" }
+      ],
+      "ring": [[79.166716,12.971711],[79.166574,12.971612],[79.166601,12.971499],[79.166765,12.971416],[79.166907,12.971515],[79.166893,12.971633],[79.166716,12.971711]]
+    },
+    {
+      "id": "prp-c-e",
+      "name": "PRP Block C (east)",
+      "letter": "C",
+      "color": "#FFD600",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G08–13" },
+        { "level": "1", "label": "1st floor", "rooms": "108–113" },
+        { "level": "2", "label": "2nd floor", "rooms": "208–212" },
+        { "level": "3", "label": "3rd floor", "rooms": "307–311" },
+        { "level": "4", "label": "4th floor", "rooms": "406–410" },
+        { "level": "5", "label": "5th floor", "rooms": "507–511" },
+        { "level": "6", "label": "6th floor", "rooms": "605–609" },
+        { "level": "7", "label": "7th floor", "rooms": "706–713" }
+      ],
+      "ring": [[79.166760,12.971390],[79.166599,12.971482],[79.166486,12.971390],[79.166507,12.971221],[79.166660,12.971150],[79.166778,12.971241],[79.166760,12.971390]]
+    },
+    {
+      "id": "prp-entry",
+      "name": "PRP Main Entrance",
+      "letter": "X",
+      "color": "#26A69A",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G14–16" },
+        { "level": "1", "label": "1st floor", "rooms": "115–116" },
+        { "level": "2", "label": "2nd floor", "rooms": "213–218" },
+        { "level": "3", "label": "3rd floor", "rooms": "312–316" },
+        { "level": "4", "label": "4th floor", "rooms": "411–413" },
+        { "level": "5", "label": "5th floor", "rooms": "512–517" },
+        { "level": "6", "label": "6th floor", "rooms": "610" },
+        { "level": "7", "label": "7th floor", "rooms": "714–715" }
+      ],
+      "ring": [[79.166253,12.971204],[79.166285,12.971098],[79.166387,12.971064],[79.166521,12.971124],[79.166507,12.971221],[79.166414,12.971281],[79.166312,12.971260],[79.166253,12.971204]]
+    },
+    {
+      "id": "prp-f",
+      "name": "PRP Block F",
+      "letter": "F",
+      "color": "#7CB342",
+      "floors": [
+        { "level": "1", "label": "1st floor", "rooms": "117" },
+        { "level": "2", "label": "2nd floor", "rooms": "216–217" },
+        { "level": "3", "label": "3rd floor", "rooms": "315" },
+        { "level": "4", "label": "4th floor", "rooms": "412" },
+        { "level": "5", "label": "5th floor", "rooms": "513–516" },
+        { "level": "6", "label": "6th floor", "rooms": "611–614" },
+        { "level": "7", "label": "7th floor", "rooms": null }
+      ],
+      "ring": [[79.166231,12.971035],[79.166253,12.970852],[79.166424,12.970776],[79.166591,12.970899],[79.166566,12.971077],[79.166231,12.971035]]
+    },
+    {
+      "id": "prp-d",
+      "name": "PRP Block D",
+      "letter": "D",
+      "color": "#0F9D58",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": null },
+        { "level": "1", "label": "1st floor", "rooms": "172–176" },
+        { "level": "2", "label": "2nd floor", "rooms": "267–275" },
+        { "level": "3", "label": "3rd floor", "rooms": "371–379" },
+        { "level": "4", "label": "4th floor", "rooms": "464–472" },
+        { "level": "5", "label": "5th floor", "rooms": "568–576" },
+        { "level": "6", "label": "6th floor", "rooms": "670–678" },
+        { "level": "7", "label": "7th floor", "rooms": "766–773" }
+      ],
+      "ring": [[79.165960,12.971103],[79.165805,12.970988],[79.166027,12.970721],[79.166164,12.970810],[79.165960,12.971103]]
+    },
+    {
+      "id": "prp-b",
+      "name": "PRP Block B",
+      "letter": "B",
+      "color": "#0F9D58",
+      "floors": [
+        { "level": "G", "label": "Ground", "rooms": "G60–67" },
+        { "level": "1", "label": "1st floor", "rooms": "163–170" },
+        { "level": "2", "label": "2nd floor", "rooms": "258–266" },
+        { "level": "3", "label": "3rd floor", "rooms": "363–370" },
+        { "level": "4", "label": "4th floor", "rooms": "455–463" },
+        { "level": "5", "label": "5th floor", "rooms": "561–567" },
+        { "level": "6", "label": "6th floor", "rooms": "662–669" },
+        { "level": "7", "label": "7th floor", "rooms": "759–765" }
+      ],
+      "ring": [[79.166843,12.970828],[79.167001,12.971160],[79.166824,12.971231],[79.166682,12.970891],[79.166843,12.970828]]
+    },
+    {
+      "id": "prp-annex",
+      "name": "PRP Annex",
+      "letter": "N",
+      "color": "#3949AB",
+      "floors": [],
+      "ring": [[79.167211,12.971706],[79.167120,12.970815],[79.167297,12.970807],[79.167350,12.971680],[79.167211,12.971706]]
+    }
+  ]
+}
