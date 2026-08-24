@@ -24,6 +24,7 @@
     "wait-on": "^9.1.0"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "maplibre-gl": "^4.7.1"
   }
 }

@@ -7,6 +7,10 @@ import { SearchIndex, type Hit } from './search/engine'
 import { initPalette, openPalette } from './ui/palette'
 import { initPanel, showAbout, showMess, showMessIndex, showPerson, showPoi, hidePanel } from './ui/panel'
 import { toggle as toggleTheme, onThemeChange, resolved } from './ui/theme'
+import { inject } from '@vercel/analytics'
+
+// Initialize Vercel Web Analytics
+inject()
 
 const boot = document.getElementById('boot')!
 const base = import.meta.env.BASE_URL
