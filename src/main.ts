@@ -10,7 +10,9 @@ import { toggle as toggleTheme, onThemeChange, resolved } from './ui/theme'
 import { inject } from '@vercel/analytics'
 
 // Initialize Vercel Web Analytics
-inject()
+inject({
+  mode: import.meta.env.DEV ? 'development' : 'production',
+})
 
 const boot = document.getElementById('boot')!
 const base = import.meta.env.BASE_URL
@@ -433,7 +435,7 @@ async function start() {
     if (pulseCat && !pulseRaf) pulseRaf = requestAnimationFrame(tickPulse)
   })
 
-  /* ── report a missing place ───────────────────────────────────────────── */
+  /* ── report a missing place ─────���─────────────────────────────────────── */
 
   // Half the campus is in OSM as unnamed footprints — the geometry is there,
   // nobody has typed the name on it. Someone standing next to MH K can fix
