@@ -1,13 +1,14 @@
 {
   "_source": "https://www.google.com/maps/d/viewer?mid=1MqfJ8nGclE3KUacxTGu7yDAiTsGWP98",
   "_title": "PRP Map - VIT Vellore",
+  "_colors": "Block colours follow the Pearl Research Park site sign on Jimmy Carter Road (A blue, B orange, C yellow, D indigo, E green).",
   "_note": "Block outlines and per-floor classroom ranges from the public student-made PRP annotated map. Stored as curated overlay — not OSM, not to be pushed upstream. Google tiles are not used; only the author's placemarks.",
   "blocks": [
     {
       "id": "prp-e",
       "name": "PRP Block E",
       "letter": "E",
-      "color": "#E65100",
+      "color": "#7DBE69",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G29–41" },
         { "level": "1", "label": "1st floor", "rooms": "132–145" },
@@ -24,7 +25,7 @@
       "id": "prp-c-w",
       "name": "PRP Block C (west)",
       "letter": "C",
-      "color": "#F9A825",
+      "color": "#C9D52A",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G22–28" },
         { "level": "1", "label": "1st floor", "rooms": "125–131" },
@@ -41,7 +42,7 @@
       "id": "prp-c-sw",
       "name": "PRP Block C (south-west)",
       "letter": "C",
-      "color": "#FFD600",
+      "color": "#C9D52A",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G17–21" },
         { "level": "1", "label": "1st floor", "rooms": "119–124" },
@@ -58,7 +59,7 @@
       "id": "prp-a",
       "name": "PRP Block A",
       "letter": "A",
-      "color": "#E65100",
+      "color": "#2F9DE4",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G43–54" },
         { "level": "1", "label": "1st floor", "rooms": "146–159" },
@@ -75,7 +76,7 @@
       "id": "prp-c-n",
       "name": "PRP Block C (north)",
       "letter": "C",
-      "color": "#F9A825",
+      "color": "#C9D52A",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G01–07" },
         { "level": "1", "label": "1st floor", "rooms": "101–108" },
@@ -92,7 +93,7 @@
       "id": "prp-c-e",
       "name": "PRP Block C (east)",
       "letter": "C",
-      "color": "#FFD600",
+      "color": "#C9D52A",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G08–13" },
         { "level": "1", "label": "1st floor", "rooms": "108–113" },
@@ -109,7 +110,7 @@
       "id": "prp-entry",
       "name": "PRP Main Entrance",
       "letter": "X",
-      "color": "#26A69A",
+      "color": "#3F63C6",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G14–16" },
         { "level": "1", "label": "1st floor", "rooms": "115–116" },
@@ -126,7 +127,7 @@
       "id": "prp-f",
       "name": "PRP Block F",
       "letter": "F",
-      "color": "#7CB342",
+      "color": "#C9D52A",
       "floors": [
         { "level": "1", "label": "1st floor", "rooms": "117" },
         { "level": "2", "label": "2nd floor", "rooms": "216–217" },
@@ -142,7 +143,7 @@
       "id": "prp-d",
       "name": "PRP Block D",
       "letter": "D",
-      "color": "#0F9D58",
+      "color": "#5A62D6",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": null },
         { "level": "1", "label": "1st floor", "rooms": "172–176" },
@@ -159,7 +160,7 @@
       "id": "prp-b",
       "name": "PRP Block B",
       "letter": "B",
-      "color": "#0F9D58",
+      "color": "#E9672F",
       "floors": [
         { "level": "G", "label": "Ground", "rooms": "G60–67" },
         { "level": "1", "label": "1st floor", "rooms": "163–170" },
@@ -176,7 +177,7 @@
       "id": "prp-annex",
       "name": "PRP Annex",
       "letter": "N",
-      "color": "#3949AB",
+      "color": "#9E988C",
       "floors": [],
       "ring": [[79.167211,12.971706],[79.167120,12.970815],[79.167297,12.970807],[79.167350,12.971680],[79.167211,12.971706]]
     }

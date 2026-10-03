@@ -21,6 +21,9 @@ export interface Doc {
   person?: Faculty
   menus?: MessMenu[]
   hours?: string
+  /** PRP room searches: the floor level and room that matched, for the panel to point at. */
+  floor?: string
+  room?: string
   /** Nudges ties: higher wins. */
   boost: number
   run?: () => void
@@ -281,6 +284,8 @@ export class SearchIndex {
           ...doc,
           title: `${doc.title} · ${floor.label}`,
           sub: floor.rooms ?? '',
+          floor: floor.level,
+          room: roomTok.toUpperCase(),
           score: 920,
           marks: [],
         })
@@ -388,7 +393,7 @@ function roomInSpec(spec: string, token: string): boolean {
 const ACTIONS = [
   { id: 'prp', title: 'PRP maze', sub: 'Classroom map of Perl Research Park', words: 'prp maze classroom indoor blocks' },
   { id: 'satellite', title: 'Toggle satellite', sub: 'Aerial photo of campus', words: 'satellite aerial photo imagery google' },
-  { id: 'locate', title: 'Find my location', sub: 'Centre the map on you', words: 'gps where am i me here' },
+  { id: 'locate', title: 'Find my location', sub: 'Follow you live on the map', words: 'gps where am i me here live follow' },
   { id: 'layers-all', title: 'Show every layer', sub: 'Turn all categories on', words: 'all layers everything show' },
   { id: 'layers-none', title: 'Hide every layer', sub: 'Clear the map', words: 'none clear hide reset layers' },
   { id: 'clear-route', title: 'Clear route', sub: 'Remove the drawn path', words: 'route clear cancel remove path' },

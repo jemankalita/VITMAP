@@ -488,7 +488,7 @@ async function main() {
     curatedCount++
     prpF.push({
       type: 'Feature',
-      properties: { id: b.id, name: b.name, letter: b.letter, color: b.color },
+      properties: { id: b.id, name: b.name, letter: b.letter, color: b.color, floors: (b.floors ?? []).length },
       geometry: { type: 'Polygon', coordinates: [closed] },
     })
   }
@@ -583,15 +583,41 @@ async function main() {
   const touchesCampus = (el) => el.geometry?.some((p) => inCampus(p.lon, p.lat))
 
   const buildingF = []
+  const buildingProps = (t) => ({
+    name: t.name || '',
+    cat: (t.name ? classify(t) : null) || '',
+    levels: +(t['building:levels'] || 0) || 0,
+    construction: t.building === 'construction',
+  })
+  // SJT, TT, SMV, GDN, Main Building and every hostel block are multipolygon
+  // relations (courtyard buildings), not closed ways. Without these the map
+  // was missing most of the campus it exists to show.
+  const relMembers = new Set()
   for (const el of buildings.elements) {
+    if (el.type !== 'relation' || !el.members) continue
+    for (const m of el.members) if (m.type === 'way') relMembers.add(m.ref)
+    const outers = stitchOuterRings(el.members)
+    if (!outers.length || !outers.some((r) => r.some(([lon, lat]) => inCampus(lon, lat)))) continue
+    const inners = stitchOuterRings(el.members
+      .filter((m) => m.role === 'inner')
+      .map((m) => ({ ...m, role: 'outer' })))
+    const round = (r) => r.map(([lon, lat]) => [+lon.toFixed(6), +lat.toFixed(6)])
+    const polys = outers.map((o) => [
+      round(o),
+      ...inners.filter((h) => pointInRing(h[0][0], h[0][1], o)).map(round),
+    ])
+    buildingF.push({
+      type: 'Feature',
+      properties: buildingProps(el.tags || {}),
+      geometry: polys.length === 1
+        ? { type: 'Polygon', coordinates: polys[0] }
+        : { type: 'MultiPolygon', coordinates: polys },
+    })
+  }
+  for (const el of buildings.elements) {
+    if (el.type !== 'way' || relMembers.has(el.id)) continue
     if (!el.geometry || el.geometry.length < 3 || !touchesCampus(el)) continue
-    const t = el.tags || {}
-    const cat = t.name ? classify(t) : null
-    buildingF.push(polyOf(el, {
-      name: t.name || '',
-      cat: cat || '',
-      levels: +(t['building:levels'] || 0) || 0,
-    }))
+    buildingF.push(polyOf(el, buildingProps(el.tags || {})))
   }
 
   const PATH_KINDS = new Set(['footway', 'path', 'pedestrian', 'steps', 'cycleway', 'track', 'corridor'])

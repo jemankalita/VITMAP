@@ -213,6 +213,77 @@ for (const p of crossCat) {
 note(`${namePairs.length} same-name pairs within 25m`,
   `${crossCat.length} across categories, ${namePairs.length - crossCat.length} plausible repeats`)
 
+/* ── live location ───────────────────────────────────────────────────────── */
+
+console.log('\nlocation')
+const LOC_TMP = join(ROOT, 'node_modules/.cache/smoke-location.mjs')
+await build({
+  entryPoints: [join(ROOT, 'src/location/watch.ts')],
+  bundle: true, format: 'esm', platform: 'node', outfile: LOC_TMP, logLevel: 'silent',
+})
+const loc = await import(pathToFileURL(LOC_TMP).href + `?t=${Date.now()}`)
+
+ok(loc.youCollection(null).features.length === 0, 'no fix → empty you source')
+{
+  const col = loc.youCollection({ lat: 12.972, lon: 79.158, accuracy: 18, heading: 90, ts: 1 })
+  ok(col.features.length === 1, 'fix → one you feature')
+  ok(col.features[0].geometry.coordinates[0] === 79.158
+    && col.features[0].geometry.coordinates[1] === 12.972, 'you feature uses lon,lat order')
+  ok(col.features[0].properties.accuracy === 18, 'accuracy rides on the feature')
+}
+
+ok(Math.abs(loc.metresBetween({ lat: 12.97, lon: 79.15 }, { lat: 12.97, lon: 79.15 }) ) < 0.01,
+  'identical points are 0 m apart')
+ok(loc.metresBetween({ lat: 12.97, lon: 79.15 }, { lat: 12.971, lon: 79.15 }) > 100, '1e-3° latitude is >100 m')
+
+ok(loc.insideBounds(12.97, 79.16, [[79.15, 12.96], [79.17, 12.98]]), 'point inside campus bounds')
+ok(!loc.insideBounds(13.1, 79.16, [[79.15, 12.96], [79.17, 12.98]]), 'point north of campus is outside')
+
+const padded = loc.padBounds([[79.15, 12.96], [79.17, 12.98]], 0.01)
+ok(padded[0][0] < 79.15 && padded[1][1] > 12.98, 'padBounds expands both corners')
+
+const rClose = loc.accuracyRadiusPx(20, 12.97, 17)
+const rFar = loc.accuracyRadiusPx(20, 12.97, 14)
+ok(rClose > rFar, `accuracy circle grows with zoom (${rFar.toFixed(1)}px @z14 → ${rClose.toFixed(1)}px @z17)`)
+ok(loc.accuracyRadiusPx(50_000, 12.97, 16) <= 140, 'huge uncertainty is clamped')
+ok(loc.accuracyRadiusPx(1, 12.97, 13) >= 12, 'tiny uncertainty still has a visible halo')
+
+ok(!loc.shouldNudgeCamera(false, null, { lat: 12.97, lon: 79.16, accuracy: 8, heading: null, ts: 1 }),
+  'camera stays put when not following')
+ok(loc.shouldNudgeCamera(true, null, { lat: 12.97, lon: 79.16, accuracy: 8, heading: null, ts: 1 }),
+  'first follow fix always recentres')
+ok(!loc.shouldNudgeCamera(true,
+  { lat: 12.97, lon: 79.16, accuracy: 8, heading: null, ts: 1 },
+  { lat: 12.970001, lon: 79.16, accuracy: 8, heading: null, ts: 2 }),
+  'sub-metre jitter does not recentre')
+
+{
+  const fixes = []
+  const errors = []
+  let watchId = 0
+  const fake = {
+    watchPosition(ok, err) {
+      watchId = 7
+      ok({
+        coords: { latitude: 12.971, longitude: 79.159, accuracy: 12, heading: 180 },
+        timestamp: 99,
+      })
+      if (typeof err === 'function') { /* unused */ }
+      return watchId
+    },
+    clearWatch(id) { watchId = id === 7 ? 0 : watchId },
+  }
+  const handle = loc.startWatch(fake, {
+    onFix: (f) => fixes.push(f),
+    onError: (e) => errors.push(e),
+  })
+  ok(fixes.length === 1 && fixes[0].lat === 12.971 && fixes[0].heading === 180, 'watchPosition delivers a Fix')
+  handle.stop()
+  handle.stop()
+  ok(watchId === 0, 'stop() clears the watch once')
+  ok(errors.length === 0, 'happy path reports no error')
+}
+
 /* ── map style ───────────────────────────────────────────────────────────── */
 
 console.log('\nmap style')
@@ -226,9 +297,9 @@ const { buildStyle } = await import(pathToFileURL(STYLE_TMP).href + `?t=${Date.n
 const { validateStyleMin } = await import('@maplibre/maplibre-gl-style-spec')
 
 const geo = JSON.parse(await readFile(join(ROOT, 'public/data/geo.json'), 'utf8'))
-for (const theme of ['dark', 'light']) {
-  const style = buildStyle(geo, campus, theme)
-  const sat = buildStyle(geo, campus, theme, '/', true)
+for (const theme of ['dark']) {
+  const style = buildStyle(geo, campus)
+  const sat = buildStyle(geo, campus, '/', true)
   const satErr = validateStyleMin(sat)
   ok(satErr.length === 0, `${theme} satellite style validates`, satErr.map((e) => e.message).join(' | '))
   const errors = validateStyleMin(style)
@@ -237,9 +308,63 @@ for (const theme of ['dark', 'light']) {
 
   const missing = style.layers.filter((l) => l.source && !style.sources[l.source]).map((l) => l.id)
   ok(missing.length === 0, `${theme}: every layer has a source`, missing.join(', '))
+  ok(style.sources.you && style.layers.some((l) => l.id === 'you-dot')
+    && style.layers.some((l) => l.id === 'you-acc'), `${theme}: live location layers present`)
 
   const bad = JSON.stringify(style).match(/"(?:[a-z-]*color)":\s*(null|"undefined")/g)
   ok(!bad, `${theme}: no undefined colours`, bad?.join(', ') ?? '')
+}
+
+/* ── PRP 3D model ────────────────────────────────────────────────────────── */
+
+console.log('\nprp model')
+{
+  const flat = buildStyle(geo, campus)
+  const tilted = buildStyle(geo, campus, '/', false, true)
+  const b3d = (s) => s.layers.find((l) => l.id === 'campus3d')?.layout?.visibility
+  ok(b3d(flat) === 'none' && b3d(tilted) === 'visible', '3D buildings only show in the 3D view')
+  const errs = validateStyleMin(tilted)
+  ok(errs.length === 0, '3D style validates', errs.map((e) => e.message).join(' | '))
+
+  const model = flat.sources.prp3d.data.features
+  const blockIds = geo.prp.features.map((f) => f.properties.id)
+  const modelled = new Set(model.map((f) => f.properties.id))
+  const unmodelled = blockIds.filter((id) => !modelled.has(id))
+  ok(unmodelled.length === 0, `every PRP block is modelled (${blockIds.length} blocks, ${model.length} parts)`, unmodelled.join(', '))
+  const badSpan = model.filter((f) => f.properties.part === 'solid' && !(f.properties.top > f.properties.base))
+  ok(badSpan.length === 0, 'every solid part has top above base', `${badSpan.length} bad`)
+  const tallest = (id) => Math.max(...model.filter((f) => f.properties.id === id).map((f) => f.properties.top))
+  ok(tallest('prp-entry') > tallest('prp-a'), 'clock tower rises above the blocks',
+     `${tallest('prp-entry')} vs ${tallest('prp-a')}`)
+  const roofA = model.some((f) => f.properties.id === 'prp-a' && f.properties.color === '#2f9de4')
+  ok(roofA, 'Block A carries the sign\'s blue roof')
+  ok(model.some((f) => f.properties.id === 'prp-courtyard') && model.some((f) => f.properties.id === 'prp-shed'),
+     'courtyard and road shed are present')
+
+  const city = tilted.sources.campus3d.data.features
+  const tall = city.filter((f) => f.properties.top > 30).length
+  ok(city.length > 500 && tall > 0, `campus model has buildings, trees and walls (${city.length} parts, ${tall} above 30 m)`)
+  const named = new Set(geo.buildings.features.map((f) => f.properties.name))
+  const lost = ['Silver Jubilee Tower', 'Technology Tower', 'Main Building'].filter((n) => !named.has(n))
+  ok(lost.length === 0, 'courtyard buildings (OSM multipolygon relations) have footprints', lost.join(', '))
+}
+
+/* ── nearest amenities ───────────────────────────────────────────────────── */
+
+console.log('\nnearest')
+{
+  const NEAR_TMP = join(ROOT, 'node_modules/.cache/smoke-nearest.mjs')
+  await build({
+    entryPoints: [join(ROOT, 'src/search/nearest.ts')],
+    bundle: true, format: 'esm', platform: 'node', outfile: NEAR_TMP, logLevel: 'silent',
+  })
+  const { nearestAmenities } = await import(pathToFileURL(NEAR_TMP).href + `?t=${Date.now()}`)
+  const sjt = campus.pois.find((p) => /Silver Jubilee|^SJT$/i.test(p.name)) ?? campus.pois[0]
+  const near = nearestAmenities(campus, sjt)
+  ok(near.length > 0, `something useful near ${sjt.name}`, near.map((n) => `${n.poi.name} ${Math.round(n.metres)}m`).join(', '))
+  ok(near.every((n, i) => i === 0 || near[i - 1].metres <= n.metres), 'nearest first')
+  ok(new Set(near.map((n) => n.poi.cat)).size === near.length, 'one result per amenity kind')
+  ok(!near.some((n) => n.poi.id === sjt.id), 'never lists the place itself')
 }
 
 /* ── DOM contract ────────────────────────────────────────────────────────── */
@@ -257,7 +382,7 @@ const walk = async (dir) => {
   return out
 }
 const allSrc = await walk(srcDir)
-const RUNTIME_IDS = new Set(['route-badge', 'layers-scrim', 'pick-bar'])
+const RUNTIME_IDS = new Set(['route-badge', 'layers-scrim', 'pick-bar', 'gps-note'])
 
 const html = await readFile(join(ROOT, 'index.html'), 'utf8')
 const present = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]))
@@ -280,6 +405,7 @@ ok(orphans.length === 0, `index.html: all ${wanted.size} referenced ids exist`,
 await rm(TMP, { force: true })
 await rm(ROUTER_TMP, { force: true })
 await rm(STYLE_TMP, { force: true })
+await rm(LOC_TMP, { force: true })
 
 console.log(failures ? `\n${failures} failure(s)\n` : '\nall good\n')
 process.exit(failures ? 1 : 0)

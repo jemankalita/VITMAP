@@ -20,6 +20,10 @@ function noCrossorigin(): Plugin {
 
 export default defineConfig({
   plugins: [noCrossorigin()],
+  // Vercel sets VERCEL=1 in its build environment. Analytics posts to
+  // /_vercel/insights, which only exists there — anywhere else (local, CI,
+  // Cloudflare Pages) it 404s and logs a console error.
+  define: { __ON_VERCEL__: JSON.stringify(process.env.VERCEL === '1') },
   server: { port: 5180, open: false },
   build: {
     target: 'es2022',

@@ -1,5 +1,7 @@
-import type { StyleSpecification } from 'maplibre-gl'
+import type { ExpressionSpecification, LayerSpecification, StyleSpecification } from 'maplibre-gl'
 import type { Campus } from '../types'
+import { buildCampusModel } from './campus3d'
+import { buildPrpModel } from './prp3d'
 
 /**
  * The whole basemap is drawn from our own GeoJSON — no tile server, no API key
@@ -9,63 +11,30 @@ import type { Campus } from '../types'
  * Label glyphs are served from public/font too. Pointing them at a demo CDN
  * cost us every label on the map when that host 404'd the fontstack.
  */
+/** The site is dark-only: one palette, no theme switch. */
 const PALETTE = {
-  dark: {
-    bg: '#06101c',
-    campus: '#0a1c33',
-    green: '#0d2a22',
-    water: '#124a6e',
-    building: '#143047',
-    buildingEdge: '#1e4a68',
-    named: '#1a3d5c',
-    road: '#2c5a82',
-    roadCase: '#0b2238',
-    path: '#2a5070',
-    steps: '#3d6a8c',
-    wall: '#1a3550',
-    boundary: '#2a5a80',
-    label: '#d5e6f7',
-    labelHalo: '#06101c',
-    dotStroke: '#06101c',
-    routeHalo: '#06101c',
-    route: '#f0c14b',
-    focus: '#4da3ff',
-    glow: '#ffcf6b',
-    glowCore: '#fff3cf',
-    mask: '#000000',
-  },
-  // Deliberately not a white map. The campus is a warm paper tone, buildings a
-  // half-step darker, and roads the only near-white — so the built area reads
-  // without any large field of pure white to stare into.
-  light: {
-    // Built as a lightness ladder so the map reads as figure and ground:
-    // roads are the lightest thing, campus ground sits a step below, buildings
-    // a clear step below that, and everything outside the wall darker still.
-    // The previous palette put all three within ~5% of each other and the
-    // whole map dissolved into one pale wash.
-    bg: '#c5d4e4',
-    campus: '#eef3f8',
-    green: '#cfe8d4',
-    water: '#8ec4e6',
-    building: '#d4e0ec',
-    buildingEdge: '#9bb0c4',
-    named: '#c5d6e8',
-    road: '#ffffff',
-    roadCase: '#9aafc2',
-    path: '#ffffff',
-    steps: '#7e93a8',
-    wall: '#b3c4d4',
-    boundary: '#6f8aa3',
-    label: '#12324d',
-    labelHalo: '#ffffff',
-    dotStroke: '#ffffff',
-    routeHalo: '#ffffff',
-    route: '#0b5cab',
-    focus: '#0b5cab',
-    glow: '#d9930d',
-    glowCore: '#7a5608',
-    mask: '#000000',
-  },
+  bg: '#14110e',
+  campus: '#1c1914',
+  green: '#1a2620',
+  water: '#1a3a4a',
+  building: '#2a241e',
+  buildingEdge: '#3d342b',
+  named: '#322b24',
+  road: '#5a4d40',
+  roadCase: '#14110e',
+  path: '#4a4036',
+  steps: '#6a5a48',
+  wall: '#3a322a',
+  boundary: '#5a4d40',
+  label: '#f3ece3',
+  labelHalo: '#14110e',
+  dotStroke: '#14110e',
+  routeHalo: '#14110e',
+  route: '#e25d33',
+  focus: '#3d7aed',
+  glow: '#e8b86d',
+  glowCore: '#fff1d0',
+  mask: '#000000',
 } as const
 
 /** Must match a directory under public/font. */
@@ -74,19 +43,24 @@ export const FONT = 'Noto Sans Regular'
 export function buildStyle(
   geo: Record<string, GeoJSON.FeatureCollection>,
   campus: Campus,
-  theme: 'light' | 'dark' = 'dark',
   base = '/',
   satellite = false,
+  view3d = false,
 ): StyleSpecification {
   const C = {
-    ...PALETTE[theme],
+    ...PALETTE,
     ...(satellite ? { label: '#ffffff', labelHalo: '#000000' } as const : {}),
   }
 
   const src = (data: GeoJSON.FeatureCollection) => ({ type: 'geojson' as const, data })
+  const prpGeo = geo.prp ?? { type: 'FeatureCollection', features: [] }
+  const prpFloors = new Map(prpGeo.features.map((f) => [String(f.properties?.id), Number(f.properties?.floors) || 0]))
 
   return {
     version: 8,
+    // Warm key light from the north-west, low enough that walls facing it and
+    // walls facing away separate into clear light and shade.
+    light: { anchor: 'map', position: [1.4, 300, 50], color: '#ffffff', intensity: 0.32 },
     glyphs: `${base}font/{fontstack}/{range}.pbf`,
     sources: {
       ...(satellite ? {
@@ -109,7 +83,9 @@ export function buildStyle(
       paths: src(geo.paths!),
       buildings: src(geo.buildings!),
       overlays: src(geo.overlays ?? { type: 'FeatureCollection', features: [] }),
-      prp: src(geo.prp ?? { type: 'FeatureCollection', features: [] }),
+      prp: src(prpGeo),
+      prp3d: src(buildPrpModel(prpGeo, prpFloors)),
+      campus3d: src(buildCampusModel(geo, campus.pois)),
       pois: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       route: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       you: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
@@ -142,7 +118,7 @@ export function buildStyle(
       {
         id: 'rail', type: 'line', source: 'rail',
         paint: {
-          'line-color': theme === 'dark' ? '#3a4452' : '#8b8490',
+          'line-color': '#3a4452',
           'line-width': ['interpolate', ['linear'], ['zoom'], 13, 1.2, 17, 3],
           'line-dasharray': [4, 2],
         },
@@ -209,19 +185,33 @@ export function buildStyle(
       {
         id: 'building-cat', type: 'fill', source: 'buildings',
         filter: ['all', ['!=', ['get', 'cat'], ''], ['in', ['get', 'cat'], ['literal', []]]],
-        paint: { 'fill-color': catColour(campus), 'fill-opacity': satellite ? 0 : theme === 'dark' ? 0.16 : 0.28 },
+        paint: { 'fill-color': catColour(campus), 'fill-opacity': satellite ? 0 : 0.16 },
       },
 
       {
         id: 'prp-fill', type: 'fill', source: 'prp',
         paint: {
           'fill-color': ['get', 'color'],
-          'fill-opacity': satellite ? 0.55 : 0.38,
+          // Fades out as the 3D model rises over the same footprints.
+          'fill-opacity': ['interpolate', ['linear'], ['zoom'], 15.2, satellite ? 0.55 : 0.38, 15.8, 0],
         },
       },
       {
         id: 'prp-line', type: 'line', source: 'prp',
-        paint: { 'line-color': ['get', 'color'], 'line-width': 2, 'line-opacity': 0.95 },
+        paint: {
+          'line-color': ['get', 'color'],
+          'line-width': 2,
+          'line-opacity': ['interpolate', ['linear'], ['zoom'], 15.2, 0.95, 15.8, 0],
+        },
+      },
+      {
+        id: 'prp3d-ground', type: 'fill', source: 'prp3d',
+        minzoom: 15.5,
+        filter: ['==', ['get', 'part'], 'ground'],
+        paint: {
+          'fill-color': ['get', 'color'],
+          'fill-opacity': ['interpolate', ['linear'], ['zoom'], 15.5, 0, 16.2, satellite ? 0.75 : 0.9],
+        },
       },
       {
         id: 'prp-label', type: 'symbol', source: 'prp',
@@ -243,16 +233,33 @@ export function buildStyle(
 
       {
         id: 'outside', type: 'fill', source: 'mask',
-        paint: { 'fill-color': C.mask, 'fill-opacity': 1, 'fill-antialias': true },
+        paint: { 'fill-color': C.mask, 'fill-opacity': maskOpacity(view3d), 'fill-antialias': true },
       },
       {
         id: 'campus-rim', type: 'line', source: 'boundary',
         paint: {
-          'line-color': theme === 'dark' ? '#4da3ff' : '#0b5cab',
+          'line-color': '#3d7aed',
           'line-width': 1.8,
           'line-opacity': 0.85,
         },
       },
+
+      // 3D models sit above the outside mask: a flat fill drawn after an
+      // extrusion paints straight over it, which cut PRP's annex in half.
+      // A soft contact shadow, cast away from the key light, grounds each block.
+      {
+        id: 'building-shadow', type: 'fill', source: 'buildings',
+        minzoom: 15,
+        layout: { visibility: view3d ? 'visible' : 'none' },
+        paint: {
+          'fill-color': '#000000',
+          'fill-opacity': ['interpolate', ['linear'], ['zoom'], 15, 0, 16, satellite ? 0.4 : 0.32],
+          'fill-translate': ['interpolate', ['exponential', 2], ['zoom'], 15, ['literal', [1, 1.5]], 19, ['literal', [14, 20]]],
+          'fill-translate-anchor': 'map',
+        },
+      },
+      ...extrusion('campus3d', 'campus3d', 15, view3d, 1),
+      ...extrusion('prp3d', 'prp3d', 15.3, true, 1),
 
       {
         id: 'overlay-lh', type: 'line', source: 'overlays',
@@ -289,7 +296,7 @@ export function buildStyle(
           'circle-radius': ['interpolate', ['exponential', 2], ['zoom'], 14, 8, 17, 34, 19.5, 90],
           'circle-color': C.glow,
           'circle-blur': 1,
-          'circle-opacity': theme === 'dark' ? 0.20 : 0.13,
+          'circle-opacity': 0.20,
           'circle-pitch-alignment': 'map',
         },
       },
@@ -300,7 +307,7 @@ export function buildStyle(
           'circle-radius': ['interpolate', ['exponential', 2], ['zoom'], 14, 3, 17, 14, 19.5, 38],
           'circle-color': C.glow,
           'circle-blur': 0.9,
-          'circle-opacity': theme === 'dark' ? 0.32 : 0.18,
+          'circle-opacity': 0.32,
           'circle-pitch-alignment': 'map',
         },
       },
@@ -347,20 +354,29 @@ export function buildStyle(
         },
       },
       {
+        id: 'you-acc', type: 'circle', source: 'you',
+        paint: {
+          'circle-radius': 18,
+          'circle-color': C.focus,
+          'circle-opacity': 0.16,
+          'circle-pitch-alignment': 'map',
+        },
+      },
+      {
         id: 'you-halo', type: 'circle', source: 'you',
         paint: {
-          'circle-radius': 14,
+          'circle-radius': 11,
           'circle-color': C.focus,
-          'circle-opacity': 0.22,
+          'circle-opacity': 0.35,
         },
       },
       {
         id: 'you-dot', type: 'circle', source: 'you',
         paint: {
-          'circle-radius': 7,
+          'circle-radius': 6,
           'circle-color': C.focus,
           'circle-stroke-color': '#ffffff',
-          'circle-stroke-width': 2.2,
+          'circle-stroke-width': 2,
         },
       },
       {
@@ -455,4 +471,29 @@ function catColour(campus: Campus): maplibregl.ExpressionSpecification {
   const pairs: (string | string[])[] = []
   for (const [k, v] of Object.entries(campus.categories)) pairs.push(k, v.color)
   return ['match', ['get', 'cat'], ...pairs, '#8b949e'] as unknown as maplibregl.ExpressionSpecification
+}
+
+/** Outside the campus is blacked out flat; tilted, it is shaded instead so the horizon is not a void. */
+export function maskOpacity(view3d: boolean): number {
+  return view3d ? 0.5 : 1
+}
+
+/**
+ * One fill-extrusion layer over a model source. Parts grow out of the ground
+ * between z15 and z16 so zooming in reads as the campus rising.
+ */
+function extrusion(id: string, source: string, minzoom: number, visible: boolean, opacity: number): LayerSpecification[] {
+  const grow = (prop: string): ExpressionSpecification => ['interpolate', ['linear'], ['zoom'], minzoom, 0, minzoom + 0.7, ['get', prop]]
+  return [{
+    id, type: 'fill-extrusion' as const, source, minzoom,
+    filter: ['==', ['get', 'part'], 'solid'],
+    layout: { visibility: visible ? 'visible' as const : 'none' as const },
+    paint: {
+      'fill-extrusion-color': ['get', 'color'],
+      'fill-extrusion-base': grow('base'),
+      'fill-extrusion-height': grow('top'),
+      'fill-extrusion-opacity': opacity,
+      'fill-extrusion-vertical-gradient': true,
+    },
+  }]
 }

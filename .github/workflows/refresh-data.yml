@@ -22,9 +22,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -37,6 +37,42 @@ jobs:
 
       - name: Refetch faculty + mess
         run: node scripts/fetch-web.mjs
+
+      # A source that shrinks by more than 10% is rolled back to the committed
+      # copy rather than failing the run — one flaky upstream used to block
+      # every other update (new places included) week after week.
+      - name: Roll back any source that shrank
+        run: |
+          node -e '
+            const { execSync } = require("node:child_process")
+            const { readFileSync } = require("node:fs")
+            const files = [
+              ["data/live/faculty.json", (d) => d.items?.length ?? 0],
+              ["data/live/mess.json",    (d) => d.items?.length ?? 0],
+              ["data/raw/pois.json",     (d) => d.elements.length],
+              ["data/raw/buildings.json",(d) => d.elements.length],
+              ["data/raw/highways.json", (d) => d.elements.length],
+              ["data/raw/land.json",     (d) => d.elements.length],
+              ["data/raw/boundary.json", (d) => d.elements.length],
+            ]
+            let kept = 0
+            for (const [path, count] of files) {
+              let before
+              try {
+                before = count(JSON.parse(execSync(`git show HEAD:${path}`,
+                  { encoding: "utf8", maxBuffer: 128 * 1024 * 1024 })))
+              } catch { console.log(`${path}: new file, nothing to compare`); continue }
+              const after = count(JSON.parse(readFileSync(path, "utf8")))
+              const lost = before ? (before - after) / before : 0
+              console.log(`${path}: ${before} -> ${after}`)
+              if (lost > 0.1) {
+                console.log(`::warning file=${path}::lost ${(lost * 100).toFixed(1)}% of its rows, keeping the committed copy`)
+                execSync(`git checkout HEAD -- ${path}`)
+                kept++
+              }
+            }
+            if (kept === files.length) { console.error("FAIL: every source shrank"); process.exit(1) }
+          '
 
       - name: Rebuild derived data
         run: npm run build:data
@@ -51,42 +87,10 @@ jobs:
             console.log(`ok: ${c.pois.length} pois, ${c.faculty?.items.length ?? 0} faculty, ${c.mess?.items.length ?? 0} menus`);
           '
 
-      - name: Guard against a source shrinking
-        run: |
-          node -e '
-            const { execSync } = require("node:child_process")
-            const { readFileSync } = require("node:fs")
-            const files = [
-              ["data/live/faculty.json", (d) => d.items?.length ?? 0],
-              ["data/live/mess.json",    (d) => d.items?.length ?? 0],
-              ["data/raw/pois.json",     (d) => d.elements.length],
-              ["data/raw/buildings.json",(d) => d.elements.length],
-              ["data/raw/highways.json", (d) => d.elements.length],
-              ["data/raw/land.json",     (d) => d.elements.length],
-              ["data/raw/boundary.json", (d) => d.elements.length],
-            ]
-            let bad = false
-            for (const [path, count] of files) {
-              let before
-              try {
-                before = count(JSON.parse(execSync(`git show HEAD:${path}`,
-                  { encoding: "utf8", maxBuffer: 128 * 1024 * 1024 })))
-              } catch { console.log(`${path}: new file, nothing to compare`); continue }
-              const after = count(JSON.parse(readFileSync(path, "utf8")))
-              const lost = before ? (before - after) / before : 0
-              console.log(`${path}: ${before} -> ${after}`)
-              if (lost > 0.1) {
-                console.error(`FAIL: ${path} lost ${(lost * 100).toFixed(1)}% of its rows`)
-                bad = true
-              }
-            }
-            if (bad) process.exit(1)
-          '
-
       - name: Smoke test the refreshed data
         run: npm run smoke
 
-      - uses: peter-evans/create-pull-request@v6
+      - uses: peter-evans/create-pull-request@v7
         with:
           branch: chore/refresh-data
           title: 'chore: refresh campus data'

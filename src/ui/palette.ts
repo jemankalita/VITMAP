@@ -1,6 +1,7 @@
 import type { Hit, SearchIndex, Kind } from '../search/engine'
 import { openNow } from '../search/hours'
 import type { Campus } from '../types'
+import { getRecent, getStarred } from './recents'
 
 const root = document.getElementById('palette') as HTMLElement
 const input = document.getElementById('palette-input') as HTMLInputElement
@@ -127,7 +128,7 @@ function render(raw: string) {
   timing.textContent = q ? `${ms < 1 ? ms.toFixed(2) : ms.toFixed(1)}ms` : ''
   count.textContent = q ? `${hits.length}` : `${host.index.docs.length} indexed`
 
-  if (!q) { list.innerHTML = welcome(); return }
+  if (!q) { renderHome(); return }
   if (!hits.length) { list.innerHTML = empty(q); return }
 
   const seen = new Set<Kind>()
@@ -197,6 +198,23 @@ function paintCursor() {
   const rows = list.querySelectorAll<HTMLElement>('.row')
   rows.forEach((r) => r.setAttribute('aria-selected', String(+r.dataset.i! === cursor)))
   rows[cursor]?.scrollIntoView({ block: 'nearest' })
+}
+
+/** Empty query: your starred places, then recently opened ones, then examples. */
+function renderHome() {
+  const placeHit = (id: string): Hit | undefined => {
+    const d = host.index.docs.find((x) => x.kind === 'place' && x.id === id)
+    return d ? { ...d, score: 0, marks: [] } : undefined
+  }
+  const starredIds = getStarred()
+  const starred = starredIds.map(placeHit).filter((h): h is Hit => !!h)
+  const recent = getRecent().filter((id) => !starredIds.includes(id)).map(placeHit).filter((h): h is Hit => !!h)
+  hits = [...starred, ...recent]
+  const section = (label: string, from: number, group: Hit[]) => group.length
+    ? `<div class="grp">${label}</div>${group.map((h, i) => row(h, from + i)).join('')}`
+    : ''
+  list.innerHTML = section('Starred', 0, starred) + section('Recent', starred.length, recent) + welcome()
+  if (hits.length) paintCursor()
 }
 
 function welcome() {

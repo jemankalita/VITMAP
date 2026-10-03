@@ -57,11 +57,6 @@ async function check(name, width, height, theme) {
   console.log(`\n${name} (${width}x${height}${theme ? `, ${theme}` : ''})`)
   const page = await browser.newPage()
   await page.setViewport({ width, height, deviceScaleFactor: 1 })
-  if (theme) {
-    await page.evaluateOnNewDocument((t) => {
-      try { localStorage.setItem('campusmap.theme', t) } catch {}
-    }, theme)
-  }
 
   const errors = []
   const failed = []
@@ -227,7 +222,9 @@ async function check(name, width, height, theme) {
       const b = document.getElementById('palette-close')
       return b ? getComputedStyle(b).display !== 'none' : false
     })
-    ok(!sheetMode || exitVisible, 'a visible close button exists on phones')
+    // Desktop has a Layers button too now, so "phone" is the viewport, not sheetMode.
+    const phone = await page.evaluate(() => matchMedia('(max-width: 760px)').matches)
+    ok(!phone || exitVisible, 'a visible close button exists on phones')
     if (exitVisible) {
       await page.click('#palette-close')
       const shut = await page.evaluate(() => document.getElementById('palette').hidden)
@@ -259,7 +256,6 @@ async function check(name, width, height, theme) {
 }
 
 await check('desktop-dark', 1440, 900, 'dark')
-await check('desktop-light', 1440, 900, 'light')
 await check('mobile-dark', 402, 874, 'dark')
 
 await browser.close()
