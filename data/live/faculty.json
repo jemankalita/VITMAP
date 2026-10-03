@@ -1,6 +1,6 @@
 {
  "_source": "https://vit.ac.in/faculty",
- "_fetched": "2026-08-22T19:04:46.104Z",
+ "_fetched": "2026-10-03T15:04:08.690Z",
  "_note": "Public faculty listings on vit.ac.in school pages. One record per person; joint appointments keep every department. Completeness is whatever those pages publish, not a payroll count.",
  "_incomplete_departments": [],
  "items": [
@@ -32,6 +32,33 @@
    ]
   },
   {
+   "name": "Dr. Krishna Chandar N",
+   "title": "Faculty",
+   "dept": "SAS · physics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/physics",
+   "depts": [
+    "SAS · physics"
+   ]
+  },
+  {
+   "name": "Dr. Senthur Pandi R",
+   "title": "Faculty",
+   "dept": "SAS · physics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/physics",
+   "depts": [
+    "SAS · physics"
+   ]
+  },
+  {
+   "name": "Dr. Sumangala T P",
+   "title": "Faculty",
+   "dept": "SAS · physics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/physics",
+   "depts": [
+    "SAS · physics"
+   ]
+  },
+  {
    "name": "Dr. Tufan Roy",
    "title": "Faculty",
    "dept": "SAS · physics",
@@ -42,6 +69,15 @@
   },
   {
    "name": "Dr. Ummal Momeen M",
+   "title": "Faculty",
+   "dept": "SAS · physics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/physics",
+   "depts": [
+    "SAS · physics"
+   ]
+  },
+  {
+   "name": "Dr. Usha Rani M",
    "title": "Faculty",
    "dept": "SAS · physics",
    "url": "https://vit.ac.in/school/allfaculty/sas/physics",
@@ -266,7 +302,7 @@
    ]
   },
   {
-   "name": "Dr. Santanu De",
+   "name": "Dr. Premkumar S",
    "title": "Faculty",
    "dept": "SAS · physics",
    "url": "https://vit.ac.in/school/allfaculty/sas/physics",
@@ -275,7 +311,7 @@
    ]
   },
   {
-   "name": "Prof. Saravanan R",
+   "name": "Dr. Santanu De",
    "title": "Faculty",
    "dept": "SAS · physics",
    "url": "https://vit.ac.in/school/allfaculty/sas/physics",
@@ -338,6 +374,15 @@
    ]
   },
   {
+   "name": "Dr. Khadar Babu SK",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Karthikeyan K",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -365,6 +410,33 @@
    ]
   },
   {
+   "name": "Dr. Bala Anki Reddy Pol",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Ezhilmaran D",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Hemadri Reddy R",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Indhira K",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -383,6 +455,15 @@
    ]
   },
   {
+   "name": "Dr. Mellacheruvu Naga Srinivasu",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Murugusundaramoorthy G",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -392,7 +473,25 @@
    ]
   },
   {
+   "name": "Dr. Raja Das",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Rushi Kumar B",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Sri Rama Vara Prasad Bhuvanagiri",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -429,7 +528,16 @@
    ]
   },
   {
-   "name": "Dr. Bala Anki Reddy Pol",
+   "name": "Dr. Deepa G",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Dinesh Kumar S",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -447,15 +555,6 @@
    ]
   },
   {
-   "name": "Dr. Ezhilmaran D",
-   "title": "Faculty",
-   "dept": "SAS · mathematics",
-   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
-   "depts": [
-    "SAS · mathematics"
-   ]
-  },
-  {
    "name": "Dr. Gorintla Sucharitha",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -465,7 +564,25 @@
    ]
   },
   {
-   "name": "Dr. Hemadri Reddy R",
+   "name": "Dr. Gowrisankar A",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Jagadeesh Kumar K",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Jagatheswari S",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -492,6 +609,51 @@
    ]
   },
   {
+   "name": "Dr. Kavitha A",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Kavitha K",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Lakshmi Narayan Mishra",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Lakshmi Narayana Pallavarapu",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Madhu V",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Manivannan R",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -501,7 +663,106 @@
    ]
   },
   {
-   "name": "Prof. Priya Singh",
+   "name": "Dr. Manimaran A",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Nandhini S",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Peri Kameswara Kameswaran",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Raghavendar K",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Ragukumar P",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Ramesh Kumar D",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Ravi Sankar J",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Roy S",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Sivakumar M",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Udhayakumar R",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Venkateswarlu B",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Vijaya Kumar A.G",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -592,6 +853,15 @@
   },
   {
    "name": "Dr. Gayathri R",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Gowsalya M",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -727,7 +997,25 @@
    ]
   },
   {
+   "name": "Prof. Priya Singh",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Ramu Geddavalasa",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Sanjay Kumar Mohanty",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -754,15 +1042,6 @@
    ]
   },
   {
-   "name": "Dr. Sivakumar M",
-   "title": "Faculty",
-   "dept": "SAS · mathematics",
-   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
-   "depts": [
-    "SAS · mathematics"
-   ]
-  },
-  {
    "name": "Dr. Somenath Kuiry",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -773,6 +1052,15 @@
   },
   {
    "name": "Dr. Soumitra Daptari",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
+   "name": "Dr. Sripathy B",
    "title": "Faculty",
    "dept": "SAS · mathematics",
    "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
@@ -817,6 +1105,15 @@
    ]
   },
   {
+   "name": "Dr. Venkataramana B",
+   "title": "Faculty",
+   "dept": "SAS · mathematics",
+   "url": "https://vit.ac.in/school/allfaculty/sas/mathematics",
+   "depts": [
+    "SAS · mathematics"
+   ]
+  },
+  {
    "name": "Dr. Vijayakumar M",
    "title": "Faculty",
    "dept": "SAS · mathematics",
@@ -824,6 +1121,15 @@
    "depts": [
     "SAS · mathematics",
     "SSL · english"
+   ]
+  },
+  {
+   "name": "Dr. Karpagam S",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
    ]
   },
   {
@@ -890,6 +1196,43 @@
    ]
   },
   {
+   "name": "Dr. Kannadasan S",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
+   ]
+  },
+  {
+   "name": "Dr. Karthikeyan S",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry",
+    "SBST · biotechnology"
+   ]
+  },
+  {
+   "name": "Dr. Mary Saral A",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
+   ]
+  },
+  {
+   "name": "Dr. Mohana Roopan S",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
+   ]
+  },
+  {
    "name": "Dr. Sarveswari S",
    "title": "Faculty",
    "dept": "SAS · chemistry",
@@ -926,15 +1269,6 @@
    ]
   },
   {
-   "name": "Dr. Kannadasan S",
-   "title": "Faculty",
-   "dept": "SAS · chemistry",
-   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
-   "depts": [
-    "SAS · chemistry"
-   ]
-  },
-  {
    "name": "Dr. Loganathan R",
    "title": "Faculty",
    "dept": "SAS · chemistry",
@@ -962,7 +1296,25 @@
    ]
   },
   {
-   "name": "Dr. Mohana Roopan S",
+   "name": "Dr. Shanmugam R",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
+   ]
+  },
+  {
+   "name": "Dr. Tamas Kumar Panda",
+   "title": "Faculty",
+   "dept": "SAS · chemistry",
+   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
+   "depts": [
+    "SAS · chemistry"
+   ]
+  },
+  {
+   "name": "Dr. Thenmozhi K",
    "title": "Faculty",
    "dept": "SAS · chemistry",
    "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
@@ -1107,15 +1459,6 @@
   },
   {
    "name": "Dr. Sathish Kumar P",
-   "title": "Faculty",
-   "dept": "SAS · chemistry",
-   "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
-   "depts": [
-    "SAS · chemistry"
-   ]
-  },
-  {
-   "name": "Dr. Shanmugam R",
    "title": "Faculty",
    "dept": "SAS · chemistry",
    "url": "https://vit.ac.in/school/allfaculty/sas/chemistry",
@@ -1295,15 +1638,6 @@
    ]
   },
   {
-   "name": "Dr. Karthikeyan S",
-   "title": "Faculty",
-   "dept": "SBST · biotechnology",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
-   "depts": [
-    "SBST · biotechnology"
-   ]
-  },
-  {
    "name": "Dr. KAVITHA THIRUMURUGAN",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
@@ -1314,6 +1648,15 @@
   },
   {
    "name": "Dr. Mythili S",
+   "title": "Faculty",
+   "dept": "SBST · biotechnology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
+   "depts": [
+    "SBST · biotechnology"
+   ]
+  },
+  {
+   "name": "Dr. Mohana Priya A",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
    "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
@@ -1341,6 +1684,15 @@
   },
   {
    "name": "Dr. Ramesh Pathy M",
+   "title": "Faculty",
+   "dept": "SBST · biotechnology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
+   "depts": [
+    "SBST · biotechnology"
+   ]
+  },
+  {
+   "name": "Dr. Sajithu Lulu S",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
    "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
@@ -1403,15 +1755,6 @@
    ]
   },
   {
-   "name": "Dr. Mohana Priya A",
-   "title": "Faculty",
-   "dept": "SBST · biotechnology",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
-   "depts": [
-    "SBST · biotechnology"
-   ]
-  },
-  {
    "name": "Dr. Ponraj P",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
@@ -1431,15 +1774,6 @@
   },
   {
    "name": "Dr. Rohit",
-   "title": "Faculty",
-   "dept": "SBST · biotechnology",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
-   "depts": [
-    "SBST · biotechnology"
-   ]
-  },
-  {
-   "name": "Dr. Sajithu Lulu S",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
    "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
@@ -1475,6 +1809,15 @@
    ]
   },
   {
+   "name": "Dr. Gobi Saravanan K",
+   "title": "Faculty",
+   "dept": "SBST · biotechnology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
+   "depts": [
+    "SBST · biotechnology"
+   ]
+  },
+  {
    "name": "Dr. Sankar Ganesh D",
    "title": "Faculty",
    "dept": "SBST · biotechnology",
@@ -1493,6 +1836,15 @@
    ]
   },
   {
+   "name": "Dr. Shahila Parween",
+   "title": "Faculty",
+   "dept": "SBST · biotechnology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/biotechnology",
+   "depts": [
+    "SBST · biotechnology"
+   ]
+  },
+  {
    "name": "Dr. Sudha Ramaiah",
    "title": "Faculty",
    "dept": "SBST · bio sciences",
@@ -1503,15 +1855,6 @@
   },
   {
    "name": "Dr. Arnold Emerson I",
-   "title": "Faculty",
-   "dept": "SBST · bio sciences",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-sciences",
-   "depts": [
-    "SBST · bio sciences"
-   ]
-  },
-  {
-   "name": "Dr. Jayaraman G",
    "title": "Faculty",
    "dept": "SBST · bio sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-sciences",
@@ -1664,7 +2007,7 @@
    ]
   },
   {
-   "name": "Dr. Rahul vashishth",
+   "name": "Dr. Rahul Vashishth",
    "title": "Faculty",
    "dept": "SBST · bio sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-sciences",
@@ -1691,7 +2034,7 @@
    ]
   },
   {
-   "name": "Dr. Thomas Theodore",
+   "name": "Dr. Ganesh Moorthy I",
    "title": "Faculty",
    "dept": "SCHEME · chemical engineering",
    "url": "https://vit.ac.in/school/allfaculty/scheme/chemical-engineering",
@@ -1700,7 +2043,16 @@
    ]
   },
   {
-   "name": "Dr. Ganesh Moorthy I",
+   "name": "Dr. Sivagami K",
+   "title": "Faculty",
+   "dept": "SCHEME · chemical engineering",
+   "url": "https://vit.ac.in/school/allfaculty/scheme/chemical-engineering",
+   "depts": [
+    "SCHEME · chemical engineering"
+   ]
+  },
+  {
+   "name": "Dr. Thomas Theodore",
    "title": "Faculty",
    "dept": "SCHEME · chemical engineering",
    "url": "https://vit.ac.in/school/allfaculty/scheme/chemical-engineering",
@@ -1719,15 +2071,6 @@
   },
   {
    "name": "Dr. Shankar Raman Dhanushkodi",
-   "title": "Faculty",
-   "dept": "SCHEME · chemical engineering",
-   "url": "https://vit.ac.in/school/allfaculty/scheme/chemical-engineering",
-   "depts": [
-    "SCHEME · chemical engineering"
-   ]
-  },
-  {
-   "name": "Dr. Sivagami K",
    "title": "Faculty",
    "dept": "SCHEME · chemical engineering",
    "url": "https://vit.ac.in/school/allfaculty/scheme/chemical-engineering",
@@ -1889,6 +2232,15 @@
    ]
   },
   {
+   "name": "Dr. Anand Bihari",
+   "title": "Faculty",
+   "dept": "SCOPE · computational intelligence",
+   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
+   "depts": [
+    "SCOPE · computational intelligence"
+   ]
+  },
+  {
    "name": "Dr. S Anto",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
@@ -1926,6 +2278,15 @@
   },
   {
    "name": "Dr. Chiranjeevi C",
+   "title": "Faculty",
+   "dept": "SCOPE · computational intelligence",
+   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
+   "depts": [
+    "SCOPE · computational intelligence"
+   ]
+  },
+  {
+   "name": "Dr. S. M. Farooq",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
    "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
@@ -2006,6 +2367,15 @@
    ]
   },
   {
+   "name": "Dr. Thirunavukkarasan M",
+   "title": "Faculty",
+   "dept": "SCOPE · computational intelligence",
+   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
+   "depts": [
+    "SCOPE · computational intelligence"
+   ]
+  },
+  {
    "name": "Dr. Vidhya G",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
@@ -2015,7 +2385,7 @@
    ]
   },
   {
-   "name": "Dr. Anand Bihari",
+   "name": "Dr. Vishnu Priya A",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
    "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
@@ -2061,15 +2431,6 @@
   },
   {
    "name": "Dr. Bhawana Tyagi",
-   "title": "Faculty",
-   "dept": "SCOPE · computational intelligence",
-   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
-   "depts": [
-    "SCOPE · computational intelligence"
-   ]
-  },
-  {
-   "name": "Dr. S. M. Farooq",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
    "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
@@ -2186,15 +2547,6 @@
    ]
   },
   {
-   "name": "Dr. Thirunavukkarasan M",
-   "title": "Faculty",
-   "dept": "SCOPE · computational intelligence",
-   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
-   "depts": [
-    "SCOPE · computational intelligence"
-   ]
-  },
-  {
    "name": "Dr. Umamaheswari M",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
@@ -2205,15 +2557,6 @@
   },
   {
    "name": "Dr. Uma Priya D",
-   "title": "Faculty",
-   "dept": "SCOPE · computational intelligence",
-   "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
-   "depts": [
-    "SCOPE · computational intelligence"
-   ]
-  },
-  {
-   "name": "Dr. Vishnu Priya A",
    "title": "Faculty",
    "dept": "SCOPE · computational intelligence",
    "url": "https://vit.ac.in/school/allfaculty/scope/computational-intelligence",
@@ -2339,6 +2682,15 @@
    ]
   },
   {
+   "name": "Dr. Viswanathan A",
+   "title": "Faculty",
+   "dept": "SCOPE · information security",
+   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
+   "depts": [
+    "SCOPE · information security"
+   ]
+  },
+  {
    "name": "Dr. D Aju",
    "title": "Faculty",
    "dept": "SCOPE · information security",
@@ -2384,6 +2736,15 @@
    ]
   },
   {
+   "name": "Dr. Islabudeen M",
+   "title": "Faculty",
+   "dept": "SCOPE · information security",
+   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
+   "depts": [
+    "SCOPE · information security"
+   ]
+  },
+  {
    "name": "Dr. Kalpana V",
    "title": "Faculty",
    "dept": "SCOPE · information security",
@@ -2403,6 +2764,15 @@
   },
   {
    "name": "Dr. Nalliah M",
+   "title": "Faculty",
+   "dept": "SCOPE · information security",
+   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
+   "depts": [
+    "SCOPE · information security"
+   ]
+  },
+  {
+   "name": "Dr. Niha Kamal Basha",
    "title": "Faculty",
    "dept": "SCOPE · information security",
    "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
@@ -2447,7 +2817,7 @@
    ]
   },
   {
-   "name": "Dr. Thiruvenkadam T",
+   "name": "Dr. Thangaramya K",
    "title": "Faculty",
    "dept": "SCOPE · information security",
    "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
@@ -2456,7 +2826,7 @@
    ]
   },
   {
-   "name": "Dr. Viswanathan A",
+   "name": "Dr. Thiruvenkadam T",
    "title": "Faculty",
    "dept": "SCOPE · information security",
    "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
@@ -2493,15 +2863,6 @@
   },
   {
    "name": "Dr. Deepika J",
-   "title": "Faculty",
-   "dept": "SCOPE · information security",
-   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
-   "depts": [
-    "SCOPE · information security"
-   ]
-  },
-  {
-   "name": "Dr. Islabudeen M",
    "title": "Faculty",
    "dept": "SCOPE · information security",
    "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
@@ -2547,15 +2908,6 @@
   },
   {
    "name": "Dr. Mohankumar B",
-   "title": "Faculty",
-   "dept": "SCOPE · information security",
-   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
-   "depts": [
-    "SCOPE · information security"
-   ]
-  },
-  {
-   "name": "Dr. Niha Kamal Basha",
    "title": "Faculty",
    "dept": "SCOPE · information security",
    "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
@@ -2636,15 +2988,6 @@
    ]
   },
   {
-   "name": "Dr. Thangaramya K",
-   "title": "Faculty",
-   "dept": "SCOPE · information security",
-   "url": "https://vit.ac.in/school/allfaculty/scope/information-security",
-   "depts": [
-    "SCOPE · information security"
-   ]
-  },
-  {
    "name": "Dr. J Saira Banu",
    "title": "Faculty",
    "dept": "SCOPE · iot",
@@ -2664,6 +3007,15 @@
   },
   {
    "name": "Dr. Kalaavathi B",
+   "title": "Faculty",
+   "dept": "SCOPE · iot",
+   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
+   "depts": [
+    "SCOPE · iot"
+   ]
+  },
+  {
+   "name": "Dr. A Karthikeyan",
    "title": "Faculty",
    "dept": "SCOPE · iot",
    "url": "https://vit.ac.in/school/allfaculty/scope/iot",
@@ -2762,15 +3114,6 @@
    ]
   },
   {
-   "name": "Dr. A Karthikeyan",
-   "title": "Faculty",
-   "dept": "SCOPE · iot",
-   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
-   "depts": [
-    "SCOPE · iot"
-   ]
-  },
-  {
    "name": "Dr. Manivannan P",
    "title": "Faculty",
    "dept": "SCOPE · iot",
@@ -2781,6 +3124,15 @@
   },
   {
    "name": "Dr. Narayanamoorthi M",
+   "title": "Faculty",
+   "dept": "SCOPE · iot",
+   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
+   "depts": [
+    "SCOPE · iot"
+   ]
+  },
+  {
+   "name": "Dr. Satyajit Das",
    "title": "Faculty",
    "dept": "SCOPE · iot",
    "url": "https://vit.ac.in/school/allfaculty/scope/iot",
@@ -2808,6 +3160,15 @@
   },
   {
    "name": "Dr. Sivaraj C",
+   "title": "Faculty",
+   "dept": "SCOPE · iot",
+   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
+   "depts": [
+    "SCOPE · iot"
+   ]
+  },
+  {
+   "name": "Dr. Sri Preethaa K R",
    "title": "Faculty",
    "dept": "SCOPE · iot",
    "url": "https://vit.ac.in/school/allfaculty/scope/iot",
@@ -3014,15 +3375,6 @@
    ]
   },
   {
-   "name": "Dr. Satyajit Das",
-   "title": "Faculty",
-   "dept": "SCOPE · iot",
-   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
-   "depts": [
-    "SCOPE · iot"
-   ]
-  },
-  {
    "name": "Dr. Sharmila C",
    "title": "Faculty",
    "dept": "SCOPE · iot",
@@ -3033,15 +3385,6 @@
   },
   {
    "name": "Dr. Somasundaram R",
-   "title": "Faculty",
-   "dept": "SCOPE · iot",
-   "url": "https://vit.ac.in/school/allfaculty/scope/iot",
-   "depts": [
-    "SCOPE · iot"
-   ]
-  },
-  {
-   "name": "Dr. Sri Preethaa K R",
    "title": "Faculty",
    "dept": "SCOPE · iot",
    "url": "https://vit.ac.in/school/allfaculty/scope/iot",
@@ -3158,6 +3501,15 @@
    ]
   },
   {
+   "name": "Dr. Priya V",
+   "title": "Faculty",
+   "dept": "SCORE · information technology",
+   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
+   "depts": [
+    "SCORE · information technology"
+   ]
+  },
+  {
    "name": "Dr. Sathiyamoorthy E",
    "title": "Faculty",
    "dept": "SCORE · information technology",
@@ -3221,6 +3573,15 @@
    ]
   },
   {
+   "name": "Dr. Gayathri A",
+   "title": "Faculty",
+   "dept": "SCORE · information technology",
+   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
+   "depts": [
+    "SCORE · information technology"
+   ]
+  },
+  {
    "name": "Dr. Gundala Swathi",
    "title": "Faculty",
    "dept": "SCORE · information technology",
@@ -3240,15 +3601,6 @@
   },
   {
    "name": "Dr. Mythili N",
-   "title": "Faculty",
-   "dept": "SCORE · information technology",
-   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
-   "depts": [
-    "SCORE · information technology"
-   ]
-  },
-  {
-   "name": "Dr. Priya V",
    "title": "Faculty",
    "dept": "SCORE · information technology",
    "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
@@ -3294,6 +3646,24 @@
   },
   {
    "name": "Dr. Seetha R",
+   "title": "Faculty",
+   "dept": "SCORE · information technology",
+   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
+   "depts": [
+    "SCORE · information technology"
+   ]
+  },
+  {
+   "name": "Dr. Shunmuga Perumal P",
+   "title": "Faculty",
+   "dept": "SCORE · information technology",
+   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
+   "depts": [
+    "SCORE · information technology"
+   ]
+  },
+  {
+   "name": "Dr. Sooraj T R",
    "title": "Faculty",
    "dept": "SCORE · information technology",
    "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
@@ -3365,15 +3735,6 @@
    ]
   },
   {
-   "name": "Dr. Gayathri A",
-   "title": "Faculty",
-   "dept": "SCORE · information technology",
-   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
-   "depts": [
-    "SCORE · information technology"
-   ]
-  },
-  {
    "name": "Dr. Jenifa G",
    "title": "Faculty",
    "dept": "SCORE · information technology",
@@ -3402,15 +3763,6 @@
   },
   {
    "name": "Prof. Prabhanantha Kumar M",
-   "title": "Faculty",
-   "dept": "SCORE · information technology",
-   "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
-   "depts": [
-    "SCORE · information technology"
-   ]
-  },
-  {
-   "name": "Dr. Shunmuga Perumal P",
    "title": "Faculty",
    "dept": "SCORE · information technology",
    "url": "https://vit.ac.in/school/allfaculty/score/information-technology",
@@ -3518,6 +3870,15 @@
    ]
   },
   {
+   "name": "Dr. Christopher G",
+   "title": "Faculty",
+   "dept": "SSL · english",
+   "url": "https://vit.ac.in/school/allfaculty/ssl/english",
+   "depts": [
+    "SSL · english"
+   ]
+  },
+  {
    "name": "Dr. Dhumal Suraj Nandkumar",
    "title": "Faculty",
    "dept": "SSL · english",
@@ -3581,6 +3942,15 @@
    ]
   },
   {
+   "name": "Dr. Thenmozhi M",
+   "title": "Faculty",
+   "dept": "SSL · english",
+   "url": "https://vit.ac.in/school/allfaculty/ssl/english",
+   "depts": [
+    "SSL · english"
+   ]
+  },
+  {
    "name": "Dr. Anburaj G",
    "title": "Faculty",
    "dept": "SSL · english",
@@ -3618,15 +3988,6 @@
   },
   {
    "name": "Dr. Blessy Sharon Samjose",
-   "title": "Faculty",
-   "dept": "SSL · english",
-   "url": "https://vit.ac.in/school/allfaculty/ssl/english",
-   "depts": [
-    "SSL · english"
-   ]
-  },
-  {
-   "name": "Dr. Christopher G",
    "title": "Faculty",
    "dept": "SSL · english",
    "url": "https://vit.ac.in/school/allfaculty/ssl/english",
@@ -3887,15 +4248,6 @@
    ]
   },
   {
-   "name": "Dr. Thenmozhi M",
-   "title": "Faculty",
-   "dept": "SSL · english",
-   "url": "https://vit.ac.in/school/allfaculty/ssl/english",
-   "depts": [
-    "SSL · english"
-   ]
-  },
-  {
    "name": "Dr. Varsha K",
    "title": "Faculty",
    "dept": "SSL · english",
@@ -3932,6 +4284,15 @@
    ]
   },
   {
+   "name": "Dr. Abilash V G",
+   "title": "Faculty",
+   "dept": "SBST · bio medical sciences",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
+   "depts": [
+    "SBST · bio medical sciences"
+   ]
+  },
+  {
    "name": "Dr. Anand Prem Rajan",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
@@ -3959,6 +4320,15 @@
    ]
   },
   {
+   "name": "Dr. Devi Rajeswari V",
+   "title": "Faculty",
+   "dept": "SBST · bio medical sciences",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
+   "depts": [
+    "SBST · bio medical sciences"
+   ]
+  },
+  {
    "name": "Dr. Ganesh V",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
@@ -3977,7 +4347,25 @@
    ]
   },
   {
+   "name": "Dr. Janaki Ramaiah M",
+   "title": "Faculty",
+   "dept": "SBST · bio medical sciences",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
+   "depts": [
+    "SBST · bio medical sciences"
+   ]
+  },
+  {
    "name": "Dr. Jayanthi Abraham",
+   "title": "Faculty",
+   "dept": "SBST · bio medical sciences",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
+   "depts": [
+    "SBST · bio medical sciences"
+   ]
+  },
+  {
+   "name": "Dr. Jayasri M A",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
@@ -4013,25 +4401,7 @@
    ]
   },
   {
-   "name": "Dr. Abilash V G",
-   "title": "Faculty",
-   "dept": "SBST · bio medical sciences",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
-   "depts": [
-    "SBST · bio medical sciences"
-   ]
-  },
-  {
    "name": "Dr. Babu G",
-   "title": "Faculty",
-   "dept": "SBST · bio medical sciences",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
-   "depts": [
-    "SBST · bio medical sciences"
-   ]
-  },
-  {
-   "name": "Dr. Devi Rajeswari V",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
@@ -4049,7 +4419,7 @@
    ]
   },
   {
-   "name": "Dr. Jayasri M A",
+   "name": "Dr. Gopinath P M",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
@@ -4059,6 +4429,15 @@
   },
   {
    "name": "Dr. Kavitha M",
+   "title": "Faculty",
+   "dept": "SBST · bio medical sciences",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
+   "depts": [
+    "SBST · bio medical sciences"
+   ]
+  },
+  {
+   "name": "Dr. Namo Dubey",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
@@ -4077,15 +4456,6 @@
   },
   {
    "name": "Dr. Sudesh R",
-   "title": "Faculty",
-   "dept": "SBST · bio medical sciences",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
-   "depts": [
-    "SBST · bio medical sciences"
-   ]
-  },
-  {
-   "name": "Dr. Subhash Kumar",
    "title": "Faculty",
    "dept": "SBST · bio medical sciences",
    "url": "https://vit.ac.in/school/allfaculty/sbst/bio-medical-sciences",
@@ -4148,15 +4518,6 @@
    ]
   },
   {
-   "name": "Dr. Janaki Ramaiah M",
-   "title": "Faculty",
-   "dept": "SBST · integrative biology",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
-   "depts": [
-    "SBST · integrative biology"
-   ]
-  },
-  {
    "name": "Dr. Rajasekaran R",
    "title": "Faculty",
    "dept": "SBST · integrative biology",
@@ -4176,6 +4537,15 @@
   },
   {
    "name": "Dr. Subhashree V",
+   "title": "Faculty",
+   "dept": "SBST · integrative biology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
+   "depts": [
+    "SBST · integrative biology"
+   ]
+  },
+  {
+   "name": "Dr. R Sudhakaran",
    "title": "Faculty",
    "dept": "SBST · integrative biology",
    "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
@@ -4265,15 +4635,6 @@
    ]
   },
   {
-   "name": "Dr. R Sudhakaran",
-   "title": "Faculty",
-   "dept": "SBST · integrative biology",
-   "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
-   "depts": [
-    "SBST · integrative biology"
-   ]
-  },
-  {
    "name": "Dr. Balaji Balakrishnan",
    "title": "Faculty",
    "dept": "SBST · integrative biology",
@@ -4283,7 +4644,25 @@
    ]
   },
   {
+   "name": "Dr. Bharat Manna",
+   "title": "Faculty",
+   "dept": "SBST · integrative biology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
+   "depts": [
+    "SBST · integrative biology"
+   ]
+  },
+  {
    "name": "Dr. E Nalini",
+   "title": "Faculty",
+   "dept": "SBST · integrative biology",
+   "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
+   "depts": [
+    "SBST · integrative biology"
+   ]
+  },
+  {
+   "name": "Dr. Subhash Kumar",
    "title": "Faculty",
    "dept": "SBST · integrative biology",
    "url": "https://vit.ac.in/school/allfaculty/sbst/integrative-biology",
@@ -4319,6 +4698,24 @@
    ]
   },
   {
+   "name": "Dr. Akila Victor",
+   "title": "Faculty",
+   "dept": "SCOPE · software systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
+   "depts": [
+    "SCOPE · software systems"
+   ]
+  },
+  {
+   "name": "Dr. Annapurna J",
+   "title": "Faculty",
+   "dept": "SCOPE · software systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
+   "depts": [
+    "SCOPE · software systems"
+   ]
+  },
+  {
    "name": "Dr. Anthoniraj A",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
@@ -4338,15 +4735,6 @@
   },
   {
    "name": "Dr. Gunavathi C",
-   "title": "Faculty",
-   "dept": "SCOPE · software systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
-   "depts": [
-    "SCOPE · software systems"
-   ]
-  },
-  {
-   "name": "Dr. Kumar K",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
@@ -4445,25 +4833,7 @@
    ]
   },
   {
-   "name": "Dr. Akila Victor",
-   "title": "Faculty",
-   "dept": "SCOPE · software systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
-   "depts": [
-    "SCOPE · software systems"
-   ]
-  },
-  {
    "name": "Dr. Anindita Kundu",
-   "title": "Faculty",
-   "dept": "SCOPE · software systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
-   "depts": [
-    "SCOPE · software systems"
-   ]
-  },
-  {
-   "name": "Dr. Annapurna J",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
@@ -4563,6 +4933,15 @@
   },
   {
    "name": "Dr. Satish C.J",
+   "title": "Faculty",
+   "dept": "SCOPE · software systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
+   "depts": [
+    "SCOPE · software systems"
+   ]
+  },
+  {
+   "name": "Dr. Sivaprakash S",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
@@ -4697,6 +5076,15 @@
    ]
   },
   {
+   "name": "Dr. Padma Priya R",
+   "title": "Faculty",
+   "dept": "SCOPE · software systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
+   "depts": [
+    "SCOPE · software systems"
+   ]
+  },
+  {
    "name": "Dr. Priya S",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
@@ -4707,15 +5095,6 @@
   },
   {
    "name": "Dr. SHALINI L",
-   "title": "Faculty",
-   "dept": "SCOPE · software systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
-   "depts": [
-    "SCOPE · software systems"
-   ]
-  },
-  {
-   "name": "Dr. Sivaprakash S",
    "title": "Faculty",
    "dept": "SCOPE · software systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/software-systems",
@@ -4769,6 +5148,15 @@
    ]
   },
   {
+   "name": "Dr. Ilanthenral K P S K",
+   "title": "Faculty",
+   "dept": "SCOPE · database systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
+   "depts": [
+    "SCOPE · database systems"
+   ]
+  },
+  {
    "name": "Dr. Manikandan K",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
@@ -4814,6 +5202,15 @@
    ]
   },
   {
+   "name": "Dr. Santhi H",
+   "title": "Faculty",
+   "dept": "SCOPE · database systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
+   "depts": [
+    "SCOPE · database systems"
+   ]
+  },
+  {
    "name": "Dr. Sivaprasad Darla",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
@@ -4841,6 +5238,15 @@
    ]
   },
   {
+   "name": "Dr. Suresh P",
+   "title": "Faculty",
+   "dept": "SCOPE · database systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
+   "depts": [
+    "SCOPE · database systems"
+   ]
+  },
+  {
    "name": "Dr. Abdul Gaffar H",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
@@ -4859,7 +5265,7 @@
    ]
   },
   {
-   "name": "Dr. Ilanthenral K P S K",
+   "name": "Dr. Dhivyaa C R",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
@@ -4878,6 +5284,15 @@
   },
   {
    "name": "Dr. Kumaresan A",
+   "title": "Faculty",
+   "dept": "SCOPE · database systems",
+   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
+   "depts": [
+    "SCOPE · database systems"
+   ]
+  },
+  {
+   "name": "Dr. Madhan E S",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
@@ -4931,15 +5346,6 @@
    ]
   },
   {
-   "name": "Dr. Santhi H",
-   "title": "Faculty",
-   "dept": "SCOPE · database systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
-   "depts": [
-    "SCOPE · database systems"
-   ]
-  },
-  {
    "name": "Dr. Sinthuja M",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
@@ -4949,7 +5355,7 @@
    ]
   },
   {
-   "name": "Dr. Suresh P",
+   "name": "Dr. T Tamizharasi",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
@@ -4995,15 +5401,6 @@
   },
   {
    "name": "Dr. Ganesh Khekare",
-   "title": "Faculty",
-   "dept": "SCOPE · database systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
-   "depts": [
-    "SCOPE · database systems"
-   ]
-  },
-  {
-   "name": "Dr. Dhivyaa C R",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
    "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
@@ -5084,15 +5481,6 @@
    ]
   },
   {
-   "name": "Dr. Madhan E S",
-   "title": "Faculty",
-   "dept": "SCOPE · database systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
-   "depts": [
-    "SCOPE · database systems"
-   ]
-  },
-  {
    "name": "Dr. Meenakshi S P",
    "title": "Faculty",
    "dept": "SCOPE · database systems",
@@ -5156,15 +5544,6 @@
    ]
   },
   {
-   "name": "Dr. T Tamizharasi",
-   "title": "Faculty",
-   "dept": "SCOPE · database systems",
-   "url": "https://vit.ac.in/school/allfaculty/scope/database-systems",
-   "depts": [
-    "SCOPE · database systems"
-   ]
-  },
-  {
    "name": "Dr. Mythili T",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
@@ -5184,6 +5563,15 @@
   },
   {
    "name": "Dr. P Balakrishnan",
+   "title": "Faculty",
+   "dept": "SCOPE · analytics",
+   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
+   "depts": [
+    "SCOPE · analytics"
+   ]
+  },
+  {
+   "name": "Dr. K Rajakumar",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5228,6 +5616,15 @@
    ]
   },
   {
+   "name": "Dr. Jayakumar K",
+   "title": "Faculty",
+   "dept": "SCOPE · analytics",
+   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
+   "depts": [
+    "SCOPE · analytics"
+   ]
+  },
+  {
    "name": "Dr. Jeevanantham AK",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
@@ -5247,6 +5644,15 @@
   },
   {
    "name": "Dr. Kathiravan S",
+   "title": "Faculty",
+   "dept": "SCOPE · analytics",
+   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
+   "depts": [
+    "SCOPE · analytics"
+   ]
+  },
+  {
+   "name": "Dr. Keerthika P",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5283,15 +5689,6 @@
   },
   {
    "name": "Dr. Priya G",
-   "title": "Faculty",
-   "dept": "SCOPE · analytics",
-   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
-   "depts": [
-    "SCOPE · analytics"
-   ]
-  },
-  {
-   "name": "Dr. K Rajakumar",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5373,25 +5770,7 @@
    ]
   },
   {
-   "name": "Dr. Jayakumar K",
-   "title": "Faculty",
-   "dept": "SCOPE · analytics",
-   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
-   "depts": [
-    "SCOPE · analytics"
-   ]
-  },
-  {
    "name": "Dr. JENICKA S",
-   "title": "Faculty",
-   "dept": "SCOPE · analytics",
-   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
-   "depts": [
-    "SCOPE · analytics"
-   ]
-  },
-  {
-   "name": "Dr. Keerthika P",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5454,6 +5833,15 @@
    ]
   },
   {
+   "name": "Dr. Sivakumar V",
+   "title": "Faculty",
+   "dept": "SCOPE · analytics",
+   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
+   "depts": [
+    "SCOPE · analytics"
+   ]
+  },
+  {
    "name": "Dr. Subramanyam Reddy A",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
@@ -5472,7 +5860,7 @@
    ]
   },
   {
-   "name": "Dr. Avishek Nandi",
+   "name": "Dr. Vijayanand C",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5481,7 +5869,7 @@
    ]
   },
   {
-   "name": "Dr. Vijayanand C",
+   "name": "Dr. Avishek Nandi",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
@@ -5625,15 +6013,6 @@
    ]
   },
   {
-   "name": "Dr. Sivakumar V",
-   "title": "Faculty",
-   "dept": "SCOPE · analytics",
-   "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
-   "depts": [
-    "SCOPE · analytics"
-   ]
-  },
-  {
    "name": "Dr. Suganthini C",
    "title": "Faculty",
    "dept": "SCOPE · analytics",
@@ -5649,384 +6028,6 @@
    "url": "https://vit.ac.in/school/allfaculty/scope/analytics",
    "depts": [
     "SCOPE · analytics"
-   ]
-  },
-  {
-   "name": "Dr. Selva Rani B",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Brindha K",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Deepa M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Iyapparaja M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Lawanya Shri M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Neelu Khare",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Parimala M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Prasanna M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Srinivasan P",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Srinivas Koppu",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Tapan Kumar Das",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Thanapal P",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Vijay Anand R",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Bhuvana.S",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Chandra Mouliswaran",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Charanya R",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Gunasekaran G",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Kumar P.J",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Malaserene I",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Muthamil Selvan T",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Nirmala M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Nithya S",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Parvathi R",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Pradeepa M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Rajkumar M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Ramesh P S",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Thanga Mariappan L",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Vani M P",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Arun Pandian J",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Bharanidharan N",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Bhuvaneswari M.S",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Chemmalar Selvi G",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Jothish Kumar M",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Karpagam S",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Kavitha B.R",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Kumaresan P",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Mohanraj G",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Prof. Pavitra N",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Sivashankari R",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Sumathi D",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Susi A",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
-   ]
-  },
-  {
-   "name": "Dr. Ushapreethi P",
-   "title": "Faculty",
-   "dept": "SCORE · smart computing",
-   "url": "https://vit.ac.in/school/allfaculty/score/smart-computing",
-   "depts": [
-    "SCORE · smart computing"
    ]
   },
   {
@@ -6076,6 +6077,15 @@
   },
   {
    "name": "Dr. Ganesan K",
+   "title": "Faculty",
+   "dept": "SCORE · softwaresystems engineering",
+   "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
+   "depts": [
+    "SCORE · softwaresystems engineering"
+   ]
+  },
+  {
+   "name": "Dr. Hemalatha S",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6139,6 +6149,15 @@
   },
   {
    "name": "Dr. Rajesh Kaluri",
+   "title": "Faculty",
+   "dept": "SCORE · softwaresystems engineering",
+   "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
+   "depts": [
+    "SCORE · softwaresystems engineering"
+   ]
+  },
+  {
+   "name": "Dr. Rajeswari C",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6220,7 +6239,7 @@
    ]
   },
   {
-   "name": "Dr. Hemalatha S",
+   "name": "Dr. Jagadeesan S",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6267,15 +6286,6 @@
   },
   {
    "name": "Dr. Nancy Victor",
-   "title": "Faculty",
-   "dept": "SCORE · softwaresystems engineering",
-   "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
-   "depts": [
-    "SCORE · softwaresystems engineering"
-   ]
-  },
-  {
-   "name": "Dr. Rajeswari C",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6356,7 +6366,7 @@
    ]
   },
   {
-   "name": "Dr. Jagadeesan S",
+   "name": "Dr. Jagannathan J",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6365,7 +6375,7 @@
    ]
   },
   {
-   "name": "Dr. Jagannathan J",
+   "name": "Dr. Kiruba Thangam R",
    "title": "Faculty",
    "dept": "SCORE · softwaresystems engineering",
    "url": "https://vit.ac.in/school/allfaculty/score/softwaresystems-engineering",
@@ -6437,6 +6447,24 @@
    ]
   },
   {
+   "name": "Dr. Ephzibah E.P",
+   "title": "Faculty",
+   "dept": "SCORE · computer applications",
+   "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
+   "depts": [
+    "SCORE · computer applications"
+   ]
+  },
+  {
+   "name": "Dr. Karthikeyan P",
+   "title": "Faculty",
+   "dept": "SCORE · computer applications",
+   "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
+   "depts": [
+    "SCORE · computer applications"
+   ]
+  },
+  {
    "name": "Dr. Kishoreraja P C",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
@@ -6473,7 +6501,7 @@
    ]
   },
   {
-   "name": "Dr. Senthil Murugan B",
+   "name": "Dr. Senthil Kumar P",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6482,7 +6510,7 @@
    ]
   },
   {
-   "name": "Dr. Shynu P.G",
+   "name": "Dr. Senthil Murugan B",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6554,7 +6582,7 @@
    ]
   },
   {
-   "name": "Dr. Ephzibah E.P",
+   "name": "Dr. Jayalakshmi P",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6564,15 +6592,6 @@
   },
   {
    "name": "Dr. Jayaram Reddy A",
-   "title": "Faculty",
-   "dept": "SCORE · computer applications",
-   "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
-   "depts": [
-    "SCORE · computer applications"
-   ]
-  },
-  {
-   "name": "Dr. Karthikeyan P",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6635,7 +6654,7 @@
    ]
   },
   {
-   "name": "Dr. Senthil Kumar P",
+   "name": "Dr. Senthil Kumar T",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6707,7 +6726,7 @@
    ]
   },
   {
-   "name": "Dr. Chandra Segar T",
+   "name": "Prof. Deepa P",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6716,7 +6735,7 @@
    ]
   },
   {
-   "name": "Dr. Jayalakshmi P",
+   "name": "Dr. Chandra Segar T",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6788,7 +6807,7 @@
    ]
   },
   {
-   "name": "Dr. Senthil Kumar T",
+   "name": "Dr. Rampriya R S",
    "title": "Faculty",
    "dept": "SCORE · computer applications",
    "url": "https://vit.ac.in/school/allfaculty/score/computer-applications",
@@ -6842,6 +6861,15 @@
    ]
   },
   {
+   "name": "Dr. Jeeva J B",
+   "title": "Faculty",
+   "dept": "SENSE · sensor and biomedical technology",
+   "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
+   "depts": [
+    "SENSE · sensor and biomedical technology"
+   ]
+  },
+  {
    "name": "Dr. Kathirvelan J",
    "title": "Faculty",
    "dept": "SENSE · sensor and biomedical technology",
@@ -6851,7 +6879,7 @@
    ]
   },
   {
-   "name": "Dr. MYTHILI A",
+   "name": "Dr. Mythili A",
    "title": "Faculty",
    "dept": "SENSE · sensor and biomedical technology",
    "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
@@ -6887,6 +6915,15 @@
    ]
   },
   {
+   "name": "Dr. Abraham Sampson S",
+   "title": "Faculty",
+   "dept": "SENSE · sensor and biomedical technology",
+   "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
+   "depts": [
+    "SENSE · sensor and biomedical technology"
+   ]
+  },
+  {
    "name": "Dr. Arunkumar Chandrasekhar",
    "title": "Faculty",
    "dept": "SENSE · sensor and biomedical technology",
@@ -6905,7 +6942,7 @@
    ]
   },
   {
-   "name": "Dr. Jeeva J B",
+   "name": "Dr. Jaffino",
    "title": "Faculty",
    "dept": "SENSE · sensor and biomedical technology",
    "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
@@ -6968,25 +7005,7 @@
    ]
   },
   {
-   "name": "Dr. Abraham Sampson S",
-   "title": "Faculty",
-   "dept": "SENSE · sensor and biomedical technology",
-   "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
-   "depts": [
-    "SENSE · sensor and biomedical technology"
-   ]
-  },
-  {
    "name": "Dr. Anis Fatema",
-   "title": "Faculty",
-   "dept": "SENSE · sensor and biomedical technology",
-   "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
-   "depts": [
-    "SENSE · sensor and biomedical technology"
-   ]
-  },
-  {
-   "name": "Dr. JAFFINO",
    "title": "Faculty",
    "dept": "SENSE · sensor and biomedical technology",
    "url": "https://vit.ac.in/school/allfaculty/sense/sensor-and-biomedical-technology",
@@ -7031,6 +7050,15 @@
    ]
   },
   {
+   "name": "Dr. Arun Dev Dhar Dwivedi",
+   "title": "Faculty",
+   "dept": "SENSE · micro nanoelectronics",
+   "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
+   "depts": [
+    "SENSE · micro nanoelectronics"
+   ]
+  },
+  {
    "name": "Dr. Rajan Kumar Pandey",
    "title": "Faculty",
    "dept": "SENSE · micro nanoelectronics",
@@ -7050,15 +7078,6 @@
   },
   {
    "name": "Dr. Abdul Majeed K K",
-   "title": "Faculty",
-   "dept": "SENSE · micro nanoelectronics",
-   "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
-   "depts": [
-    "SENSE · micro nanoelectronics"
-   ]
-  },
-  {
-   "name": "Dr. Arun Dev Dhar Dwivedi",
    "title": "Faculty",
    "dept": "SENSE · micro nanoelectronics",
    "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
@@ -7094,7 +7113,7 @@
    ]
   },
   {
-   "name": "Dr. PRACHI SHARMA",
+   "name": "Dr. Prachi sharma",
    "title": "Faculty",
    "dept": "SENSE · micro nanoelectronics",
    "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
@@ -7157,6 +7176,15 @@
    ]
   },
   {
+   "name": "Dr. Abhishek Narayan Tripathi",
+   "title": "Faculty",
+   "dept": "SENSE · micro nanoelectronics",
+   "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
+   "depts": [
+    "SENSE · micro nanoelectronics"
+   ]
+  },
+  {
    "name": "Dr. Aarthy M",
    "title": "Faculty",
    "dept": "SENSE · micro nanoelectronics",
@@ -7194,6 +7222,15 @@
   },
   {
    "name": "Dr. Jyotishman Saikia",
+   "title": "Faculty",
+   "dept": "SENSE · micro nanoelectronics",
+   "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
+   "depts": [
+    "SENSE · micro nanoelectronics"
+   ]
+  },
+  {
+   "name": "Dr. Mohammed Aneesh Y",
    "title": "Faculty",
    "dept": "SENSE · micro nanoelectronics",
    "url": "https://vit.ac.in/school/allfaculty/sense/micro-nanoelectronics",
@@ -7400,6 +7437,15 @@
    ]
   },
   {
+   "name": "Dr. Sangeetha A",
+   "title": "Faculty",
+   "dept": "SENSE · communication engineering",
+   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
+   "depts": [
+    "SENSE · communication engineering"
+   ]
+  },
+  {
    "name": "Dr. Saravanan K",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
@@ -7428,6 +7474,15 @@
   },
   {
    "name": "Dr. Srinivasa Rao Inabathini",
+   "title": "Faculty",
+   "dept": "SENSE · communication engineering",
+   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
+   "depts": [
+    "SENSE · communication engineering"
+   ]
+  },
+  {
+   "name": "Dr. Suresh Kumar T R",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7544,6 +7599,15 @@
    ]
   },
   {
+   "name": "Dr. Christina Josephine Malathi A",
+   "title": "Faculty",
+   "dept": "SENSE · communication engineering",
+   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
+   "depts": [
+    "SENSE · communication engineering"
+   ]
+  },
+  {
    "name": "Dr. Gautam Narayan",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
@@ -7589,7 +7653,16 @@
    ]
   },
   {
-   "name": "Dr. POONGUNDRAN SELVAPRABHU",
+   "name": "Dr. Naveen Mishra",
+   "title": "Faculty",
+   "dept": "SENSE · communication engineering",
+   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
+   "depts": [
+    "SENSE · communication engineering"
+   ]
+  },
+  {
+   "name": "Dr. Poongundran Selvaprabhu",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7625,15 +7698,6 @@
    ]
   },
   {
-   "name": "Dr. Sangeetha A",
-   "title": "Faculty",
-   "dept": "SENSE · communication engineering",
-   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
-   "depts": [
-    "SENSE · communication engineering"
-   ]
-  },
-  {
    "name": "Dr. Sanjay Kumar Singh",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
@@ -7643,7 +7707,7 @@
    ]
   },
   {
-   "name": "Dr. Suresh Kumar T R",
+   "name": "Dr. Shanidul Hoque",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7680,15 +7744,6 @@
   },
   {
    "name": "Dr. Cherukula Madhu",
-   "title": "Faculty",
-   "dept": "SENSE · communication engineering",
-   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
-   "depts": [
-    "SENSE · communication engineering"
-   ]
-  },
-  {
-   "name": "Dr. Christina Josephine Malathi A",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7743,15 +7798,6 @@
   },
   {
    "name": "Dr. Mohiul Islam",
-   "title": "Faculty",
-   "dept": "SENSE · communication engineering",
-   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
-   "depts": [
-    "SENSE · communication engineering"
-   ]
-  },
-  {
-   "name": "Dr. Naveen Mishra",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7833,15 +7879,6 @@
   },
   {
    "name": "Dr. Saranya K C",
-   "title": "Faculty",
-   "dept": "SENSE · communication engineering",
-   "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
-   "depts": [
-    "SENSE · communication engineering"
-   ]
-  },
-  {
-   "name": "Dr. Shanidul Hoque",
    "title": "Faculty",
    "dept": "SENSE · communication engineering",
    "url": "https://vit.ac.in/school/allfaculty/sense/communication-engineering",
@@ -7958,6 +7995,15 @@
    ]
   },
   {
+   "name": "Dr. B Karthikeyan",
+   "title": "Faculty",
+   "dept": "SENSE · embedded technology",
+   "url": "https://vit.ac.in/school/allfaculty/sense/embedded-technology",
+   "depts": [
+    "SENSE · embedded technology"
+   ]
+  },
+  {
    "name": "Dr. Prakash R",
    "title": "Faculty",
    "dept": "SENSE · embedded technology",
@@ -7996,15 +8042,6 @@
   },
   {
    "name": "Dr. Bagubali A",
-   "title": "Faculty",
-   "dept": "SENSE · embedded technology",
-   "url": "https://vit.ac.in/school/allfaculty/sense/embedded-technology",
-   "depts": [
-    "SENSE · embedded technology"
-   ]
-  },
-  {
-   "name": "Dr. B Karthikeyan",
    "title": "Faculty",
    "dept": "SENSE · embedded technology",
    "url": "https://vit.ac.in/school/allfaculty/sense/embedded-technology",
@@ -8392,6 +8429,15 @@
    ]
   },
   {
+   "name": "Dr. Jeyapandiarajan P",
+   "title": "Faculty",
+   "dept": "SMEC · manufacturing engineering",
+   "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
+   "depts": [
+    "SMEC · manufacturing engineering"
+   ]
+  },
+  {
    "name": "Dr. Muralidharan B",
    "title": "Faculty",
    "dept": "SMEC · manufacturing engineering",
@@ -8482,15 +8528,6 @@
    ]
   },
   {
-   "name": "Dr. Jeyapandiarajan P",
-   "title": "Faculty",
-   "dept": "SMEC · manufacturing engineering",
-   "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
-   "depts": [
-    "SMEC · manufacturing engineering"
-   ]
-  },
-  {
    "name": "Dr. Joel J",
    "title": "Faculty",
    "dept": "SMEC · manufacturing engineering",
@@ -8510,6 +8547,15 @@
   },
   {
    "name": "Dr. Mahesh V P",
+   "title": "Faculty",
+   "dept": "SMEC · manufacturing engineering",
+   "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
+   "depts": [
+    "SMEC · manufacturing engineering"
+   ]
+  },
+  {
+   "name": "Dr. Md Saad Patel",
    "title": "Faculty",
    "dept": "SMEC · manufacturing engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
@@ -8582,15 +8628,6 @@
   },
   {
    "name": "Dr. Kapil Manoharan",
-   "title": "Faculty",
-   "dept": "SMEC · manufacturing engineering",
-   "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
-   "depts": [
-    "SMEC · manufacturing engineering"
-   ]
-  },
-  {
-   "name": "Dr. Ratnesh Raj",
    "title": "Faculty",
    "dept": "SMEC · manufacturing engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/manufacturing-engineering",
@@ -8725,6 +8762,15 @@
    ]
   },
   {
+   "name": "Dr. Deepakkumar R",
+   "title": "Faculty",
+   "dept": "SMEC · thermal energy engineering",
+   "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
+   "depts": [
+    "SMEC · thermal energy engineering"
+   ]
+  },
+  {
    "name": "Dr. Devendra Kumar Patel",
    "title": "Faculty",
    "dept": "SMEC · thermal energy engineering",
@@ -8753,6 +8799,15 @@
   },
   {
    "name": "Dr. Nataraj G",
+   "title": "Faculty",
+   "dept": "SMEC · thermal energy engineering",
+   "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
+   "depts": [
+    "SMEC · thermal energy engineering"
+   ]
+  },
+  {
+   "name": "Dr. Padmanathan P",
    "title": "Faculty",
    "dept": "SMEC · thermal energy engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
@@ -8806,15 +8861,6 @@
    ]
   },
   {
-   "name": "Dr. Deepakkumar R",
-   "title": "Faculty",
-   "dept": "SMEC · thermal energy engineering",
-   "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
-   "depts": [
-    "SMEC · thermal energy engineering"
-   ]
-  },
-  {
    "name": "Dr. Jayaprakash Narayan M",
    "title": "Faculty",
    "dept": "SMEC · thermal energy engineering",
@@ -8825,15 +8871,6 @@
   },
   {
    "name": "Dr. Lalit Kumar Bansal",
-   "title": "Faculty",
-   "dept": "SMEC · thermal energy engineering",
-   "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
-   "depts": [
-    "SMEC · thermal energy engineering"
-   ]
-  },
-  {
-   "name": "Dr. Padmanathan P",
    "title": "Faculty",
    "dept": "SMEC · thermal energy engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/thermal-energy-engineering",
@@ -8924,6 +8961,15 @@
   },
   {
    "name": "Dr. Ramesh Kumar C",
+   "title": "Faculty",
+   "dept": "SMEC · automotive engineering",
+   "url": "https://vit.ac.in/school/allfaculty/smec/automotive-engineering",
+   "depts": [
+    "SMEC · automotive engineering"
+   ]
+  },
+  {
+   "name": "Dr. Ravi K",
    "title": "Faculty",
    "dept": "SMEC · automotive engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/automotive-engineering",
@@ -9023,15 +9069,6 @@
   },
   {
    "name": "Dr. Premkartikkumar SR",
-   "title": "Faculty",
-   "dept": "SMEC · automotive engineering",
-   "url": "https://vit.ac.in/school/allfaculty/smec/automotive-engineering",
-   "depts": [
-    "SMEC · automotive engineering"
-   ]
-  },
-  {
-   "name": "Dr. Ravi K",
    "title": "Faculty",
    "dept": "SMEC · automotive engineering",
    "url": "https://vit.ac.in/school/allfaculty/smec/automotive-engineering",
@@ -9427,6 +9464,15 @@
    ]
   },
   {
+   "name": "Dr. A.V.V.S. Subbalakshmi",
+   "title": "Faculty",
+   "dept": "SSL · commerce",
+   "url": "https://vit.ac.in/school/allfaculty/ssl/commerce",
+   "depts": [
+    "SSL · commerce"
+   ]
+  },
+  {
    "name": "Dr. Abuzar Nomani",
    "title": "Faculty",
    "dept": "SSL · commerce",
@@ -9436,7 +9482,7 @@
    ]
   },
   {
-   "name": "Dr. A.V.V.S. Subbalakshmi",
+   "name": "Dr. Saravanabhavan N",
    "title": "Faculty",
    "dept": "SSL · commerce",
    "url": "https://vit.ac.in/school/allfaculty/ssl/commerce",
@@ -9491,15 +9537,6 @@
   },
   {
    "name": "Dr. Sangeetha R",
-   "title": "Faculty",
-   "dept": "SSL · commerce",
-   "url": "https://vit.ac.in/school/allfaculty/ssl/commerce",
-   "depts": [
-    "SSL · commerce"
-   ]
-  },
-  {
-   "name": "Dr. Saravanabhavan N",
    "title": "Faculty",
    "dept": "SSL · commerce",
    "url": "https://vit.ac.in/school/allfaculty/ssl/commerce",
@@ -9644,7 +9681,7 @@
    ]
   },
   {
-   "name": "Dr. Karthika Rajendran",
+   "name": "Dr. Parthasarathi T",
    "title": "Faculty",
    "dept": "VAIAL · genetics plant breeding",
    "url": "https://vit.ac.in/school/allfaculty/vaial/genetics-plant-breeding",
@@ -9653,7 +9690,7 @@
    ]
   },
   {
-   "name": "Dr. Parthasarathi T",
+   "name": "Dr. Karthika Rajendran",
    "title": "Faculty",
    "dept": "VAIAL · genetics plant breeding",
    "url": "https://vit.ac.in/school/allfaculty/vaial/genetics-plant-breeding",
@@ -9689,7 +9726,7 @@
    ]
   },
   {
-   "name": "Dr. Subramanian Babu",
+   "name": "Dr. Vidya R",
    "title": "Faculty",
    "dept": "VAIAL · plant pathology",
    "url": "https://vit.ac.in/school/allfaculty/vaial/plant-pathology",
@@ -9708,15 +9745,6 @@
   },
   {
    "name": "Dr. Jagan Mohan Obineni",
-   "title": "Faculty",
-   "dept": "VAIAL · plant pathology",
-   "url": "https://vit.ac.in/school/allfaculty/vaial/plant-pathology",
-   "depts": [
-    "VAIAL · plant pathology"
-   ]
-  },
-  {
-   "name": "Dr. Vidya R",
    "title": "Faculty",
    "dept": "VAIAL · plant pathology",
    "url": "https://vit.ac.in/school/allfaculty/vaial/plant-pathology",

@@ -1,6 +1,6 @@
 {
-  "_readme": "Named gates. Coordinates are existing OSM gate nodes or OSM road/building vertices at the campus edge. Official numbers come from the VIT Office of Students' Welfare campus map (naming only — not traced off the scan as ground truth).",
-  "_source": "OpenStreetMap (geometry) + VIT OSW campus map (gate numbers)",
+  "_readme": "Named gates. Coordinates are existing OSM gate nodes or OSM road/building vertices at the campus edge. Official numbers come from the VIT Office of Students' Welfare campus map (naming only — not traced off the scan as ground truth). School and department entries (anchored to their host building) imported from rugbedbugg/VIT-CampusMap.",
+  "_source": "OpenStreetMap (geometry) + VIT OSW campus map (gate numbers) + rugbedbugg/VIT-CampusMap (schools)",
   "items": [
     {
       "id": "gate-1",
@@ -9,7 +9,12 @@
       "lat": 12.968374,
       "lon": 79.155917,
       "osm": "node/13164929550",
-      "aliases": ["G1", "Main Gate", "Katpadi Gate", "Gate I"],
+      "aliases": [
+        "G1",
+        "Main Gate",
+        "Katpadi Gate",
+        "Gate I"
+      ],
       "desc": "OSM barrier=gate next to the Main Gate Fountain, on the Katpadi-road side of campus. Numbered Gate 1 on the OSW campus map."
     },
     {
@@ -19,7 +24,11 @@
       "lat": 12.970414,
       "lon": 79.154212,
       "osm": "node/1035572230",
-      "aliases": ["G1A", "Gate 1 A", "VIT Gate 1A"],
+      "aliases": [
+        "G1A",
+        "Gate 1 A",
+        "VIT Gate 1A"
+      ],
       "desc": "OSM barrier=gate on the west campus wall, next to CDMM / Health Centre — the side entrance paired with Gate 1."
     },
     {
@@ -27,26 +36,36 @@
       "name": "MH Special Mess",
       "cat": "mess",
       "lat": 12.973574,
-      "lon": 79.164260,
-      "aliases": ["Mens Special Mess", "MH Spl Mess", "Darling SPL Mess"],
+      "lon": 79.16426,
+      "aliases": [
+        "Mens Special Mess",
+        "MH Spl Mess",
+        "Darling SPL Mess"
+      ],
       "desc": "Men's hostel special mess (MessIT). Placed at the north hostel mess cluster next to OSM Darling SPL Mess."
     },
     {
       "id": "mh-veg-mess",
       "name": "MH Veg Mess",
       "cat": "mess",
-      "lat": 12.974500,
-      "lon": 79.164200,
-      "aliases": ["Mens Veg Mess"],
+      "lat": 12.9745,
+      "lon": 79.1642,
+      "aliases": [
+        "Mens Veg Mess"
+      ],
       "desc": "Men's hostel vegetarian mess (MessIT). Placed at the north hostel mess cluster next to OSM PR Caterers."
     },
     {
       "id": "mh-nonveg-mess",
       "name": "MH Non-Veg Mess",
       "cat": "mess",
-      "lat": 12.974220,
-      "lon": 79.164500,
-      "aliases": ["Mens Non Veg Mess", "MH Nonveg Mess", "PR Caterers Special Mess"],
+      "lat": 12.97422,
+      "lon": 79.1645,
+      "aliases": [
+        "Mens Non Veg Mess",
+        "MH Nonveg Mess",
+        "PR Caterers Special Mess"
+      ],
       "desc": "Men's hostel non-veg mess (MessIT). Placed at the north hostel mess cluster next to OSM PR Caterers Special Mess."
     },
     {
@@ -54,17 +73,22 @@
       "name": "LH Special Mess",
       "cat": "mess",
       "lat": 12.96805,
-      "lon": 79.15840,
-      "aliases": ["Ladies Special Mess", "LH Spl Mess"],
+      "lon": 79.1584,
+      "aliases": [
+        "Ladies Special Mess",
+        "LH Spl Mess"
+      ],
       "desc": "Ladies' hostel special mess (MessIT). Placed at the south ladies' hostel cluster (OSM N Block)."
     },
     {
       "id": "lh-veg-mess",
       "name": "LH Veg Mess",
       "cat": "mess",
-      "lat": 12.96790,
-      "lon": 79.15870,
-      "aliases": ["Ladies Veg Mess"],
+      "lat": 12.9679,
+      "lon": 79.1587,
+      "aliases": [
+        "Ladies Veg Mess"
+      ],
       "desc": "Ladies' hostel vegetarian mess (MessIT). Placed at the south ladies' hostel cluster (OSM N Block)."
     },
     {
@@ -73,7 +97,10 @@
       "cat": "mess",
       "lat": 12.96775,
       "lon": 79.15815,
-      "aliases": ["Ladies Non Veg Mess", "LH Nonveg Mess"],
+      "aliases": [
+        "Ladies Non Veg Mess",
+        "LH Nonveg Mess"
+      ],
       "desc": "Ladies' hostel non-veg mess (MessIT). Placed at the south ladies' hostel cluster (OSM N Block)."
     },
     {
@@ -82,7 +109,11 @@
       "cat": "gate",
       "lat": 12.967396,
       "lon": 79.154822,
-      "aliases": ["G2A", "Gate 2 A", "VIT Gate 2A"],
+      "aliases": [
+        "G2A",
+        "Gate 2 A",
+        "VIT Gate 2A"
+      ],
       "desc": "West-south campus edge on an OSM service road, south of GDN/CDMM. Numbered Gate 2A on the OSW campus map."
     },
     {
@@ -90,9 +121,13 @@
       "name": "Gate 3",
       "cat": "gate",
       "lat": 12.966411,
-      "lon": 79.163890,
+      "lon": 79.16389,
       "osm": "node/10946016486",
-      "aliases": ["G3", "VIT 3", "Gate III"],
+      "aliases": [
+        "G3",
+        "VIT 3",
+        "Gate III"
+      ],
       "desc": "OSM barrier=gate where the south primary road meets campus, south of the ladies' hostel / CDMM. Numbered Gate 3 on the OSW campus map."
     },
     {
@@ -101,16 +136,23 @@
       "cat": "gate",
       "lat": 12.966137,
       "lon": 79.164123,
-      "aliases": ["G3A", "Gate 3 A", "VIT Gate 3A"],
+      "aliases": [
+        "G3A",
+        "Gate 3 A",
+        "VIT Gate 3A"
+      ],
       "desc": "OSM residential-road vertex on the south campus edge, just east of Gate 3. Numbered Gate 3A on the OSW campus map."
     },
     {
       "id": "gate-5",
       "name": "Gate 5",
       "cat": "gate",
-      "lat": 12.973120,
+      "lat": 12.97312,
       "lon": 79.168052,
-      "aliases": ["G5", "VIT Gate 5"],
+      "aliases": [
+        "G5",
+        "VIT Gate 5"
+      ],
       "desc": "OSM unclassified-road vertex on the east campus edge, north-east of MGB / VIT Fields. Numbered Gate 5 on the OSW campus map."
     },
     {
@@ -120,7 +162,11 @@
       "lat": 12.967136,
       "lon": 79.167014,
       "osm": "node/10858552437",
-      "aliases": ["G11", "VIT 11", "Bus stand gate"],
+      "aliases": [
+        "G11",
+        "VIT 11",
+        "Bus stand gate"
+      ],
       "desc": "OSM barrier=gate at the south end of the long access road toward PRP / SJT Ground. Numbered Gate 11 on the OSW campus map."
     },
     {
@@ -128,10 +174,144 @@
       "name": "Gate 11A",
       "cat": "gate",
       "lat": 12.970499,
-      "lon": 79.165910,
+      "lon": 79.16591,
       "osm": "way/1542862452",
-      "aliases": ["G11A", "VIT 11A", "PRP gate"],
+      "aliases": [
+        "G11A",
+        "VIT 11A",
+        "PRP gate"
+      ],
       "desc": "South vertex of the OSM Perl Research Park footprint — the inner end of the Gate 11 access road. Numbered Gate 11A on the OSW campus map."
+    },
+    {
+      "id": "department-of-student-welfare",
+      "name": "Department of Student Welfare",
+      "cat": "academic",
+      "lat": 12.97121,
+      "lon": 79.167164,
+      "aliases": [
+        "DSW"
+      ]
+    },
+    {
+      "id": "school-of-computer-science-engineering-and-information-systems",
+      "name": "School of Computer Science Engineering and Information Systems",
+      "cat": "academic",
+      "anchor": "Technology Tower",
+      "aliases": [
+        "SCORE"
+      ],
+      "desc": "School office housed in Technology Tower."
+    },
+    {
+      "id": "school-of-bio-sciences-technology",
+      "name": "School of Bio Sciences & Technology",
+      "cat": "academic",
+      "anchor": "Sir M Visvesvaraya Block",
+      "aliases": [
+        "SBST"
+      ],
+      "desc": "School office housed in Sir M Visvesvaraya Block."
+    },
+    {
+      "id": "vit-school-of-agricultural-innovations-and-advanced-learning",
+      "name": "VIT School of Agricultural Innovations And Advanced Learning",
+      "cat": "academic",
+      "anchor": "Perl Research Park",
+      "aliases": [
+        "VAIAL"
+      ],
+      "desc": "School office housed in Perl Research Park."
+    },
+    {
+      "id": "school-of-advanced-sciences",
+      "name": "School of Advanced Sciences",
+      "cat": "academic",
+      "anchor": "Technology Tower",
+      "aliases": [
+        "SAS"
+      ],
+      "desc": "School office housed in Technology Tower."
+    },
+    {
+      "id": "school-of-computer-science-and-engineering",
+      "name": "School of Computer Science and Engineering",
+      "cat": "academic",
+      "anchor": "Silver Jubilee Tower",
+      "aliases": [
+        "SCOPE"
+      ],
+      "desc": "School office housed in Silver Jubilee Tower."
+    },
+    {
+      "id": "school-of-electrical-engineering",
+      "name": "School of Electrical Engineering",
+      "cat": "academic",
+      "anchor": "Technology Tower",
+      "aliases": [
+        "SELECT"
+      ],
+      "desc": "School office housed in Technology Tower."
+    },
+    {
+      "id": "school-of-electronics-engineering",
+      "name": "School of Electronics Engineering",
+      "cat": "academic",
+      "anchor": "Technology Tower",
+      "aliases": [
+        "SENSE"
+      ],
+      "desc": "School office housed in Technology Tower."
+    },
+    {
+      "id": "school-of-social-sciences-and-languages",
+      "name": "School of Social Sciences and Languages",
+      "cat": "academic",
+      "anchor": "Technology Tower",
+      "aliases": [
+        "SSL"
+      ],
+      "desc": "School office housed in Technology Tower."
+    },
+    {
+      "id": "school-of-civil-engineering",
+      "name": "School of Civil Engineering",
+      "cat": "academic",
+      "anchor": "G.D Naidu Block",
+      "aliases": [
+        "SCE"
+      ],
+      "desc": "School office housed in G.D Naidu Block."
+    },
+    {
+      "id": "school-of-chemical-engineering",
+      "name": "School of Chemical Engineering",
+      "cat": "academic",
+      "anchor": "Sir M Visvesvaraya Block",
+      "aliases": [
+        "SCHEME"
+      ],
+      "desc": "School office housed in Sir M Visvesvaraya Block."
+    },
+    {
+      "id": "school-of-mechanical-engineering",
+      "name": "School of Mechanical Engineering",
+      "cat": "academic",
+      "anchor": "G.D Naidu Block",
+      "aliases": [
+        "SMEC"
+      ],
+      "desc": "School office housed in G.D Naidu Block."
+    },
+    {
+      "id": "school-of-hotel-tourism-management",
+      "name": "School of Hotel & Tourism Management",
+      "cat": "academic",
+      "anchor": "Sir M Visvesvaraya Block",
+      "aliases": [
+        "HOT"
+      ],
+      "desc": "School office housed in Sir M Visvesvaraya Block."
     }
   ]
 }
