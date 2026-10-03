@@ -222,7 +222,9 @@ async function check(name, width, height, theme) {
       const b = document.getElementById('palette-close')
       return b ? getComputedStyle(b).display !== 'none' : false
     })
-    ok(!sheetMode || exitVisible, 'a visible close button exists on phones')
+    // Desktop has a Layers button too now, so "phone" is the viewport, not sheetMode.
+    const phone = await page.evaluate(() => matchMedia('(max-width: 760px)').matches)
+    ok(!phone || exitVisible, 'a visible close button exists on phones')
     if (exitVisible) {
       await page.click('#palette-close')
       const shut = await page.evaluate(() => document.getElementById('palette').hidden)
