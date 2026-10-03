@@ -347,6 +347,10 @@ console.log('\nprp model')
   const named = new Set(geo.buildings.features.map((f) => f.properties.name))
   const lost = ['Silver Jubilee Tower', 'Technology Tower', 'Main Building'].filter((n) => !named.has(n))
   ok(lost.length === 0, 'courtyard buildings (OSM multipolygon relations) have footprints', lost.join(', '))
+  const mainLine = (geo.rail?.features ?? []).filter((f) => f.properties.kind === 'rail')
+  ok(mainLine.length >= 2, `main line between the plots is kept (${mainLine.length} tracks) for the track and train`)
+  ok(['rail-bed', 'rail-steel-l', 'rail-steel-r', 'train'].every((id) => flat.layers.some((l) => l.id === id)),
+     'railway and train layers present')
 }
 
 /* ── nearest amenities ───────────────────────────────────────────────────── */
