@@ -1,0 +1,27 @@
+{
+  "name": "vit-map-film",
+  "private": true,
+  "type": "module",
+  "description": "Launch film for the VIT Vellore campus map, rendered with Remotion from the real map engine and data.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "setup": "node prepare.mjs",
+    "music": "node make-music.mjs 38.5",
+    "voice": "node make-voice.mjs",
+    "stills": "node render-stills.mjs",
+    "render": "remotion render src/index.ts Film out/vit-map-tour.mp4 --gl=angle --concurrency=1 --crf=16"
+  },
+  "dependencies": {
+    "@fontsource-variable/overpass": "^5.3.0",
+    "@fontsource/overpass-mono": "^5.3.0",
+    "@remotion/cli": "^4.0.532",
+    "maplibre-gl": "^4.7.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "typescript": "^7.0.2"
+  }
+}

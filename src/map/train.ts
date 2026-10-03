@@ -22,10 +22,10 @@ const LOCO = { body: '#e0452f', roof: '#fff4e0' }
 // Bright sides and near-white roofs: from above, the roof is what you see.
 const COACH = { body: '#3f86e8', roof: '#eef3fa' }
 
-interface Track { pts: Pt[]; cum: number[]; length: number }
+export interface Track { pts: Pt[]; cum: number[]; length: number }
 
 /** A polyline with cumulative distances in metres, for sampling by distance. */
-function toTrack(coords: GeoJSON.Position[]): Track {
+export function toTrack(coords: GeoJSON.Position[]): Track {
   const pts = coords.map(([lon, lat]) => [lon!, lat!] as Pt)
   const cum = [0]
   for (let i = 1; i < pts.length; i++) {
@@ -37,7 +37,7 @@ function toTrack(coords: GeoJSON.Position[]): Track {
 }
 
 /** Position and unit direction (in metres) at distance `d` along the track. */
-function sample(t: Track, d: number): { p: Pt; ux: number; uy: number } {
+export function sample(t: Track, d: number): { p: Pt; ux: number; uy: number } {
   let i = 1
   while (i < t.cum.length - 1 && t.cum[i]! < d) i++
   const a = t.pts[i - 1]!, b = t.pts[i]!
@@ -59,7 +59,7 @@ function carRing(t: Track, d: number, length: number, width: number): Pt[] {
   return [at(hx + wx, hy + wy), at(hx - wx, hy - wy), at(-hx - wx, -hy - wy), at(-hx + wx, -hy + wy)]
 }
 
-function trainFeatures(t: Track, head: number): ModelFeature[] {
+export function trainFeatures(t: Track, head: number): ModelFeature[] {
   const out: ModelFeature[] = []
   for (let i = 0; i <= COACHES; i++) {
     const centre = head - CAR_M / 2 - i * (CAR_M + COUPLING_M)
