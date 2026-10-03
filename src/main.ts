@@ -1,12 +1,25 @@
+import '@fontsource-variable/overpass/wght.css'
+import '@fontsource/overpass-mono/latin-400.css'
+import '@fontsource/overpass-mono/latin-600.css'
 import './styles.css'
 import maplibregl from 'maplibre-gl'
 import type { Campus, Graph, MessMenu, Poi, Profile } from './types'
-import { buildStyle } from './map/style'
+import { buildStyle, maskOpacity } from './map/style'
 import { Router, humanEta, humanDistance, metresBetween } from './route/router'
 import { SearchIndex, type Hit } from './search/engine'
 import { initPalette, openPalette } from './ui/palette'
-import { initPanel, showAbout, showMess, showMessIndex, showPerson, showPoi, hidePanel } from './ui/panel'
-import { toggle as toggleTheme, onThemeChange, resolved } from './ui/theme'
+import { initPanel, showAbout, showMess, showMessIndex, showPerson, showPoi, hidePanel, type RoomFind } from './ui/panel'
+import { hidePing, showPing } from './ui/ping'
+import { pushRecent } from './ui/recents'
+import {
+  accuracyRadiusPx,
+  insideBounds,
+  padBounds,
+  shouldNudgeCamera,
+  startWatch,
+  youCollection,
+  type Fix,
+} from './location/watch'
 
 const boot = document.getElementById('boot')!
 const base = import.meta.env.BASE_URL
@@ -38,70 +51,33 @@ async function start() {
     if (hall.at) menusAt.set(hall.at, rows)
   }
 
-  // The category palette is tuned for a dark ground and washes out on a pale
-  // one. Darken in HSL, holding hue and saturation and moving only lightness —
-  // scaling the RGB channels instead (the previous approach) drains the colour
-  // and turns every marker into the same sludge brown.
-  const shadeCache = new Map<string, string>()
   function catColour(cat: string): string {
-    const base = campus.categories[cat]?.color ?? '#8b949e'
-    if (resolved() === 'dark') return base
-    const hit = shadeCache.get(base)
-    if (hit) return hit
-
-    const n = parseInt(base.slice(1), 16)
-    const r = ((n >> 16) & 255) / 255, g = ((n >> 8) & 255) / 255, bl = (n & 255) / 255
-    const max = Math.max(r, g, bl), min = Math.min(r, g, bl)
-    const l = (max + min) / 2
-    const d = max - min
-    let h = 0
-    const sat = d === 0 ? 0 : d / (1 - Math.abs(2 * l - 1))
-    if (d !== 0) {
-      h = max === r ? ((g - bl) / d) % 6 : max === g ? (bl - r) / d + 2 : (r - g) / d + 4
-      h *= 60
-      if (h < 0) h += 360
-    }
-    // Target ~38% lightness: dark enough to read on near-white, light enough
-    // to stay recognisably the same hue as the dark theme.
-    const L = Math.min(l, 0.38)
-    const S = Math.min(1, sat * 1.05)
-    const c = (1 - Math.abs(2 * L - 1)) * S
-    const x = c * (1 - Math.abs(((h / 60) % 2) - 1))
-    const m = L - c / 2
-    const seg: [number, number, number] =
-      h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x]
-      : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x]
-    const out = '#' + seg
-      .map((v) => Math.round((v + m) * 255).toString(16).padStart(2, '0')).join('')
-    shadeCache.set(base, out)
-    return out
+    return campus.categories[cat]?.color ?? '#8b949e'
   }
 
   /* ── map ──────────────────────────────────────────────────────────────── */
 
+  const flatBounds = padBounds(campus.meta.bounds ?? [[79.148, 12.963], [79.172, 12.980]], 0.01)
   const map = new maplibregl.Map({
     container: 'map',
-    style: buildStyle(geo, campus, resolved(), base, readSatellite()),
+    style: buildStyle(geo, campus, base, readSatellite(), readView3d()),
     center: campus.meta.center,
-    zoom: 15.2,
+    // Close enough on first load that the campus reads as a 3D model, not a smudge.
+    zoom: window.matchMedia('(max-width: 760px)').matches ? 14.9 : 15.7,
     minZoom: 13,
     maxZoom: 20,
-    maxBounds: campus.meta.bounds ?? [[79.148, 12.963], [79.172, 12.980]],
+    maxBounds: readView3d() ? undefined : flatBounds,
     renderWorldCopies: false,
     // Attribution lives in the page footer instead — same ODbL credit, one place.
     attributionControl: false,
     dragRotate: false,
-    pitchWithRotate: false,
+    pitchWithRotate: true,
+    maxPitch: 65,
   })
   map.touchZoomRotate.disableRotation()
   // Handle for scripts/verify-browser.mjs and for poking at the map in devtools.
   ;(window as unknown as { __map: maplibregl.Map }).__map = map
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
-  const geolocate = new maplibregl.GeolocateControl({
-    positionOptions: { enableHighAccuracy: true },
-    trackUserLocation: true,
-  })
-  map.addControl(geolocate, 'bottom-right')
 
   let satellite = readSatellite()
   const satBtn = document.getElementById('sat-btn')!
@@ -111,12 +87,17 @@ async function start() {
     mapBtn.setAttribute('aria-pressed', String(!satellite))
   }
   paintSatBtn()
+  let styleGen = 0
   function applyStyle() {
-    map.setStyle(buildStyle(geo, campus, resolved(), base, satellite))
-    map.once('styledata', () => {
+    const gen = ++styleGen
+    // No diffing: a diffed setStyle never fires `style.load`, so the POIs,
+    // route and location dot (filled in below) silently went blank.
+    map.setStyle(buildStyle(geo, campus, base, satellite, view3d), { diff: false })
+    map.once('style.load', () => {
+      if (gen !== styleGen) return
       refreshPois()
       paintYou()
-      if (target) drawRoute()
+      if (target) drawRoute(false)
       if (pulseCat && !pulseRaf) pulseRaf = requestAnimationFrame(tickPulse)
     })
   }
@@ -128,6 +109,44 @@ async function start() {
     applyStyle()
   }
   satBtn.addEventListener('click', () => setSatellite(true))
+
+  /* ── 3D view ──────────────────────────────────────────────────────────── */
+
+  // The campus is a 3D model by default; the toggle (remembered) flattens it
+  // for anyone who would rather glance at a plan. PRP's detailed model stays
+  // either way and simply reads as coloured roofs when flat.
+  // A tall portrait screen spends its top third on horizon at a steep tilt.
+  const tilt = () => (window.matchMedia('(max-width: 760px)').matches ? 40 : 55)
+  let view3d = readView3d()
+  const view3dBtn = document.getElementById('view3d-btn')!
+  function applyView3d(animate: boolean) {
+    view3dBtn.setAttribute('aria-pressed', String(view3d))
+    for (const id of ['campus3d', 'building-shadow']) {
+      if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', view3d ? 'visible' : 'none')
+    }
+    if (map.getLayer('outside')) map.setPaintProperty('outside', 'fill-opacity', maskOpacity(view3d))
+    // maxBounds clamps the whole tilted view frustum, which drags a pitched
+    // camera off its target, so the fence only applies to the flat map.
+    map.setMaxBounds(view3d ? null : flatBounds)
+    if (view3d) {
+      map.dragRotate.enable()
+      map.touchZoomRotate.enableRotation()
+    } else {
+      map.dragRotate.disable()
+      map.touchZoomRotate.disableRotation()
+    }
+    if (animate) map.easeTo({ pitch: view3d ? tilt() : 0, bearing: view3d ? map.getBearing() : 0, duration: 650 })
+  }
+  /** `animate: false` when the caller is about to move the camera itself. */
+  function setView3d(on: boolean, animate = true) {
+    if (view3d === on) return
+    view3d = on
+    try { localStorage.setItem('campusmap.3d', on ? '1' : '0') } catch { /* ignore */ }
+    applyView3d(animate)
+  }
+  applyView3d(false)
+  if (view3d) map.once('load', () => map.easeTo({ pitch: tilt(), duration: 0 }))
+  view3dBtn.addEventListener('click', () => setView3d(!view3d))
   mapBtn.addEventListener('click', () => setSatellite(false))
 
   /* ── layer state ──────────────────────────────────────────────────────── */
@@ -257,8 +276,7 @@ async function start() {
     refreshPois()
   })
 
-  // The sheet only exists on narrow screens; on desktop the chips are always
-  // laid out in the dock and the button is hidden.
+  // A click anywhere outside the popover (desktop) or sheet (phone) closes it.
   const scrim = document.createElement('div')
   scrim.id = 'layers-scrim'
   scrim.hidden = true
@@ -286,11 +304,22 @@ async function start() {
   /** Metrics of the last successful route, so the panel button can show the ETA. */
   let lastRoute: { seconds: number; metres: number } | null = null
   let locating = false
+  let follow = false
+  let lastFix: Fix | null = null
+  let watch: { stop: () => void } | null = null
 
   const badge = document.createElement('div')
   badge.id = 'route-badge'
   badge.hidden = true
   document.body.append(badge)
+
+  const gpsNote = document.createElement('div')
+  gpsNote.id = 'gps-note'
+  gpsNote.hidden = true
+  document.body.append(gpsNote)
+
+  const campusBounds: [[number, number], [number, number]] =
+    campus.meta.bounds ?? [[79.148, 12.963], [79.172, 12.980]]
 
   function clearRoute() {
     target = null
@@ -302,21 +331,24 @@ async function start() {
 
   function paintYou() {
     const src = map.getSource('you') as maplibregl.GeoJSONSource | undefined
-    if (!origin) {
-      src?.setData({ type: 'FeatureCollection', features: [] })
-      return
+    const fix = lastFix ?? (origin
+      ? { lat: origin.lat, lon: origin.lon, accuracy: 0, heading: null, ts: 0 }
+      : null)
+    src?.setData(youCollection(fix))
+    if (fix && map.getLayer('you-acc')) {
+      map.setPaintProperty('you-acc', 'circle-radius',
+        accuracyRadiusPx(fix.accuracy || 16, fix.lat, map.getZoom()))
     }
-    src?.setData({
-      type: 'FeatureCollection',
-      features: [{
-        type: 'Feature',
-        properties: {},
-        geometry: { type: 'Point', coordinates: [origin.lon, origin.lat] },
-      }],
-    })
   }
 
-  function drawRoute() {
+  function routePadding() {
+    const phone = window.matchMedia('(max-width: 760px)').matches
+    return phone
+      ? { top: 72, bottom: 168, left: 28, right: 28 }
+      : { top: 80, bottom: 110, left: 60, right: 380 }
+  }
+
+  function drawRoute(fit = true) {
     if (!target) return
     paintYou()
     const from = origin ?? campusCentreNode()
@@ -367,65 +399,131 @@ async function start() {
       <span class="via">${fromLabel}to ${escapeHtml(target.label)}${notes ? ` · ${notes}` : ''}</span>
       <button class="x" data-clear aria-label="Clear route">&times;</button>`
 
-    map.fitBounds(bounds(coords), { padding: { top: 80, bottom: 110, left: 60, right: 380 }, maxZoom: 17.5 })
+    if (fit) {
+      map.fitBounds(bounds(coords), { padding: routePadding(), maxZoom: 17.5 })
+    }
   }
 
   badge.addEventListener('click', (e) => {
     const t = e.target as HTMLElement
     if (t.dataset.clear !== undefined) { clearRoute(); return }
-    if (t.dataset.mode) { profile = t.dataset.mode as Profile; drawRoute() }
+    if (t.dataset.mode) { profile = t.dataset.mode as Profile; drawRoute(false) }
   })
 
   function campusCentreNode() {
     return { lat: campus.meta.center[1], lon: campus.meta.center[0], label: 'campus centre' }
   }
 
-  function applyOrigin(lat: number, lon: number) {
-    origin = { lat, lon, label: 'you' }
-    locating = false
-    paintYou()
-    if (target) drawRoute()
-    if (focusId) {
-      const p = byId.get(focusId)
-      if (p) showPoi(p, menusAt.get(p.name))
+  function setGpsNote(text: string | null) {
+    if (!text) { gpsNote.hidden = true; gpsNote.textContent = ''; return }
+    gpsNote.hidden = false
+    gpsNote.textContent = text
+  }
+
+  function paintLocateBtn() {
+    const btn = document.getElementById('locate-btn')!
+    btn.setAttribute('aria-pressed', String(follow))
+    btn.classList.toggle('following', follow)
+    btn.classList.toggle('locating', locating && !lastFix)
+    btn.title = follow ? 'Stop following' : lastFix ? 'Follow my location' : 'Show my location'
+    btn.setAttribute('aria-label', btn.title)
+    if (lastFix?.heading != null) {
+      btn.style.setProperty('--hdg', `${lastFix.heading}deg`)
     }
   }
 
-  function requestGps(force = false) {
+  function applyOrigin(fix: Fix, fromWatch = false) {
+    const prev = lastFix
+    lastFix = fix
+    origin = { lat: fix.lat, lon: fix.lon, label: 'you' }
+    locating = false
+    paintYou()
+    if (target) drawRoute(false)
+    if (!insideBounds(fix.lat, fix.lon, campusBounds)) {
+      setGpsNote('You are outside the mapped campus — the blue dot is still live.')
+    } else {
+      setGpsNote(null)
+    }
+    if (shouldNudgeCamera(follow, fromWatch ? prev : null, fix)) {
+      map.easeTo({
+        center: [fix.lon, fix.lat],
+        duration: prev ? 420 : 700,
+        offset: panelOffset(),
+        zoom: Math.max(map.getZoom(), 16.6),
+      })
+    }
+    paintLocateBtn()
+  }
+
+  function beginWatch(andFollow: boolean) {
     if (!navigator.geolocation) {
       locating = false
-      if (target) drawRoute()
+      setGpsNote('This browser cannot share a location.')
+      if (target) drawRoute(false)
+      paintLocateBtn()
       return
     }
-    locating = !origin
-    navigator.geolocation.getCurrentPosition(
-      (pos) => applyOrigin(pos.coords.latitude, pos.coords.longitude),
-      () => {
+    if (andFollow) follow = true
+    if (watch) {
+      if (lastFix && andFollow) {
+        map.easeTo({
+          center: [lastFix.lon, lastFix.lat],
+          duration: 520,
+          offset: panelOffset(),
+          zoom: Math.max(map.getZoom(), 16.6),
+        })
+      }
+      paintLocateBtn()
+      return
+    }
+    locating = !lastFix
+    paintLocateBtn()
+    watch = startWatch(navigator.geolocation, {
+      onFix: (fix) => applyOrigin(fix, true),
+      onError: (err) => {
         locating = false
-        if (target) drawRoute()
+        follow = false
+        paintLocateBtn()
+        if (err.code === 1) setGpsNote('Location is blocked for this site. Allow it in the browser, then tap the crosshair.')
+        else if (err.code === 2) setGpsNote('No GPS fix yet — try near a window, then tap the crosshair again.')
+        else setGpsNote('Could not get a GPS fix. Tap the crosshair to try again.')
+        if (target) drawRoute(false)
       },
-      { enableHighAccuracy: true, timeout: force ? 10_000 : 8000, maximumAge: force ? 0 : 15_000 },
-    )
+    })
   }
 
   function routeTo(lat: number, lon: number, label: string) {
     target = { lat, lon, label }
-    if (origin) drawRoute()
+    if (origin) drawRoute(true)
     else {
       locating = true
       badge.hidden = false
       badge.innerHTML = `<span>Getting your location…</span>
         <button class="x" data-clear aria-label="Clear route">&times;</button>`
     }
-    requestGps(true)
+    beginWatch(false)
   }
 
-  geolocate.on('geolocate', (e) => {
-    applyOrigin(e.coords.latitude, e.coords.longitude)
+  const locateBtn = document.getElementById('locate-btn')!
+  locateBtn.addEventListener('click', () => {
+    if (follow) { follow = false; paintLocateBtn(); return }
+    beginWatch(true)
   })
+  paintLocateBtn()
+
+  map.on('dragstart', () => {
+    if (!follow) return
+    follow = false
+    paintLocateBtn()
+  })
+  map.on('zoom', () => { if (lastFix) paintYou() })
 
   map.on('load', () => {
-    requestGps(false)
+    try {
+      void navigator.permissions?.query({ name: 'geolocation' }).then((p) => {
+        if (p.state === 'granted') beginWatch(false)
+      })
+    } catch { /* Safari, or Permissions API missing */ }
     if (pulseCat && !pulseRaf) pulseRaf = requestAnimationFrame(tickPulse)
   })
 
@@ -503,20 +601,19 @@ async function start() {
     return window.matchMedia('(max-width: 760px)').matches ? [0, -110] : [-140, 0]
   }
 
-  function focusPoi(p: Poi, zoom = 17.4) {
+  function focusPoi(p: Poi, zoom = 17.4, find?: RoomFind) {
     focusId = p.id
     refreshPois()
-    if (p.cat === 'prp') {
-      setSatellite(true)
-      zoom = 18.2
-    }
+    if (p.cat === 'prp') zoom = 18
     map.easeTo({
       center: [p.lon, p.lat],
       zoom: Math.max(map.getZoom(), zoom),
       duration: 520,
       offset: panelOffset(),
     })
-    showPoi(p, menusAt.get(p.name))
+    showPoi(p, menusAt.get(p.name), find)
+    showPing(map, p.lat, p.lon, campus.categories[p.cat]?.color)
+    pushRecent(p.id)
   }
 
   map.on('click', (e) => {
@@ -527,7 +624,7 @@ async function start() {
 
   // Lamps are drawn as a glow instead of a dot, so they need their own hit
   // targets — `lamp-hit` is a transparent circle sized for a fingertip.
-  const CLICKABLE = ['poi-dot', 'lamp-hit', 'poi-label', 'poi-label-minor', 'poi-label-generic', 'prp-fill', 'prp-line', 'prp-label']
+  const CLICKABLE = ['poi-dot', 'lamp-hit', 'poi-label', 'poi-label-minor', 'poi-label-generic', 'prp-fill', 'prp-line', 'prp-label', 'prp3d']
 
   for (const layer of CLICKABLE) {
     map.on('click', layer, (e) => {
@@ -561,28 +658,32 @@ async function start() {
       if (id === 'report') startPicking()
       if (id === 'satellite') setSatellite(!satellite)
       if (id === 'prp') jumpPrp()
-      if (id === 'locate') {
-        navigator.geolocation?.getCurrentPosition((pos) => {
-          applyOrigin(pos.coords.latitude, pos.coords.longitude)
-          map.easeTo({ center: [pos.coords.longitude, pos.coords.latitude], zoom: 17 })
-        })
-      }
+      if (id === 'locate') beginWatch(true)
     },
   })
 
   function openHit(hit: Hit) {
     if (hit.run) { hit.run(); return }
-    if (hit.kind === 'place' && hit.poi) { focusPoi(hit.poi); return }
+    if (hit.kind === 'place' && hit.poi) {
+      focusPoi(hit.poi, undefined, hit.floor && hit.room ? { floor: hit.floor, room: hit.room } : undefined)
+      return
+    }
     if (hit.kind === 'person' && hit.person) {
       const at = hit.person.at ? byName.get(hit.person.at) : undefined
-      if (at) { focusId = at.id; refreshPois(); map.easeTo({ center: [at.lon, at.lat], zoom: 17, duration: 520, offset: panelOffset() }) }
+      if (at) {
+        focusId = at.id
+        refreshPois()
+        map.easeTo({ center: [at.lon, at.lat], zoom: 17, duration: 520, offset: panelOffset() })
+        showPing(map, at.lat, at.lon)
+      } else hidePing()
       showPerson(hit.person, at)
       return
     }
     if (hit.kind === 'mess') {
       if (hit.lat != null && hit.lon != null) {
         map.easeTo({ center: [hit.lon, hit.lat], zoom: 17, duration: 520, offset: panelOffset() })
-      }
+        showPing(map, hit.lat, hit.lon, campus.categories.mess?.color)
+      } else hidePing()
       showMess(hit)
     }
   }
@@ -591,8 +692,12 @@ async function start() {
     active.add('prp')
     setPulse('prp')
     refreshPois()
-    setSatellite(true)
-    map.easeTo({ center: [79.16628, 12.97127], zoom: 18.1, duration: 700, offset: panelOffset() })
+    // The sign's view: from Jimmy Carter Road, looking south into the courtyard.
+    setView3d(true, false)
+    map.easeTo({
+      center: [79.16632, 12.97168], zoom: 17.75, bearing: 164, pitch: 58,
+      duration: 1100, offset: panelOffset(),
+    })
   }
 
   function jumpMess() {
@@ -602,7 +707,7 @@ async function start() {
     const pts = campus.pois.filter((p) => p.cat === 'mess')
     if (pts.length) {
       map.fitBounds(bounds(pts.map((p) => [p.lon, p.lat] as [number, number])), {
-        padding: { top: 90, bottom: 140, left: 50, right: 380 },
+        padding: routePadding(),
         maxZoom: 17,
         duration: 700,
       })
@@ -629,8 +734,9 @@ async function start() {
       metres: lastRoute?.metres,
       locating,
     }),
-    close: () => { focusId = null; refreshPois() },
+    close: () => { focusId = null; hidePing(); refreshPois() },
     openHall,
+    openPoi: (id) => { const p = byId.get(id); if (p) focusPoi(p) },
   })
 
   initPalette({
@@ -645,23 +751,6 @@ async function start() {
   document.getElementById('brand-btn')!.addEventListener('click', () => showAbout(campus))
   document.getElementById('go-mess')!.addEventListener('click', jumpMess)
   document.getElementById('go-prp')!.addEventListener('click', jumpPrp)
-
-  /* ── theme ────────────────────────────────────────────────────────────── */
-
-  const themeBtn = document.getElementById('theme-btn')!
-  const paintThemeBtn = () => {
-    const dark = resolved() === 'dark'
-    themeBtn.textContent = dark ? '☾' : '☀'
-    themeBtn.title = dark ? 'Switch to light' : 'Switch to dark'
-  }
-  paintThemeBtn()
-  themeBtn.addEventListener('click', () => { toggleTheme(); paintThemeBtn() })
-
-  onThemeChange(() => {
-    shadeCache.clear()
-    paintRail()
-    applyStyle()
-  })
 
   // What is loaded is stated in the About panel; the counts used to live under
   // the wordmark but that element is gone.
@@ -712,6 +801,10 @@ function bounds(coords: [number, number][]): [[number, number], [number, number]
 
 function escapeHtml(s: string) {
   return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!))
+}
+
+function readView3d(): boolean {
+  try { return localStorage.getItem('campusmap.3d') !== '0' } catch { return true }
 }
 
 function readSatellite(): boolean {

@@ -2,6 +2,8 @@ import type { Campus, Faculty, MessMenu, Poi } from '../types'
 import { openNow } from '../search/hours'
 import { humanDistance, humanEta } from '../route/router'
 import type { Hit } from '../search/engine'
+import { nearestAmenities } from '../search/nearest'
+import { isStarred, toggleStar } from './recents'
 
 const el = document.getElementById('panel') as HTMLElement
 
@@ -30,6 +32,7 @@ export interface PanelHost {
   routeState(): { active: boolean; eta?: number; metres?: number; locating?: boolean }
   close(): void
   openHall(name: string): void
+  openPoi(id: string): void
 }
 
 let host: PanelHost
@@ -39,6 +42,13 @@ export function initPanel(h: PanelHost) {
   el.addEventListener('click', (e) => {
     const t = e.target as HTMLElement
     if (t.closest('.p-close')) { hidePanel(); host.close() }
+    const star = t.closest('[data-star]') as HTMLElement | null
+    if (star?.dataset.star) {
+      paintStar(star, toggleStar(star.dataset.star))
+      return
+    }
+    const near = t.closest('[data-poi]') as HTMLElement | null
+    if (near?.dataset.poi) { host.openPoi(near.dataset.poi); return }
     const hall = t.closest('[data-hall]') as HTMLElement | null
     if (hall?.dataset.hall) { host.openHall(hall.dataset.hall); return }
     const r = t.closest('[data-route]') as HTMLElement | null
@@ -48,7 +58,18 @@ export function initPanel(h: PanelHost) {
 
 export function hidePanel() { el.hidden = true }
 
-function shell(title: string, kind: string, body: string) {
+function paintStar(btn: HTMLElement, on: boolean) {
+  btn.setAttribute('aria-pressed', String(on))
+  btn.setAttribute('aria-label', on ? 'Remove from starred' : 'Star this place')
+  btn.title = on ? 'Starred — shows first in search' : 'Star this place'
+}
+
+const STAR_SVG = `<svg viewBox="0 0 20 20" width="17" height="17" aria-hidden="true">
+  <path d="M10 2.4l2.3 4.9 5.3.6-3.9 3.7 1 5.3L10 14.3l-4.7 2.6 1-5.3-3.9-3.7 5.3-.6z"
+    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>`
+
+/** `starId` adds a star toggle to the header (places only). */
+function shell(title: string, kind: string, body: string, starId?: string) {
   el.hidden = false
   el.innerHTML = `
     <div class="p-grip" aria-hidden="true"></div>
@@ -57,10 +78,27 @@ function shell(title: string, kind: string, body: string) {
         <div class="p-kind">${esc(kind)}</div>
         <h2>${esc(title)}</h2>
       </div>
+      ${starId ? `<button class="p-star" type="button" data-star="${esc(starId)}">${STAR_SVG}</button>` : ''}
       <button class="p-close" type="button" aria-label="Close">&times;</button>
     </header>
     <div class="p-body">${body}</div>`
   el.querySelector('.p-body')!.scrollTop = 0
+  const star = el.querySelector<HTMLElement>('[data-star]')
+  if (star) paintStar(star, isStarred(starId!))
+}
+
+function nearbySection(p: Poi): string {
+  const near = nearestAmenities(host.campus, p)
+  if (!near.length) return ''
+  const rows = near.map(({ poi, metres }) => {
+    const cat = host.campus.categories[poi.cat]
+    return `<button type="button" class="near" data-poi="${esc(poi.id)}">
+      <span class="near-dot" style="background:${esc(cat?.color ?? '#8d7f70')}"></span>
+      <span class="near-main"><b>${esc(poi.name)}</b><span>${esc(cat?.label ?? poi.cat)}</span></span>
+      <span class="near-m">${esc(humanDistance(metres))}</span>
+    </button>`
+  }).join('')
+  return `<div class="p-sec">Nearby</div><div class="near-list">${rows}</div>`
 }
 
 function kv(rows: [string, string | undefined][]) {
@@ -78,12 +116,19 @@ function hoursRow(spec?: string): string | undefined {
   return `${esc(spec)}${badge}`
 }
 
-function floorTable(floors: { level: string; label: string; rooms: string | null }[]): string {
-  const rows = floors.map((f) =>
-    `<div class="floor"><b>${esc(f.label)}</b><span>${f.rooms ? esc(f.rooms) : '—'}</span></div>`).join('')
-  return `<div class="p-sec">Classrooms by floor</div>
-    <p class="p-note">Tap a block on the map. Room ranges are from the public PRP annotated map — not indoor GPS.</p>
-    ${rows}`
+/** A searched room: which floor to point at. */
+export interface RoomFind { floor: string; room: string }
+
+function floorTable(floors: { level: string; label: string; rooms: string | null }[], find?: RoomFind): string {
+  const hit = find && floors.find((f) => f.level === find.floor)
+  const rows = floors.map((f) => {
+    const here = f === hit
+    return `<div class="floor${here ? ' here' : ''}"${here ? ' aria-current="true"' : ''}><b>${esc(f.label)}</b><span>${f.rooms ? esc(f.rooms) : '—'}</span></div>`
+  }).join('')
+  return `${hit ? `<p class="room-callout">Room <b>${esc(find!.room)}</b> is on the <b>${esc(hit.label.toLowerCase())}</b></p>` : ''}
+    <div class="p-sec">Classrooms by floor</div>
+    ${rows}
+    <p class="p-note" style="margin-top:10px">Room ranges are from the public PRP annotated map — not indoor GPS.</p>`
 }
 
 function routeButtons(lat: number, lon: number, label: string) {
@@ -144,7 +189,7 @@ function menuSections(menus: MessMenu[]): string {
   ].join('')
 }
 
-export function showPoi(p: Poi, menus?: MessMenu[]) {
+export function showPoi(p: Poi, menus?: MessMenu[], find?: RoomFind) {
   const cat = host.campus.categories[p.cat]
   const wheel = p.wheelchair === 'yes' ? 'step-free'
     : p.wheelchair === 'limited' ? 'limited'
@@ -155,7 +200,8 @@ export function showPoi(p: Poi, menus?: MessMenu[]) {
     kv([
       ['Hours', hoursRow(p.hours)],
       ['Access', wheel ? esc(wheel) : undefined],
-      ['Type', p.kind ? esc(p.kind.replace(/_/g, ' ')) : undefined],
+      // Internal kinds (prp-block) mean nothing to a visitor.
+      ['Type', p.kind && p.kind !== 'prp-block' ? esc(p.kind.replace(/_/g, ' ')) : undefined],
       ['Floor', p.level ? esc(p.level) : undefined],
       ['Cuisine', p.cuisine ? esc(p.cuisine.replace(/;/g, ', ')) : undefined],
       ['Capacity', p.capacity ? esc(p.capacity) : undefined],
@@ -169,10 +215,11 @@ export function showPoi(p: Poi, menus?: MessMenu[]) {
       ['Website', p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.url.replace(/^https?:\/\//, '').slice(0, 34))}</a>` : undefined],
       ['Near', p.near ? esc(p.near) : undefined],
     ]),
-    p.floors?.length ? floorTable(p.floors) : '',
+    p.floors?.length ? floorTable(p.floors, find) : '',
     p.desc && !p.floors?.length ? `<p class="p-note">${esc(p.desc)}</p>` : '',
     // A mess opened from the map should answer the actual question: what's for dinner.
     menus?.length ? menuSections(menus) : '',
+    nearbySection(p),
     `<p class="src">${p.cat === 'prp'
       ? `Classroom ranges from the <a href="https://www.google.com/maps/d/viewer?mid=1MqfJ8nGclE3KUacxTGu7yDAiTsGWP98" target="_blank" rel="noopener">PRP annotated map</a>`
       : p.src === 'osm'
@@ -182,7 +229,8 @@ export function showPoi(p: Poi, menus?: MessMenu[]) {
       : 'Hand-surveyed — verify before relying on it'}</p>`,
   ].join('')
 
-  shell(p.name, cat?.label ?? p.cat, body)
+  shell(p.name, cat?.label ?? p.cat, body, p.id)
+  el.querySelector('.floor.here')?.scrollIntoView({ block: 'center' })
 }
 
 /* ── people ──────────────────────────────────────────────────────────────── */
@@ -254,17 +302,17 @@ export function showAbout(campus: Campus) {
     <p class="p-note">Everything here comes from a public source. Nothing on this
     map is invented — where there is no source, the feature is simply absent.</p>
 
-    <div class="p-sec">Map & places</div>
+    <div class="p-sec">Map & 3D</div>
     <p class="p-note"><b>${total}</b> places, <b>${campus.meta.counts.academic ?? 0}</b> academic/admin blocks.
     Geometry, opening hours and wheelchair tags from
     <a href="https://www.openstreetmap.org/relation/15931944" target="_blank" rel="noopener">OpenStreetMap</a>,
-    ODbL. Walking and cycling times are computed over the OSM path network.</p>
+    ODbL. Walking and cycling times are computed over the OSM path network. Buildings are raised from
+    their OSM floor counts where mapped, and estimated elsewhere — tag <code>building:levels</code> to fix one.</p>
 
     ${f ? `<div class="p-sec">Faculty</div>
     <p class="p-note"><b>${f.items.length}</b> people from
     <a href="${esc(f._source)}" target="_blank" rel="noopener">vit.ac.in/faculty</a>,
-    fetched ${esc(f._fetched.slice(0, 10))}. ${f._located ?? 0} are placed on the map from their
-    listed office.
+    fetched ${esc(f._fetched.slice(0, 10))}.${f._located ? ` ${f._located} are placed on the map from their listed office.` : ''}
     ${f._incomplete_departments?.length
       ? `<br><br><b>${f._incomplete_departments.length} departments came back short</b> on the
          last fetch: ${f._incomplete_departments.map((d) => `${esc(d.dept)} ${d.got}/${d.expected}`).join(', ')}.`
@@ -273,7 +321,7 @@ export function showAbout(campus: Campus) {
     <div class="p-sec">PRP maze</div>
     <p class="p-note">Block outlines and classroom ranges from the public
     <a href="https://www.google.com/maps/d/viewer?mid=1MqfJ8nGclE3KUacxTGu7yDAiTsGWP98" target="_blank" rel="noopener">PRP annotated map</a>.
-    Search a room number (<code>327</code>, <code>g29</code>) or tap a block. Satellite view helps on the ground.</p>
+    Search a room number (<code>327</code>, <code>g29</code>) or tap a block. The 3D model follows the site sign on Jimmy Carter Road.</p>
 
     ${m ? `<div class="p-sec">Mess menus</div>
     <p class="p-note"><b>${m.items.length}</b> menus across <b>${m.halls.length}</b> mess types from
@@ -281,8 +329,7 @@ export function showAbout(campus: Campus) {
     (VinnovateIT), fetched ${esc(m._fetched.slice(0, 10))}. Community-maintained, so treat it as a strong hint.</p>` : ''}
 
     <div class="p-sec">Not here yet</div>
-    <p class="p-note">Named hostel blocks, gates and shuttle stops that OSM does not carry yet,
-    course timetables (VTOP is login-walled), club rosters, notices, and shuttle timings.
+    <p class="p-note">Shuttle stops that OSM does not carry yet, course timetables (VTOP is login-walled), club rosters, notices, and shuttle timings.
     Each one is waiting on a real source — see TODO.md in the repo.</p>
 
     <div class="p-sec">Contribute</div>

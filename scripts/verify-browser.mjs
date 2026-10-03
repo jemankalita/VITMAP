@@ -57,11 +57,6 @@ async function check(name, width, height, theme) {
   console.log(`\n${name} (${width}x${height}${theme ? `, ${theme}` : ''})`)
   const page = await browser.newPage()
   await page.setViewport({ width, height, deviceScaleFactor: 1 })
-  if (theme) {
-    await page.evaluateOnNewDocument((t) => {
-      try { localStorage.setItem('campusmap.theme', t) } catch {}
-    }, theme)
-  }
 
   const errors = []
   const failed = []
@@ -259,7 +254,6 @@ async function check(name, width, height, theme) {
 }
 
 await check('desktop-dark', 1440, 900, 'dark')
-await check('desktop-light', 1440, 900, 'light')
 await check('mobile-dark', 402, 874, 'dark')
 
 await browser.close()
