@@ -7,8 +7,8 @@ import { type ModelFeature, type Pt, M_PER_DEG_LAT, mPerDegLon, solid } from './
  * on the two tracks, then a quiet gap. Occasional on purpose — something that
  * never stops moving pulls the eye away from the map's actual job.
  *
- * Off entirely for prefers-reduced-motion; paused in background tabs and
- * when zoomed out too far to see it.
+ * Off entirely for prefers-reduced-motion and automated browsers; paused in
+ * background tabs and when zoomed out too far to see it.
  */
 
 const SPEED_MPS = 28 // ~100 km/h, the line's real pace
@@ -82,7 +82,9 @@ export function startTrains(map: maplibregl.Map, rail: GeoJSON.FeatureCollection
     .map((f) => toTrack((f.geometry as GeoJSON.LineString).coordinates))
     .filter((t) => t.length > 200)
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-  if (!tracks.length || reduced) return () => {}
+  // Automated browsers (CI, crawlers) gain nothing from it, and on a
+  // software renderer the redraws starve the page's main thread.
+  if (!tracks.length || reduced || navigator.webdriver) return () => {}
 
   const trainLength = (COACHES + 1) * (CAR_M + COUPLING_M)
   let which = 0
