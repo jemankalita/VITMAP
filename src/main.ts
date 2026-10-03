@@ -20,6 +20,10 @@ import {
   youCollection,
   type Fix,
 } from './location/watch'
+import { inject } from '@vercel/analytics'
+
+// Initialize Vercel Web Analytics
+inject()
 
 const boot = document.getElementById('boot')!
 const base = import.meta.env.BASE_URL
