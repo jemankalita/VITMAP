@@ -22,8 +22,8 @@ import {
 } from './location/watch'
 import { inject } from '@vercel/analytics'
 
-// Initialize Vercel Web Analytics
-inject()
+// Vercel Web Analytics, only in builds made on Vercel (see vite.config.ts).
+if (__ON_VERCEL__) inject()
 
 const boot = document.getElementById('boot')!
 const base = import.meta.env.BASE_URL
