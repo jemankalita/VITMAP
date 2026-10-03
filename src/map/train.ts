@@ -6,21 +6,21 @@ import { type ModelFeature, type Pt, M_PER_DEG_LAT, mPerDegLon, solid } from './
  * a near-continuous loop: a red electric loco and blue coaches, alternating
  * direction on the two tracks, with only a 2–3 s pause between them.
  *
- * Off entirely for prefers-reduced-motion and automated browsers; paused in
- * background tabs and when zoomed out too far to see it.
+ * Always on for visitors. Skipped only in automated browsers (CI), where a
+ * software renderer cannot keep up, and paused while the tab is hidden.
  */
 
 const SPEED_MPS = 28 // ~100 km/h, the line's real pace
 const GAP_S: [number, number] = [2, 3] // brief pause, then the next train
 const CAR_M = 21
 const COUPLING_M = 1.2
-const WIDTH_M = 3.1
-const COACHES = 9
-const MIN_ZOOM = 14.2
+const WIDTH_M = 3.6 // a touch wider than life so it reads at campus zoom
+const COACHES = 18 // a full-length express, ~400 m
 const FRAME_MS = 33 // ~30 fps is plenty for something this size
 
-const LOCO = { body: '#b8352a', roof: '#d9d4cc' }
-const COACH = { body: '#2f5d9e', roof: '#c9cdd3' }
+const LOCO = { body: '#e0452f', roof: '#fff4e0' }
+// Bright sides and near-white roofs: from above, the roof is what you see.
+const COACH = { body: '#3f86e8', roof: '#eef3fa' }
 
 interface Track { pts: Pt[]; cum: number[]; length: number }
 
@@ -66,8 +66,8 @@ function trainFeatures(t: Track, head: number): ModelFeature[] {
     if (centre < CAR_M / 2 || centre > t.length - CAR_M / 2) continue
     const skin = i === 0 ? LOCO : COACH
     const body = carRing(t, centre, CAR_M, WIDTH_M)
-    const roof = carRing(t, centre, CAR_M - 1.2, WIDTH_M - 0.5)
-    out.push(solid(`train-${i}`, body, skin.body, 0.9, 4.1), solid(`train-${i}`, roof, skin.roof, 4.1, 4.5))
+    const roof = carRing(t, centre, CAR_M - 0.6, WIDTH_M - 0.3)
+    out.push(solid(`train-${i}`, body, skin.body, 0.9, 4.6), solid(`train-${i}`, roof, skin.roof, 4.6, 5.1))
   }
   return out
 }
@@ -80,10 +80,9 @@ export function startTrains(map: maplibregl.Map, rail: GeoJSON.FeatureCollection
     .filter((f) => f.geometry.type === 'LineString' && f.properties?.kind === 'rail')
     .map((f) => toTrack((f.geometry as GeoJSON.LineString).coordinates))
     .filter((t) => t.length > 200)
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   // Automated browsers (CI, crawlers) gain nothing from it, and on a
   // software renderer the redraws starve the page's main thread.
-  if (!tracks.length || reduced || navigator.webdriver) return () => {}
+  if (!tracks.length || navigator.webdriver) return () => {}
 
   const trainLength = (COACHES + 1) * (CAR_M + COUPLING_M)
   let which = 0
@@ -113,7 +112,6 @@ export function startTrains(map: maplibregl.Map, rail: GeoJSON.FeatureCollection
       clear()
       return
     }
-    if (map.getZoom() < MIN_ZOOM) { clear(); return }
     if (now - lastDraw < FRAME_MS) return
     lastDraw = now
     source()?.setData({ type: 'FeatureCollection', features: trainFeatures(track, head) })

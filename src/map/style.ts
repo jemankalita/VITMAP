@@ -291,7 +291,6 @@ export function buildStyle(
       // Moved by src/map/train.ts; parts carry their own heights, so no grow-in.
       {
         id: 'train', type: 'fill-extrusion', source: 'train',
-        minzoom: 14.2,
         paint: {
           'fill-extrusion-color': ['get', 'color'],
           'fill-extrusion-base': ['get', 'base'],

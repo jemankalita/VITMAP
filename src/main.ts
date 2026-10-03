@@ -80,8 +80,9 @@ async function start() {
     maxPitch: 65,
   })
   map.touchZoomRotate.disableRotation()
-  // After the first full render, so the trains never compete with page load.
-  map.once('idle', () => startTrains(map, geo.rail))
+  // Once the style and data are in. Not `idle`: a pulsing layer or a live
+  // location dot keeps the map repainting, and `idle` may never come.
+  map.once('load', () => startTrains(map, geo.rail))
   // Handle for scripts/verify-browser.mjs and for poking at the map in devtools.
   ;(window as unknown as { __map: maplibregl.Map }).__map = map
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
