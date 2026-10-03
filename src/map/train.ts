@@ -2,17 +2,16 @@ import type maplibregl from 'maplibre-gl'
 import { type ModelFeature, type Pt, M_PER_DEG_LAT, mPerDegLon, solid } from './geom3d'
 
 /**
- * Now and then a train runs the Chennai–Bengaluru main line between the two
- * campus plots: a red electric loco and blue coaches, alternating direction
- * on the two tracks, then a quiet gap. Occasional on purpose — something that
- * never stops moving pulls the eye away from the map's actual job.
+ * Trains run the Chennai–Bengaluru main line between the two campus plots in
+ * a near-continuous loop: a red electric loco and blue coaches, alternating
+ * direction on the two tracks, with only a 2–3 s pause between them.
  *
  * Off entirely for prefers-reduced-motion and automated browsers; paused in
  * background tabs and when zoomed out too far to see it.
  */
 
 const SPEED_MPS = 28 // ~100 km/h, the line's real pace
-const GAP_S: [number, number] = [6, 16] // quiet time between trains
+const GAP_S: [number, number] = [2, 3] // brief pause, then the next train
 const CAR_M = 21
 const COUPLING_M = 1.2
 const WIDTH_M = 3.1
@@ -89,7 +88,7 @@ export function startTrains(map: maplibregl.Map, rail: GeoJSON.FeatureCollection
   const trainLength = (COACHES + 1) * (CAR_M + COUPLING_M)
   let which = 0
   let head = 0
-  let waitUntil = performance.now() + 2500
+  let waitUntil = performance.now() + 1000
   let last = performance.now()
   let lastDraw = 0
   let shown = false
