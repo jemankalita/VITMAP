@@ -86,6 +86,7 @@ export function buildStyle(
       prp: src(prpGeo),
       prp3d: src(buildPrpModel(prpGeo, prpFloors)),
       campus3d: src(buildCampusModel(geo, campus.pois)),
+      train: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       pois: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       route: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
       you: { type: 'geojson', data: { type: 'FeatureCollection', features: [] } },
@@ -114,14 +115,6 @@ export function buildStyle(
         id: 'wall', type: 'line', source: 'wall',
         minzoom: 15,
         paint: { 'line-color': C.wall, 'line-width': 1 },
-      },
-      {
-        id: 'rail', type: 'line', source: 'rail',
-        paint: {
-          'line-color': '#3a4452',
-          'line-width': ['interpolate', ['linear'], ['zoom'], 13, 1.2, 17, 3],
-          'line-dasharray': [4, 2],
-        },
       },
 
       // Roads get a casing so junctions read cleanly at low zoom.
@@ -246,6 +239,41 @@ export function buildStyle(
 
       // 3D models sit above the outside mask: a flat fill drawn after an
       // extrusion paints straight over it, which cut PRP's annex in half.
+      // The main line between the two plots, drawn above the outside shade:
+      // ballast bed, sleepers, then a pair of steel rails per track.
+      {
+        id: 'rail-bed', type: 'line', source: 'rail',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: {
+          'line-color': '#3a332c',
+          'line-width': ['interpolate', ['exponential', 2], ['zoom'], 13, 2, 16, 9, 19, 44],
+        },
+      },
+      {
+        id: 'rail-ties', type: 'line', source: 'rail',
+        minzoom: 15,
+        paint: {
+          'line-color': '#6e5c49',
+          'line-width': ['interpolate', ['exponential', 2], ['zoom'], 15, 4, 16, 7, 19, 30],
+          'line-dasharray': [0.16, 0.5],
+        },
+      },
+      {
+        id: 'rail-line', type: 'line', source: 'rail',
+        maxzoom: 15,
+        paint: { 'line-color': '#9aa1aa', 'line-width': ['interpolate', ['linear'], ['zoom'], 13, 0.6, 15, 1.2] },
+      },
+      ...([1, -1] as const).map((side) => ({
+        id: `rail-steel-${side > 0 ? 'l' : 'r'}`, type: 'line' as const, source: 'rail',
+        minzoom: 15,
+        layout: { 'line-join': 'round' as const },
+        paint: {
+          'line-color': '#b4bbc4',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 15, 0.6, 19, 2],
+          'line-offset': ['interpolate', ['exponential', 2], ['zoom'], 15, side * 1, 19, side * 9],
+        },
+      } as LayerSpecification)),
+
       // A soft contact shadow, cast away from the key light, grounds each block.
       {
         id: 'building-shadow', type: 'fill', source: 'buildings',
@@ -260,6 +288,17 @@ export function buildStyle(
       },
       ...extrusion('campus3d', 'campus3d', 15, view3d, 1),
       ...extrusion('prp3d', 'prp3d', 15.3, true, 1),
+      // Moved by src/map/train.ts; parts carry their own heights, so no grow-in.
+      {
+        id: 'train', type: 'fill-extrusion', source: 'train',
+        minzoom: 14.2,
+        paint: {
+          'fill-extrusion-color': ['get', 'color'],
+          'fill-extrusion-base': ['get', 'base'],
+          'fill-extrusion-height': ['get', 'top'],
+          'fill-extrusion-vertical-gradient': true,
+        },
+      },
 
       {
         id: 'overlay-lh', type: 'line', source: 'overlays',

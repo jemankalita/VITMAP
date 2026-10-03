@@ -5,6 +5,7 @@ import './styles.css'
 import maplibregl from 'maplibre-gl'
 import type { Campus, Graph, MessMenu, Poi, Profile } from './types'
 import { buildStyle, maskOpacity } from './map/style'
+import { startTrains } from './map/train'
 import { Router, humanEta, humanDistance, metresBetween } from './route/router'
 import { SearchIndex, type Hit } from './search/engine'
 import { initPalette, openPalette } from './ui/palette'
@@ -79,6 +80,7 @@ async function start() {
     maxPitch: 65,
   })
   map.touchZoomRotate.disableRotation()
+  startTrains(map, geo.rail)
   // Handle for scripts/verify-browser.mjs and for poking at the map in devtools.
   ;(window as unknown as { __map: maplibregl.Map }).__map = map
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')

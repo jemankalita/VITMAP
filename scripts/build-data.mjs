@@ -633,8 +633,13 @@ async function main() {
 
   const greenF = [], waterF = [], waterLineF = [], wallF = [], railF = []
   for (const el of land.elements) {
-    if (!el.geometry || !touchesCampus(el)) continue
+    if (!el.geometry) continue
     const t = el.tags || {}
+    // The Chennai–Bengaluru main line runs *between* the two campus plots, so
+    // it never touches either one — but it is the landmark that splits the
+    // map, so it is kept whole (the fetch bbox already bounds it).
+    if (t.railway === 'rail') { railF.push(lineOf(el, { kind: t.railway, usage: t.usage || '' })); continue }
+    if (!touchesCampus(el)) continue
     if (t.railway && t.railway !== 'station') { railF.push(lineOf(el, { kind: t.railway })); continue }
     if (t.waterway) { waterLineF.push(lineOf(el, { kind: t.waterway })); continue }
     if (t.barrier) { wallF.push(lineOf(el, { kind: t.barrier })); continue }
