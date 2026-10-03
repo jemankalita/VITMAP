@@ -1,11 +1,13 @@
 # VIT Vellore campus map
 
-A map of **VIT Vellore** with the things students actually look for — lecture
-halls (SJT, TT, CDMR, SMV, GDN…), hostel blocks, mess menus, ATMs, parking,
-gates — and one fast search over all of it.
+A 3D map of **VIT Vellore** with the things students actually look for — lecture
+halls (SJT, TT, CDMR, SMV, GDN…), PRP classrooms, hostel blocks, mess menus,
+ATMs, pharmacies, gates — and one fast search over all of it.
 
-Hit `⌘K` / `Ctrl+K` (or `/`) and type `sjt`, `mess dinner`, `mh k`, `gate 3`,
-a professor's surname.
+**Live:** [vit-map.vercel.app](https://vit-map.vercel.app) · **Demo film:** [`video/`](video/README.md)
+
+Hit `⌘K` / `Ctrl+K` (or `/`) and type `sjt`, `prp 327`, `mess dinner`, `mh k`,
+`gate 3`, a professor's surname.
 
 This is a VIT Vellore data-and-branding port, not a pixel-for-pixel fork of the extras.
 
@@ -17,11 +19,34 @@ instead of guessing. There is no placeholder timetable, no invented professor,
 no guessed opening hours, and no coordinates traced off the official campus-map
 scan. See [TODO.md](TODO.md) for what is missing and what each gap needs.
 
+The one place this is relaxed is the **demo film** in `video/`: its professor
+card (cabin numbers are not in the faculty feed yet) is clearly-marked mock
+data, and it never reaches the app.
+
+## Features
+
+- **3D campus.** Every OSM building extruded — window bands, roofs by type,
+  courtyards kept open — with trees in woods and lawns and the campus wall.
+  Heights come from OSM `building:levels` where mapped, and are estimated from
+  footprint and use elsewhere. Toggle with **3D**; flat view is one tap away.
+- **PRP, modelled after the site sign** on Jimmy Carter Road: A–E roof
+  colours, the clock-tower entrance, the courtyard. Search a room (`prp 327`,
+  `g29`) and the panel highlights its floor.
+- **Walking & cycling routes** with an ETA, from your location or any place.
+- **Mess menus** — today's meals for all six MH/LH messes, from MessIT.
+- **Faculty search** across 1,100+ people from the VIT directory.
+- **Nearby** — the closest ATM, printer, canteen, pharmacy… from any place.
+- **Starred & recent places**, shown when the search box is empty.
+- **The railway** between the two campus plots, with trains running on it.
+- Dark-only interface; Map / Satellite basemaps; a layers popover.
+
 ## What's populated vs missing
 
 | What | Where from | Status |
 |---|---|---|
-| Campus boundary, buildings, paths, water, greens | [OpenStreetMap relation 15931944](https://www.openstreetmap.org/relation/15931944) (ODbL) | ~140 named places, 214 building footprints |
+| Campus boundary, buildings, paths, water, greens, railway | [OpenStreetMap relation 15931944](https://www.openstreetmap.org/relation/15931944) (ODbL) | ~180 places, ~150 building footprints incl. courtyard (multipolygon) blocks |
+| PRP block outlines and classroom ranges | Public student-made PRP annotated map, in `data/curated/prp.json` | 11 blocks; colours follow the site sign |
+| School / department locations (SCOPE, SENSE, …) | Anchored to their host building, from [rugbedbugg/VIT-CampusMap](https://github.com/rugbedbugg/VIT-CampusMap) | 13 places |
 | Walking & cycling network | OSM highways; A\* over the largest connected component | ~890 nodes / ~1000 edges |
 | Mess menus | [MessIT](https://messit.vinnovateit.com) public `/menu-data/*.json` (VinnovateIT) | 744 menus, 6 mess types (MH/LH × Special/Veg/Non-Veg) |
 | Faculty directory | [vit.ac.in/faculty](https://vit.ac.in/faculty) school listing pages | 1145 people from 43 department pages |
@@ -83,9 +108,15 @@ scripts/
   smoke.mjs        search, routing and map-style assertions
 src/
   map/style.ts     MapLibre style built from our GeoJSON
+  map/campus3d.ts  3D model of every OSM building, trees and walls
+  map/prp3d.ts     PRP modelled after the site sign
+  map/geom3d.ts    shared geometry for the 3D models
+  map/train.ts     trains on the main line between the plots
   route/router.ts  A* with a CSR adjacency and a binary heap
   search/engine.ts index, scoring, intents
-  ui/              palette + detail panel
+  search/nearest.ts nearest amenity of each kind
+  ui/              palette, detail panel, ping marker, starred/recent
+video/             the demo film — Remotion, rendered from the real map (see video/README.md)
 ```
 
 ## Contributing
@@ -102,15 +133,20 @@ official map image.
 
 ## Deploying
 
-Cloudflare Pages, building from the Git integration:
+[Vercel](https://vit-map.vercel.app), building from the Git integration (any
+static host works — it is a plain Vite build):
 
 - Build command `npm run build`
 - Output directory `dist`
 - Node version from `.nvmrc` (22)
 
-`.github/workflows/ci.yml` typechecks, smoke-tests and builds every push and PR.
-`.github/workflows/refresh-data.yml` re-pulls all sources weekly and opens a PR
-if anything changed.
+Vercel Web Analytics loads only in builds made on Vercel (`VERCEL=1`); every
+other build strips it, so local, CI and other hosts make no analytics request.
+
+`.github/workflows/ci.yml` typechecks, smoke-tests, builds and checks every push
+and PR in a real headless browser. `.github/workflows/refresh-data.yml` re-pulls
+all sources weekly and opens a PR if anything changed — it needs **Settings →
+Actions → General → "Allow GitHub Actions to create and approve pull requests"**.
 
 ## Licence
 
